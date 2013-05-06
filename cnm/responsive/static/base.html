@@ -45,7 +45,7 @@
 
   <body>
 
-  <header id="overview" class="jumbotron subhead">
+  <header id="overview" class="jumbotron subhead hidden-phone">
     <div class="container">
       <ul id="header-links" class="inline text-right">
         <li id="siteaction-chat-now">
@@ -61,8 +61,11 @@
           <a title="Blackboard login Distance Learning" accesskey="" href="http://cnm.blackboard.com" target="_blank">Blackboard</a>
         </li>
       </ul>
-      <form id="topsearchbox" class="navbar-search pull-right">
-        <input class="search-query" name="SearchableText" placeholder="Search"/>
+      <form id="topsearchbox" class="pull-right">
+        <div class="input-append">
+          <input name="SearchableText" placeholder="Search" type="text" class="span2">
+          <button type="submit" class="btn"><i class="icon-search"></i>&nbsp;</button>
+        </div>
       </form>
         <h1>Getting started</h1>
         <p class="lead">Overview of the project, its contents, and how to get started with a simple template.</p>
@@ -103,7 +106,7 @@
       </ul>
       </li>
     </ul>
-    <form id="topsearchbox" class="navbar-search pull-right">
+    <form id="topsearchbox" class="navbar-search pull-right visible-phone">
       <input class="search-query" name="SearchableText" placeholder="Search"/>
     </form>
   </div>

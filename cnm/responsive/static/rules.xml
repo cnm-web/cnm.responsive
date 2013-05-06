@@ -174,9 +174,12 @@
         css:content-children="#portal-personaltools ul"/>
     <replace css:theme-children="#personaltool-menuheader" 
         css:content-children="#portal-personaltools .actionMenuHeader a"/>
-    <replace css:theme-children="#secondary-nav" css:if-content="#anon-personalbar">
-        <li><xsl:copy-of css:select="#personaltools-login"/></li>
-    </replace>
+    
+    <!--Alex disabling since we don't need a login button for anon-->
+    <!--<replace css:theme-children="#secondary-nav" css:if-content="#anon-personalbar">-->
+        <!--<li><xsl:copy-of css:select="#personaltools-login"/></li>-->
+    <!--</replace>-->
+    <drop css:theme="#secondary-nav" css:if-content="#anon-personalbar"/>
 
     <copy css:theme=".navbar-fixed-top .brand" css:content="#portal-logo" attributes="href"/>
     <replace css:theme-children=".breadcrumb">

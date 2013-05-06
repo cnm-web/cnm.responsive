@@ -138,9 +138,10 @@ label .required {
     text-align:center;
 }
 
-input[type="submit"], input[type="button"], button {
-    margin:2px;
-}
+/*Alex disabling - causing problems with bootstrap search button*/
+/*input[type="submit"], input[type="button"], button {*/
+    /*margin:2px;*/
+/*}*/
 
 .mceToolbar, .mceStatusbar {
     background: #ddd !important;
