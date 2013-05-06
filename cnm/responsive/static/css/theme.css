@@ -385,6 +385,9 @@ a:focus
     background: #004890;
     color: white;
     padding: 15px 0;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 #header-links a {
     color: white;
@@ -431,6 +434,18 @@ a:focus
 }
 .navbar #secondary-nav li.dropdown a.dropdown-toggle {
     background-color: #E5E5E5;
+}
+.navbar-inner {
+    background-color: #FBD10B;
+    background-image: none;
+}
+.navbar .nav > li > a {
+    text-shadow: none;
+    color: black;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+    border-width: 0;
 }
 /*.navbar .nav li a {*/
     /*font-weight: bold;*/
