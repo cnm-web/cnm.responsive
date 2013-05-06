@@ -162,8 +162,9 @@
     <drop css:theme="#left-column" css:if-not-content="#portal-column-one"/>
     <drop css:theme="#right-column" css:if-not-content="#portal-column-two"/>
 
-
-    <replace css:theme="#logo" css:content="#portal-logo"/>
+    <!--Alex disabling since logo is hard coded in base.html-->
+    <!--<replace css:theme="#logo" css:content="#portal-logo"/>-->
+    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
 
     <replace css:theme-children="#nav">
         <xsl:for-each css:select="#portal-globalnav > li">
@@ -179,6 +180,7 @@
     <!--<replace css:theme-children="#secondary-nav" css:if-content="#anon-personalbar">-->
         <!--<li><xsl:copy-of css:select="#personaltools-login"/></li>-->
     <!--</replace>-->
+    <!--Alex dropping the secondary nav for anon users since it has no items in it-->
     <drop css:theme="#secondary-nav" css:if-content="#anon-personalbar"/>
 
     <copy css:theme=".navbar-fixed-top .brand" css:content="#portal-logo" attributes="href"/>

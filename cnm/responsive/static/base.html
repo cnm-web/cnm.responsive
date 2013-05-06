@@ -47,28 +47,33 @@
 
   <header id="overview" class="jumbotron subhead hidden-phone">
     <div class="container">
-      <ul id="header-links" class="inline text-right">
-        <li id="siteaction-chat-now">
-          <i class="icon-comment icon-white"></i>
-          <a title="Contact CNM" accesskey="" href="/contact/">Contact CNM</a>
-        </li>
-        <li id="siteaction-mycnm">
-          <i class="icon-lock icon-white"></i>
-          <a title="myCNM" accesskey="" href="http://my.cnm.edu" target="_blank">myCNM</a>
-        </li>
-        <li id="siteaction-distance-learning">
-          <i class="icon-pencil icon-white"></i>
-          <a title="Blackboard login Distance Learning" accesskey="" href="http://cnm.blackboard.com" target="_blank">Blackboard</a>
-        </li>
-      </ul>
-      <form id="topsearchbox" class="pull-right">
-        <div class="input-append">
-          <input name="SearchableText" placeholder="Search" type="text" class="span2">
-          <button type="submit" class="btn"><i class="icon-search"></i>&nbsp;</button>
+      <div class="row">
+        <div id="logo" class="span4">
+          <a href="#" title="#"><img src="img/cnm-logo.png" alt="CNM: Central New Mexico Community College" /></a>
         </div>
-      </form>
-        <h1>Getting started</h1>
-        <p class="lead">Overview of the project, its contents, and how to get started with a simple template.</p>
+        <div class="span8">
+          <ul id="header-links" class="inline text-right">
+            <li id="siteaction-chat-now">
+              <i class="icon-comment icon-white"></i>
+              <a title="Contact CNM" accesskey="" href="/contact/">Contact CNM</a>
+            </li>
+            <li id="siteaction-mycnm">
+              <i class="icon-lock icon-white"></i>
+              <a title="myCNM" accesskey="" href="http://my.cnm.edu" target="_blank">myCNM</a>
+            </li>
+            <li id="siteaction-distance-learning">
+              <i class="icon-pencil icon-white"></i>
+              <a title="Blackboard login Distance Learning" accesskey="" href="http://cnm.blackboard.com" target="_blank">Blackboard</a>
+            </li>
+          </ul>
+          <form id="topsearchbox" class="pull-right">
+            <div class="input-append">
+              <input name="SearchableText" placeholder="Search" type="text" class="span2">
+              <button type="submit" class="btn"><i class="icon-search"></i>&nbsp;</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -81,7 +86,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </a>
-      <a class="brand" href="/dashboard"><img src="img/home.png"/></a>
+      <!--Alex disabling since we will reuse the nav home button-->
+      <!--<a class="brand" href="/dashboard"><img src="img/home.png"/></a>-->
 
 
   <div class="nav-collapse" id="topnav-collapse">

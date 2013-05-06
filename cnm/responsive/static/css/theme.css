@@ -384,7 +384,68 @@ a:focus
 .jumbotron {
     background: #004890;
     color: white;
+    padding: 15px 0;
 }
 #header-links a {
     color: white;
+}
+
+/* Nav Bar */
+/* Customize the navbar links to be fill the entire space of the .navbar */
+@media (min-width: 768px) {
+.navbar .navbar-inner {
+    padding: 0;
+}
+.navbar #nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+.navbar #nav li {
+    display: table-cell;
+    /*width: 1%;*/
+    float: none;
+}
+.navbar #nav li a {
+    text-align: center;
+}
+.navbar #nav li:first-child,
+.navbar #nav li:first-child a
+{
+    width: 20px;
+}
+.navbar #nav li:first-child a {
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -1000em;
+}
+.navbar #secondary-nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+.navbar #secondary-nav > li {
+    float: right;
+}
+.navbar #secondary-nav li.dropdown a.dropdown-toggle {
+    background-color: #E5E5E5;
+}
+/*.navbar .nav li a {*/
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+    /*border-left: 1px solid rgba(255, 255, 255, .75);*/
+    /*border-right: 1px solid rgba(0, 0, 0, .1);*/
+/*}*/
+
+/*.navbar .nav li:first-child a {*/
+    /*border-left: 0;*/
+    /*border-radius: 3px 0 0 3px;*/
+/*}*/
+
+/*.navbar .nav li:last-child a {*/
+    /*border-right: 0;*/
+    /*border-radius: 0 3px 3px 0;*/
+/*}*/
 }
