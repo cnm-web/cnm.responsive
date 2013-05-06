@@ -372,4 +372,18 @@ div.row {
     padding:10px !important;
 }
 
+/* Links */
+a:hover,
+a:focus
+{
+    text-decoration: none;
+}
 
+/* Header */
+.jumbotron {
+    background: #004890;
+    color: white;
+}
+#header-links a {
+    color: white;
+}
