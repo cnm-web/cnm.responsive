@@ -33,11 +33,7 @@ label .required {
 }
 
 .footer {
-    background-color: #EEEEEE;
-    border-top: 1px solid #E5E5E5;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.024) inset;
     padding: 30px 0;
-    text-shadow: 0 1px 0 #FFFFFF;
 }
 
 .portlet-footer {
@@ -255,9 +251,10 @@ input[type="button"]:focus{outline:1px dotted #666;}
     width:800px;
 }
 
-div.row {
-    float:none;
-}
+/*Alex disabling - why are they not floating bootstrap's rows?*/
+/*div.row {*/
+    /*float:none;*/
+/*}*/
 
 .row .field {
     margin-left:20px;
@@ -389,6 +386,10 @@ a:focus
     background-repeat: no-repeat;
     background-position: right top;
 }
+#header-links {
+    position: relative;
+    z-index: 2;
+}
 #header-links a {
     color: white;
 }
@@ -463,4 +464,38 @@ a:focus
     /*border-right: 0;*/
     /*border-radius: 0 3px 3px 0;*/
 /*}*/
+}
+
+/* Hiding horizontal bottom portlets */
+#portletBelowContentManager,
+#portletFooterManager
+{
+    display: none;
+}
+
+/* Footer */
+.footerCNM {
+    background-color: #004890;
+}
+.footerCNM,
+.footerCNM a
+{
+    color: white;
+}
+.footerCNM h3 {
+    border-bottom: 1px dotted white;
+}
+.footerCNM h3 a {
+    color: #aebfd0;
+}
+#footer-top {
+    padding-bottom: 50px;
+}
+#footer-bottom {
+    background-color: #3C3D3E;
+    padding: 10px 0 0 0;
+    color: #aebfd0;
+}
+#logo-footer {
+    width: 175px;
 }
