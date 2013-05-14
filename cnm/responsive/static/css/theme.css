@@ -39,7 +39,6 @@ label .required {
 .portlet-footer {
     font-size:small;
     margin-bottom:20px;
-    border-top:1px solid #eee;
     padding-right:20px;
     text-align:right;
 }
@@ -55,7 +54,6 @@ label .required {
 }
 #left-column-content {
     padding:0 10px;
-    border-right:1px solid #eee;
     vertical-align:top;
 }
 
