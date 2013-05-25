@@ -14,7 +14,7 @@ $(document).ready(function(){
     $("#issue").submit(function (event){
       //alert(JSON.stringify(build_post(redmine_api, process_form($(this)))));
       var issue = build_issue();
-      $("#issue_container").html('<img class="sub-status-image" src="/++theme++cnm.website/static/img/ajax-loader.gif" />');
+      $("#issue_container").html('<img class="sub-status-image" src="/++theme++cnm.website/img/ajax-loader.gif" />');
       $.ajax(build_post(redmine_api, issue));
       return false;
     });
