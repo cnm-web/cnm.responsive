@@ -182,25 +182,24 @@
 
 </div> <!-- End #main-wrapper -->
 
-<div class="clear"> </div>
+<div class="visualClear"> </div>
 
 <div id="bottom-wrapper">
-  <!-- Socials -->    
-  <div id="social">
-    <ul>
-    <li id="facebook"><a href="http://facebook.com/cnmonline" target="_blank">Facebook</a></li>
-    <li id="twitter"><a href="http://twitter.com/cnmonline" target="_blank">Twitter</a></li>
-    <li id="flickr"><a href="http://www.flickr.com/groups/cnmonline/" target="_blank">Flickr</a></li>
-    <li id="youtube"><a href="http://www.youtube.com/cnmonline" target="_blank">Youtube</a></li>
-    </ul>
-  </div>
-
   <!-- Footer --> 
   <div id="footer-wrapper">
     <div id="footer" role="contentinfo">
-      <div id="footerlinks">
+      <!-- Socials -->    
+      <div id="social">
+        <ul>
+        <li id="facebook"><a href="http://facebook.com/cnmonline" target="_blank">Facebook</a></li>
+        <li id="twitter"><a href="http://twitter.com/cnmonline" target="_blank">Twitter</a></li>
+        <li id="flickr"><a href="http://www.flickr.com/groups/cnmonline/" target="_blank">Flickr</a></li>
+        <li id="youtube"><a href="http://www.youtube.com/cnmonline" target="_blank">Youtube</a></li>
+        </ul>
+      </div>
+      <div id="footerlinks" class="row">
     
-        <div class="community-links">
+        <div class="community-links cell position-4 width-4">
           <h3><a href="/cnm-community/">Community</a></h3>
           <ul>
             <li><a href="/about/strategic-direction">Strategic Direction</a></li>
@@ -213,7 +212,7 @@
           </ul>
         </div>
     
-        <div class="faculty-links">
+        <div class="faculty-links cell position-8 width-4">
           <h3><a href="/faculty-and-staff/">Faculty &amp; Staff</a></h3>
           <ul>
             <li><a href="http://directory.cnm.edu">Employee Directory</a></li>
@@ -225,7 +224,7 @@
           </ul>
         </div>
     
-        <div class="newsmedia-links">
+        <div class="newsmedia-links cell position-12 width-4">
           <h3><a href="/media/">News Media</a></h3>
           <ul>
             <li><a href="/media/public-records-request">Public Records Request</a></li>
@@ -235,47 +234,50 @@
           </ul>
         </div>
         
-      </div> <!-- End #footerlinks -->
-    
-      <div id="flickr-wrapper">
-        <!--These tabs seem to be used by the flickr badge, but hidden in CSS-->
-        <ul class="tabs">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-        </ul>
-        <div class="flickr_badge_wrapper" id="flickr_badge_wrapper"></div>
-        <!-- End of Flickr Badge -->
-
-        <p id="infophotos">
-          <a href="http://www.flickr.com/groups/cnmonline/">View Community Photos</a> | <a href="/cnm-community/cnm-flickr-photo-pool"> Add Your
-          </a>
-        </p>
-      </div> <!-- End #flickr-wrapper -->
-      <div class="clear"> </div>
+        <div id="flickr-wrapper" class="cell position-0 width-4">
+          <!--These tabs seem to be used by the flickr badge, but hidden in CSS-->
+          <ul class="tabs">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+          </ul>
+          <div class="flickr_badge_wrapper" id="flickr_badge_wrapper"></div>
+          <!-- End of Flickr Badge -->
+  
+          <p id="infophotos">
+            <a href="http://www.flickr.com/groups/cnmonline/">View Community Photos</a> | <a href="/cnm-community/cnm-flickr-photo-pool"> Add Your
+            </a>
+          </p>
+        </div> <!-- End #flickr-wrapper -->
+      </div> <!-- End #footerlinks.row -->
+      <div class="visualClear"> </div>
     </div> <!-- End #footer -->
   </div> <!-- End #footer-wrapper -->
   <div id="colophon-wrapper">
     <div id="colophon">
-      <a href="/login_form"><img src="img/cnm-logo-footer.png" id="logo-footer" alt="CNM - Central New Mexico Community College"/></a>
-      
-      <p class="footer-about">
-        <a href="/disable-mobile" class="mobile_switch hide_from_full">Full Site</a>
-        <a href="/depts/ppo/tchusmen.html">IT Use Policy</a>
-        <a href="/about">About CNM</a>
-        <a href="/contact">Contact Us</a>
-      </p>
-  
-      <p class="footer-copyright">&copy; 2012 Central New Mexico Community College</p>
-      <p class="footer-adress">525 Buena Vista Dr. SE, Albuquerque, NM 87106 | (505) 224-3000</p>
+      <div class="row">
+        <div class="cell position-0 width-4">
+          <a href="/login_form"><img src="img/cnm-logo-footer.png" id="logo-footer" alt="CNM - Central New Mexico Community College"/></a>
+        </div>
+        
+        <div id="colophon-text" class="cell position-4 width-12">
+          <p class="footer-about">
+            <a href="/disable-mobile" class="mobile_switch hide_from_full">Full Site</a>
+            <a href="/depts/ppo/tchusmen.html">IT Use Policy</a>
+            <a href="/about">About CNM</a>
+            <a href="/contact">Contact Us</a>
+          </p>
+          <p class="footer-copyright">&copy; 2012 Central New Mexico Community College</p>
+          <p class="footer-adress">525 Buena Vista Dr. SE, Albuquerque, NM 87106 | (505) 224-3000</p>
+        </div>
+      </div> <!-- End .row -->
+      <div class="visualClear"> </div>
     </div> <!-- End #colophon -->
-    <div class="clear"> </div>
   </div> <!-- End #colophon-wrapper -->
-<div class="clear"> </div>
 </div> <!-- End #bottom-wrapper -->
 
 <div id="issue_container"> </div>

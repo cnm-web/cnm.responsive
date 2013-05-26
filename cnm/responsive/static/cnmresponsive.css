@@ -22,25 +22,29 @@
   font-style: normal;
 }
 
-/* line 10, sass/cnmresponsive.scss */
+/* Fonts */
+/* White */
+/* Light blue */
+/* Deep blue */
+/* line 23, sass/cnmresponsive.scss */
 #header,
 #navigation {
   width: 60em;
   margin: 0 auto;
 }
 
-/* line 14, sass/cnmresponsive.scss */
+/* line 27, sass/cnmresponsive.scss */
 #header-wrapper {
   background: #004890;
   color: white;
 }
 
-/* line 18, sass/cnmresponsive.scss */
+/* line 31, sass/cnmresponsive.scss */
 #header-wrapper a {
   color: white;
 }
 
-/* line 22, sass/cnmresponsive.scss */
+/* line 35, sass/cnmresponsive.scss */
 #portal-siteactions {
   text-align: right;
 }
@@ -55,13 +59,91 @@
   width: 1em;
 }
 
-/* line 37, sass/cnmresponsive.scss */
+/* line 50, sass/cnmresponsive.scss */
 #portal-searchbox {
   text-align: right;
 }
 
 /*Nav Bar*/
-/* line 42, sass/cnmresponsive.scss */
+/* line 55, sass/cnmresponsive.scss */
 #nav-wrapper {
   background-color: #fbd10b;
+}
+
+/* line 58, sass/cnmresponsive.scss */
+#navigation {
+  color: #0f0c5d;
+}
+/* line 60, sass/cnmresponsive.scss */
+#navigation a {
+  color: #0f0c5d;
+}
+
+/* line 64, sass/cnmresponsive.scss */
+#portal-globalnav li a {
+  border-top-width: 0;
+  line-height: 40px;
+}
+
+/* Footer */
+/* line 71, sass/cnmresponsive.scss */
+#footer-wrapper {
+  background-color: #004890;
+  color: #aebfd0;
+}
+/* line 74, sass/cnmresponsive.scss */
+#footer-wrapper a {
+  color: white;
+}
+/* line 77, sass/cnmresponsive.scss */
+#footer-wrapper h3 {
+  color: #aebfd0;
+  border-bottom: 1px dotted #aebfd0;
+}
+/* line 80, sass/cnmresponsive.scss */
+#footer-wrapper h3 a {
+  color: #aebfd0;
+}
+/* line 84, sass/cnmresponsive.scss */
+#footer-wrapper #social {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  color: #004890;
+}
+/* line 90, sass/cnmresponsive.scss */
+#footer-wrapper #social a {
+  color: #004890;
+}
+/* line 94, sass/cnmresponsive.scss */
+#footer-wrapper #flickr-wrapper .tabs {
+  display: none;
+}
+/* line 97, sass/cnmresponsive.scss */
+#footer-wrapper #footer {
+  width: 60em;
+  margin: 0 auto;
+  position: relative;
+  /* needed for abolute positioning of #social */
+}
+
+/* line 103, sass/cnmresponsive.scss */
+#colophon-wrapper {
+  background-color: #3c3d3e;
+  color: #aebfd0;
+}
+/* line 106, sass/cnmresponsive.scss */
+#colophon-wrapper a {
+  color: white;
+}
+/* line 109, sass/cnmresponsive.scss */
+#colophon-wrapper #colophon {
+  width: 60em;
+  margin: 0 auto;
+}
+
+/* line 113, sass/cnmresponsive.scss */
+#colophon-text {
+  text-align: right;
 }

@@ -4,11 +4,24 @@
 $cnmblue: #004890;
 $cnmyellow: #FBD10B;
 $white: #FFFFFF;
+$darkgray: #3C3D3E;
+$mediumgray: #D0D2D4;
+$lightgray: #F5F7F9;
+
+/* Fonts */
+$footer-links-color: #FFFFFF; /* White */
+$footer-font-color: #aebfd0; /* Light blue */
+$heading-font-color: #0f0c5d; /* Deep blue */
+
+@mixin fixed-width {
+  width: 60em; 
+  margin: 0 auto;
+}
 
 #header,
 #navigation
 {
-  width: 60em; margin: 0 auto;
+  @include fixed-width;
 }
 
 #header-wrapper {
@@ -41,4 +54,62 @@ $white: #FFFFFF;
 /*Nav Bar*/
 #nav-wrapper {
   background-color: $cnmyellow;
+}
+#navigation {
+  color: $heading-font-color;
+  a {
+    color: $heading-font-color;
+  }
+}
+#portal-globalnav li a {
+  border-top-width: 0;
+  line-height: 40px;
+}
+
+
+/* Footer */
+#footer-wrapper {
+  background-color: $cnmblue;
+  color: $footer-font-color;
+  a {
+    color: $footer-links-color;
+  }
+  h3 {
+    color: $footer-font-color;
+    border-bottom: 1px dotted $footer-font-color;
+    a {
+      color: $footer-font-color;
+    }
+  }
+  #social {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    color: $cnmblue;
+    a {
+      color: $cnmblue;
+    }
+  }
+  #flickr-wrapper .tabs {
+    display: none;
+  }
+  #footer {
+    @include fixed-width;
+    position: relative; /* needed for abolute positioning of #social */
+  }
+}
+
+#colophon-wrapper {
+  background-color: $darkgray;
+  color: $footer-font-color;
+  a {
+    color: $footer-links-color;
+  }
+  #colophon {
+    @include fixed-width;
+  }
+}
+#colophon-text {
+  text-align: right;
 }
