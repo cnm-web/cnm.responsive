@@ -33,8 +33,8 @@
   <!--Alex disabling since we are starting a new theme now-->
   <!--<link type="text/css" rel="stylesheet" href="style.css" />-->
   <!--<link rel="stylesheet" media="print" href="dprint.css" type="text/css">-->
-  <script language="JavaScript" SRC="function.js"></script> 
-  <script language="JavaScript" src="redmine_issue.js"></script>
+  <script src="function.js"></script> 
+  <script src="redmine_issue.js"></script>
   <!-- end CSS-->
 
   <!-- mobile -->
@@ -42,9 +42,9 @@
   <!--Covers all devices with screens 768px WIDE or less, which is iPhones, iPads (even retinas), etc.
     But this excludes desktops even at 800x600 resolution.-->
   <!--<link media="only screen and (max-device-width : 768px)" name="mobile" href="mobile.css" type="text/css" rel="stylesheet" />-->
-
+</head>
 <body>
-  <script language="JavaScript">
+  <script>
   (function() {
     BM.load("http://www.flickr.com/badge_code_v2.gne?count=1&display=random&size=m&layout=h&context=in%2Fpool-cnmonline%2F&source=group&group=1630996%40N20", null); 
     jq(document).ready(function() {
@@ -261,7 +261,7 @@
   </p>
 
   <div class="clear"> </div>
-    <a href="/login_form"><img src="img/cnm-logo-footer.png" id="logo-footer"></a>
+    <a href="/login_form"><img src="img/cnm-logo-footer.png" id="logo-footer" alt="CNM - Central New Mexico Community College"/></a>
       <p class="footer-about">
         <a href="/disable-mobile" class="mobile_switch hide_from_full">Full Site</a>
         <a href="/depts/ppo/tchusmen.html">IT Use Policy</a>
