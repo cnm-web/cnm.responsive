@@ -13,5 +13,7 @@
   
   <!--Alex disabling public.css since it just contains Sunburst styles for basic UI around Plone-->
   <stylesheet enabled="0" id="public.css" />
+  <!--Alex changing media query for mobile.css so that it goes through to devices whose width is greater than 480px but who report a browser size of 480 or less( e.g., Galaxy S3) .-->
+  <stylesheet id="mobile.css" media="handheld, screen and (max-width: 480px)" />
 
 </object>

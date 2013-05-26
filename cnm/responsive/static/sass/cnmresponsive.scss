@@ -1,0 +1,44 @@
+@import "font-icons";
+@include font-icon-family(entypo);
+
+$cnmblue: #004890;
+$cnmyellow: #FBD10B;
+$white: #FFFFFF;
+
+#header,
+#navigation
+{
+  width: 60em; margin: 0 auto;
+}
+
+#header-wrapper {
+  background: $cnmblue;
+  color: $white;
+}
+#header-wrapper a {
+  color: $white;
+}
+
+#portal-siteactions {
+  text-align: right;
+  a {
+    @include font-icon-base(entypo);
+  }
+  #siteaction-chat-now a {
+    @extend %entypo-comment;
+  }
+  #siteaction-mycnm a {
+    @extend %entypo-lock;
+  }
+  #siteaction-distance-learning a {
+    @extend %entypo-pencil;
+  }
+}
+#portal-searchbox {
+  text-align: right;
+}
+
+/*Nav Bar*/
+#nav-wrapper {
+  background-color: $cnmyellow;
+}

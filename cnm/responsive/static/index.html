@@ -28,6 +28,8 @@
   </style>
 
   <!-- styles -->
+  <link type="text/css" rel="stylesheet" href="cnmresponsive.css" />
+  <link type="text/css" rel="stylesheet" href="app.css" />
   <!--Alex disabling since we are starting a new theme now-->
   <!--<link type="text/css" rel="stylesheet" href="style.css" />-->
   <!--<link rel="stylesheet" media="print" href="dprint.css" type="text/css">-->
@@ -39,7 +41,7 @@
   <meta name="viewport" content="width=device-width"/>
   <!--Covers all devices with screens 768px WIDE or less, which is iPhones, iPads (even retinas), etc.
     But this excludes desktops even at 800x600 resolution.-->
-  <link media="only screen and (max-device-width : 768px)" name="mobile" href="mobile.css" type="text/css" rel="stylesheet" />
+  <!--<link media="only screen and (max-device-width : 768px)" name="mobile" href="mobile.css" type="text/css" rel="stylesheet" />-->
 
 <body>
   <script language="JavaScript">
@@ -91,35 +93,47 @@
 
   <div id="wrapper">
 
-  <!-- Header -->
-    <div id="header" role="banner">
-
-  <div id="siteactions">
-    <ul id="portal-siteactions">
-      <li id="siteaction-chat-now"><a title="Contact CNM" accesskey="" href="/contact/">Contact CNM</a></li>
-      <li id="siteaction-mycnm"><a title="myCNM" accesskey="" href="http://my.cnm.edu" target="_blank">myCNM</a></li>
-      <li id="siteaction-distance-learning"><a title="Blackboard login Distance Learning" accesskey="" href="http://cnm.blackboard.com" target="_blank">Blackboard</a></li>
-    </ul>
-  </div>
-
-
-  <div id="logo">
-    <a href="#" title="#"><img src="img/cnm-logo.png" alt="Portal Title" /></a>
-  </div>
-
-  <!-- Search -->
-    <div id="search" role="search">
-      <form>search</form>
-    </div>
-
-  <div class="clear"> </div>
-
-  <!-- Main Menu -->
-    <div id="searchbt"><a>search</a></div>
-    <div id="nav" role="navigation">
-      <span id="seletor" onclick="void(0)">Sections</span>
-
-  </div>
+    <!-- Header -->
+    <div id="header-wrapper">
+      <div id="header" role="banner">
+        <div class="row">
+          <div class="cell position-0 width-6">
+            <div id="logo">
+              <a href="#" title="#"><img src="img/cnm-logo.png" alt="Portal Title" /></a>
+            </div>
+          </div>
+          
+          <div class="cell position-6 width-10">
+            <div id="siteactions">
+              <ul id="portal-siteactions">
+                <li id="siteaction-chat-now"><a title="Contact CNM" accesskey="" href="/contact/">Contact CNM</a></li>
+                <li id="siteaction-mycnm"><a title="myCNM" accesskey="" href="http://my.cnm.edu" target="_blank">myCNM</a></li>
+                <li id="siteaction-distance-learning"><a title="Blackboard login Distance Learning" accesskey="" href="http://cnm.blackboard.com" target="_blank">Blackboard</a></li>
+              </ul>
+            </div>
+      
+            <!-- Search -->
+            <div id="search" role="search">
+              <form>search</form>
+            </div>
+          </div>
+        </div>
+        <div class="visualClear"></div>
+      </div>
+    </div> <!-- End Header -->
+    <div id="nav-wrapper">
+      <div id="navigation">
+        <div class="row">
+          <!-- Main Menu -->
+          <!--<div id="searchbt">-->
+            <!--<a>search</a>-->
+          <!--</div>-->
+          <div id="nav" role="navigation">
+            <span id="seletor" onclick="void(0)">Sections</span>
+          </div>
+        </div>
+        <div class="visualClear"></div>
+      </div>
     </div>
 
   <!-- Columns -->    
@@ -173,8 +187,7 @@
   </div>
 
   <!-- Socials -->    
-
-  <div id="social">
+  <div id="social" class="row">
     <ul>
     <li id="facebook"><a href="http://facebook.com/cnmonline" target="_blank">Facebook</a></li>
     <li id="twitter"><a href="http://twitter.com/cnmonline" target="_blank">Twitter</a></li>
@@ -185,7 +198,7 @@
 
   <!-- Footer --> 
 
-<div id="footer" role="contentinfo">
+<div id="footer" role="contentinfo" class="row">
 
   <div id="footerlinks">
 
