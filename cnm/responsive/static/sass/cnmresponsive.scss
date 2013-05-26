@@ -12,20 +12,29 @@ $lightgray: #F5F7F9;
 $footer-links-color: #FFFFFF; /* White */
 $footer-font-color: #aebfd0; /* Light blue */
 $heading-font-color: #0f0c5d; /* Deep blue */
+@mixin lato {
+  font-family: 'Lato', sans-serif;
+}
+@mixin oswald {
+  font-family: 'Oswald', sans-serif;
+}
 
 @mixin fixed-width {
   width: 60em; 
   margin: 0 auto;
 }
 
-#header,
+#header {
+  @include fixed-width;
+  padding: 20px 0;
+}
 #navigation
 {
   @include fixed-width;
 }
 
 #header-wrapper {
-  background: $cnmblue;
+  background: $cnmblue url(img/bg.jpg) no-repeat right top;
   color: $white;
 }
 #header-wrapper a {
@@ -34,8 +43,19 @@ $heading-font-color: #0f0c5d; /* Deep blue */
 
 #portal-siteactions {
   text-align: right;
+  @include lato;
+  font-size: 14px;
+  margin-bottom: 10px;
+  li {
+    margin-left: 20px;
+  }
   a {
     @include font-icon-base(entypo);
+    line-height: 20px;
+  }
+  a:before {
+    font-size: 1.5em;
+    margin-right: 0.2em;
   }
   #siteaction-chat-now a {
     @extend %entypo-comment;
@@ -57,6 +77,8 @@ $heading-font-color: #0f0c5d; /* Deep blue */
 }
 #navigation {
   color: $heading-font-color;
+  @include lato;
+  font-size: 16px;
   a {
     color: $heading-font-color;
   }
@@ -64,6 +86,12 @@ $heading-font-color: #0f0c5d; /* Deep blue */
 #portal-globalnav li a {
   border-top-width: 0;
   line-height: 40px;
+}
+
+/* Content Area */
+#main {
+  @include fixed-width;
+  padding-bottom: 20px;
 }
 
 
@@ -77,6 +105,10 @@ $heading-font-color: #0f0c5d; /* Deep blue */
   h3 {
     color: $footer-font-color;
     border-bottom: 1px dotted $footer-font-color;
+    @include lato;
+    font-size: 24px;
+    line-height: 40px;
+    margin: -10px 0 7px 0;
     a {
       color: $footer-font-color;
     }
@@ -97,6 +129,14 @@ $heading-font-color: #0f0c5d; /* Deep blue */
   #footer {
     @include fixed-width;
     position: relative; /* needed for abolute positioning of #social */
+    padding: 20px 0;
+    #footerlinks {
+      font-size: 14px;
+      line-height: 20px;
+      li {
+        display: block;
+      }
+    }
   }
 }
 
@@ -108,8 +148,11 @@ $heading-font-color: #0f0c5d; /* Deep blue */
   }
   #colophon {
     @include fixed-width;
+    padding: 10px 0;
   }
 }
 #colophon-text {
   text-align: right;
+  font-size: 14px;
+  line-height: 20px;
 }
