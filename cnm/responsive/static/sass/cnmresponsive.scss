@@ -208,6 +208,10 @@ dl.portlet {
       padding: 0 20px;
       @include border-left-radius(8px);
     }
+    
+    .hiddenStructure {
+      display: none; /* Otherwise RSS portlets' MORE button is broken */
+    }
   }
 }
 dl.portlet dd.portletItem,
