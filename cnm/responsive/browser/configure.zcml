@@ -1,0 +1,16 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="cnm.website">
+
+  <!-- Sunburst special view -->
+  <browser:page
+    for="*"
+    name="sunburstview"
+    class=".sunburstview.SunburstView"
+    permission="zope.Public"
+    allowed_interface="plonetheme.sunburst.browser.interfaces.ISunburstView"
+    layer="cnm.responsive.interfaces.IAddOnInstalled"
+    />
+
+</configure>
