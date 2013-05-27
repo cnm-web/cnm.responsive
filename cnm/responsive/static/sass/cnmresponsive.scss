@@ -12,6 +12,8 @@ $lightgray: #F5F7F9;
 $footer-links-color: #FFFFFF; /* White */
 $footer-font-color: #aebfd0; /* Light blue */
 $heading-font-color: #0f0c5d; /* Deep blue */
+$description-font-color: #668eb6; /* Medium blue */
+
 @mixin lato {
   font-family: 'Lato', sans-serif;
 }
@@ -78,20 +80,70 @@ $heading-font-color: #0f0c5d; /* Deep blue */
 #navigation {
   color: $heading-font-color;
   @include lato;
-  font-size: 16px;
   a {
     color: $heading-font-color;
   }
 }
-#portal-globalnav li a {
-  border-top-width: 0;
-  line-height: 40px;
+#portal-globalnav {
+  display: table;
+  width: 100%;
+  li {
+    display: table-cell;
+    float: none;
+  }
+  li a {
+    border-top-width: 0;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+  }
 }
+
 
 /* Content Area */
 #main {
   @include fixed-width;
+  padding: 20px 0;
+}
+#portal-breadcrumbs {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+h1, h2, h3 {
+  @include oswald;
+  color: $heading-font-color;
+  font-weight: normal;
+}
+h1 {
+  font-size: 32px;
+  border-bottom: 1px dotted $heading-font-color;
+  line-height: 40px;
+  margin: 15px 0px;
   padding-bottom: 20px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px 0 10px 0;
+}
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px 0 10px 0;
+}
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.documentDescription {
+  @include lato;
+  color: $description-font-color;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 
