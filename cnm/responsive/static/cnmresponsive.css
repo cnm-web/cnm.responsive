@@ -210,17 +210,35 @@ li {
 }
 
 /* Portlets */
-/* Footer */
+/* line 172, sass/cnmresponsive.scss */
+dl.portlet {
+  font-size: 14px;
+  margin: 0 0 40px 0;
+}
 /* line 175, sass/cnmresponsive.scss */
+dl.portlet dt {
+  padding: 0;
+  background-color: transparent;
+}
+/* line 180, sass/cnmresponsive.scss */
+dl.portlet dt a:link,
+dl.portlet dt a:visited,
+dl.portlet dt a:hover {
+  color: #0f0c5d;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Footer */
+/* line 188, sass/cnmresponsive.scss */
 #footer-wrapper {
   background-color: #004890;
   color: #aebfd0;
 }
-/* line 178, sass/cnmresponsive.scss */
+/* line 191, sass/cnmresponsive.scss */
 #footer-wrapper a {
   color: white;
 }
-/* line 181, sass/cnmresponsive.scss */
+/* line 194, sass/cnmresponsive.scss */
 #footer-wrapper h3 {
   color: #aebfd0;
   border-bottom: 1px dotted #aebfd0;
@@ -229,11 +247,11 @@ li {
   line-height: 40px;
   margin: -10px 0 9px 0;
 }
-/* line 188, sass/cnmresponsive.scss */
+/* line 201, sass/cnmresponsive.scss */
 #footer-wrapper h3 a {
   color: #aebfd0;
 }
-/* line 192, sass/cnmresponsive.scss */
+/* line 205, sass/cnmresponsive.scss */
 #footer-wrapper #social {
   text-align: right;
   position: absolute;
@@ -241,15 +259,15 @@ li {
   top: -20px;
   color: #004890;
 }
-/* line 198, sass/cnmresponsive.scss */
+/* line 211, sass/cnmresponsive.scss */
 #footer-wrapper #social a {
   color: #004890;
 }
-/* line 202, sass/cnmresponsive.scss */
+/* line 215, sass/cnmresponsive.scss */
 #footer-wrapper #flickr-wrapper .tabs {
   display: none;
 }
-/* line 205, sass/cnmresponsive.scss */
+/* line 218, sass/cnmresponsive.scss */
 #footer-wrapper #footer {
   width: 60em;
   margin: 0 auto;
@@ -257,37 +275,41 @@ li {
   /* needed for abolute positioning of #social */
   padding: 20px 0;
 }
-/* line 209, sass/cnmresponsive.scss */
+/* line 222, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 212, sass/cnmresponsive.scss */
+/* line 225, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks li {
   display: block;
 }
+/* line 230, sass/cnmresponsive.scss */
+#footer-wrapper #infophotos {
+  margin-top: 20px;
+}
 
-/* line 219, sass/cnmresponsive.scss */
+/* line 235, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #3c3d3e;
   color: #aebfd0;
 }
-/* line 222, sass/cnmresponsive.scss */
+/* line 238, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: white;
 }
-/* line 225, sass/cnmresponsive.scss */
+/* line 241, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 228, sass/cnmresponsive.scss */
+/* line 244, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a {
   margin-left: 20px;
 }
 
-/* line 233, sass/cnmresponsive.scss */
+/* line 249, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;

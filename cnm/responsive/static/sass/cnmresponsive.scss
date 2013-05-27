@@ -169,7 +169,20 @@ li
 }
 
 /* Portlets */
-
+dl.portlet {
+  font-size: 14px;
+  margin: 0 0 40px 0;
+  dt {
+    padding: 0;
+    background-color: transparent;
+    a:link,
+    a:visited,
+    a:hover {
+      color: $heading-font-color;
+      @include oswald;
+    }
+  }
+}
 
 /* Footer */
 #footer-wrapper {
@@ -213,6 +226,9 @@ li
         display: block;
       }
     }
+  }
+  #infophotos {
+    margin-top: 20px;
   }
 }
 
