@@ -1,5 +1,6 @@
 @import "font-icons";
 @include font-icon-family(entypo);
+@import "compass/css3/border-radius";
 
 $cnmblue: #004890;
 $cnmyellow: #FBD10B;
@@ -15,6 +16,8 @@ $heading-font-color: #0f0c5d; /* Deep blue */
 $description-font-color: #668eb6; /* Medium blue */
 $link-color: #1b60a4;
 $visited-link-color: #8b9bab;
+
+$h1-font-size: 28px;
 
 @mixin lato {
   font-family: 'Lato', sans-serif;
@@ -126,7 +129,7 @@ h1, h2, h3 {
   font-weight: normal;
 }
 h1 {
-  font-size: 32px;
+  font-size: $h1-font-size;
   border-bottom: 1px dotted $heading-font-color;
   line-height: 40px;
   margin: 20px 0px;
@@ -169,19 +172,55 @@ li
 }
 
 /* Portlets */
+.portletWrapper {
+  margin-bottom: 40px;
+}
 dl.portlet {
   font-size: 14px;
-  margin: 0 0 40px 0;
+  margin: 0 0 0px 0;
+  
   dt {
-    padding: 0;
+    padding: 0 0 9px 0; /* only 9px at bottom to make room for 1px border at bottom */
     background-color: transparent;
+    color: $heading-font-color;
+    @include oswald;
+    font-size: $h1-font-size;
+    line-height: 40px;
+    border-bottom: 1px dotted $heading-font-color;
+    margin-bottom: 20px;
+    
     a:link,
     a:visited,
     a:hover {
       color: $heading-font-color;
-      @include oswald;
     }
   }
+  
+  dd.portletFooter {
+    text-align: right;
+    font-style: italic;
+    
+    a {
+      background-color: $cnmblue;
+      color: $white;
+      font-style: normal;
+      @include oswald;
+      padding: 0 20px;
+      @include border-left-radius(8px);
+    }
+  }
+}
+dl.portlet dd.portletItem,
+dl.portlet dd.portletFooter,
+dl.portletError dd 
+{
+  padding: 0;
+  line-height: 20px;
+}
+
+/* Calendar Portlet */
+.portletCalendar dt {
+  font-weight: normal;
 }
 
 /* Footer */
