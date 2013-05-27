@@ -13,6 +13,8 @@ $footer-links-color: #FFFFFF; /* White */
 $footer-font-color: #aebfd0; /* Light blue */
 $heading-font-color: #0f0c5d; /* Deep blue */
 $description-font-color: #668eb6; /* Medium blue */
+$link-color: #1b60a4;
+$visited-link-color: #8b9bab;
 
 @mixin lato {
   font-family: 'Lato', sans-serif;
@@ -24,6 +26,13 @@ $description-font-color: #668eb6; /* Medium blue */
 @mixin fixed-width {
   width: 60em; 
   margin: 0 auto;
+}
+
+a {
+  color: $link-color;
+}
+a:visited {
+  color: $visited-link-color;
 }
 
 #header {
@@ -120,12 +129,12 @@ h1 {
   font-size: 32px;
   border-bottom: 1px dotted $heading-font-color;
   line-height: 40px;
-  margin: 15px 0px;
-  padding-bottom: 20px;
+  margin: 20px 0px;
+  padding-bottom: 19px; /* To make room for the 1px border at the bottom */
 }
 h2 {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   margin: 20px 0 10px 0;
 }
 h3 {
@@ -136,6 +145,7 @@ h3 {
 p {
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 10px;
 }
 .documentDescription {
   @include lato;
@@ -145,6 +155,20 @@ p {
   margin-top: 10px;
   margin-bottom: 40px;
 }
+#content ul,
+#content ol
+{
+  margin-bottom: 10px;
+}
+#content li,
+li
+{
+  line-height: 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+/* Portlets */
 
 
 /* Footer */
@@ -160,7 +184,7 @@ p {
     @include lato;
     font-size: 24px;
     line-height: 40px;
-    margin: -10px 0 7px 0;
+    margin: -10px 0 9px 0;
     a {
       color: $footer-font-color;
     }
@@ -201,6 +225,9 @@ p {
   #colophon {
     @include fixed-width;
     padding: 10px 0;
+    .footer-about a {
+      margin-left: 20px;
+    }
   }
 }
 #colophon-text {
