@@ -294,22 +294,23 @@ body.portaltype-homepage #main {
 /* line 243, sass/cnmresponsive.scss */
 #frontpage-news-wrapper {
   background-color: #f5f7f9;
+  padding-bottom: 40px;
 }
 
-/* line 247, sass/cnmresponsive.scss */
+/* line 248, sass/cnmresponsive.scss */
 .frontpage-news h2 {
   color: #0f0c5d;
   font-size: 28px;
 }
-/* line 251, sass/cnmresponsive.scss */
+/* line 252, sass/cnmresponsive.scss */
 .frontpage-news h2 a {
   color: #0f0c5d;
 }
-/* line 255, sass/cnmresponsive.scss */
+/* line 256, sass/cnmresponsive.scss */
 .frontpage-news .readMore {
   text-align: right;
 }
-/* line 257, sass/cnmresponsive.scss */
+/* line 258, sass/cnmresponsive.scss */
 .frontpage-news .readMore a {
   background-color: #004890;
   color: white;
@@ -326,24 +327,24 @@ body.portaltype-homepage #main {
   display: inline-block;
 }
 
-/* line 263, sass/cnmresponsive.scss */
+/* line 264, sass/cnmresponsive.scss */
 #homepage-bottom #steps {
   color: #494a4c;
   background-color: #d0d2d4;
 }
-/* line 267, sass/cnmresponsive.scss */
+/* line 268, sass/cnmresponsive.scss */
 #homepage-bottom #steps ul {
   display: table;
   width: 100%;
   text-align: center;
 }
-/* line 272, sass/cnmresponsive.scss */
+/* line 273, sass/cnmresponsive.scss */
 #homepage-bottom #steps li {
   display: table-cell;
   position: relative;
   width: 1%;
 }
-/* line 277, sass/cnmresponsive.scss */
+/* line 278, sass/cnmresponsive.scss */
 #homepage-bottom #steps h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
@@ -361,29 +362,29 @@ body.portaltype-homepage #main {
   position: relative;
   top: 23px;
 }
-/* line 292, sass/cnmresponsive.scss */
+/* line 293, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description,
 #homepage-bottom #steps .learnMore {
   display: block;
   color: #494a4c;
 }
-/* line 296, sass/cnmresponsive.scss */
+/* line 297, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   position: relative;
   top: -97px;
 }
-/* line 302, sass/cnmresponsive.scss */
+/* line 303, sass/cnmresponsive.scss */
 #homepage-bottom #steps .learnMore {
   text-transform: lowercase;
 }
-/* line 306, sass/cnmresponsive.scss */
+/* line 307, sass/cnmresponsive.scss */
 #homepage-bottom #popular {
   background-color: #f5f7f9;
   padding: 20px 0 40px 0;
 }
-/* line 310, sass/cnmresponsive.scss */
+/* line 311, sass/cnmresponsive.scss */
 #homepage-bottom #popular h2 {
   margin-top: 0;
   padding: 0 20px;
@@ -399,22 +400,22 @@ body.portaltype-homepage #main {
   -webkit-border-bottom-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-/* line 320, sass/cnmresponsive.scss */
+/* line 321, sass/cnmresponsive.scss */
 #homepage-bottom #popular ul {
   padding: 0 20px;
 }
 
 /* Footer */
-/* line 327, sass/cnmresponsive.scss */
+/* line 328, sass/cnmresponsive.scss */
 #footer-wrapper {
   background-color: #004890;
   color: #aebfd0;
 }
-/* line 330, sass/cnmresponsive.scss */
+/* line 331, sass/cnmresponsive.scss */
 #footer-wrapper a {
   color: white;
 }
-/* line 333, sass/cnmresponsive.scss */
+/* line 334, sass/cnmresponsive.scss */
 #footer-wrapper h3 {
   color: #aebfd0;
   border-bottom: 1px dotted #aebfd0;
@@ -423,11 +424,11 @@ body.portaltype-homepage #main {
   line-height: 40px;
   margin: -10px 0 9px 0;
 }
-/* line 340, sass/cnmresponsive.scss */
+/* line 341, sass/cnmresponsive.scss */
 #footer-wrapper h3 a {
   color: #aebfd0;
 }
-/* line 344, sass/cnmresponsive.scss */
+/* line 345, sass/cnmresponsive.scss */
 #footer-wrapper #social {
   text-align: right;
   position: absolute;
@@ -435,15 +436,15 @@ body.portaltype-homepage #main {
   top: -20px;
   color: #004890;
 }
-/* line 350, sass/cnmresponsive.scss */
+/* line 351, sass/cnmresponsive.scss */
 #footer-wrapper #social a {
   color: #004890;
 }
-/* line 354, sass/cnmresponsive.scss */
+/* line 355, sass/cnmresponsive.scss */
 #footer-wrapper #flickr-wrapper .tabs {
   display: none;
 }
-/* line 357, sass/cnmresponsive.scss */
+/* line 358, sass/cnmresponsive.scss */
 #footer-wrapper #footer {
   width: 60em;
   margin: 0 auto;
@@ -451,41 +452,41 @@ body.portaltype-homepage #main {
   /* needed for abolute positioning of #social */
   padding: 20px 0;
 }
-/* line 361, sass/cnmresponsive.scss */
+/* line 362, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 364, sass/cnmresponsive.scss */
+/* line 365, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks li {
   display: block;
 }
-/* line 369, sass/cnmresponsive.scss */
+/* line 370, sass/cnmresponsive.scss */
 #footer-wrapper #infophotos {
   margin-top: 20px;
 }
 
-/* line 374, sass/cnmresponsive.scss */
+/* line 375, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #3c3d3e;
   color: #aebfd0;
 }
-/* line 377, sass/cnmresponsive.scss */
+/* line 378, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: white;
 }
-/* line 380, sass/cnmresponsive.scss */
+/* line 381, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 383, sass/cnmresponsive.scss */
+/* line 384, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a {
   margin-left: 20px;
 }
 
-/* line 388, sass/cnmresponsive.scss */
+/* line 389, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
