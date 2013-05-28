@@ -22,6 +22,7 @@
   <copy attributes="id dir" css:content="body" css:theme="body" />
   <copy attributes="role" css:content="content" css:theme="contentspace" />
   <replace css:content="#portal-columns" css:theme="#content" />
+  <replace css:content="#homepage-bottom" css:theme="#homepage-bottom" />
 
   <!--Viewlets-->
   <replace css:content="#portal-personaltools" css:theme="#user" />    
