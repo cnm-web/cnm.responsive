@@ -26,11 +26,21 @@ $h1-font-size: 28px;
 @mixin oswald {
   font-family: 'Oswald', sans-serif;
 }
-
 @mixin fixed-width {
   width: 60em; 
   margin: 0 auto;
 }
+@mixin read-more {
+  background-color: $cnmblue;
+  color: $white;
+  font-style: normal;
+  @include oswald;
+  padding: 0 20px;
+  @include border-left-radius(8px);
+  line-height: 25px;
+  display: inline-block;
+}
+
 
 a {
   color: $link-color;
@@ -124,6 +134,9 @@ a:visited {
   line-height: 20px;
   margin-bottom: 40px;
 }
+body.portaltype-homepage #portal-breadcrumbs {
+  display: none;
+}
 h1, h2, h3 {
   @include oswald;
   color: $heading-font-color;
@@ -202,12 +215,7 @@ dl.portlet {
     font-style: italic;
     
     a {
-      background-color: $cnmblue;
-      color: $white;
-      font-style: normal;
-      @include oswald;
-      padding: 0 20px;
-      @include border-left-radius(8px);
+      @include read-more;
     }
     
     .hiddenStructure {
@@ -231,6 +239,25 @@ dl.portletError dd
 /* Homepage */
 body.portaltype-homepage #main {
   padding-bottom: 0;
+}
+#frontpage-news-wrapper {
+  background-color: $lightgray;
+}
+.frontpage-news {
+  h2 {
+    color: $heading-font-color;
+    font-size: $h1-font-size;
+    
+    a {
+      color: $heading-font-color;
+    }
+  }
+  .readMore {
+    text-align: right;
+    a {
+      @include read-more;
+    }
+  }
 }
 #homepage-bottom {
   #steps {
