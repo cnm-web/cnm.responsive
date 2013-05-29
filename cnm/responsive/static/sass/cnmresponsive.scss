@@ -116,10 +116,10 @@ a:visited {
   }
   li a {
     border-top-width: 0;
-    line-height: 40px;
+    line-height: 60px;
     text-align: center;
     display: block;
-    font-size: 18px;
+    font-size: 21px;
   }
 }
 
@@ -231,13 +231,62 @@ dl.portletError dd
   line-height: 20px;
 }
 
-/* myCNM portlet */
+/* myCNM Portlet */
 .portlet-static-mycnm img {
   background-color: $cnmblue;
   padding: 10px;
 }
 body.portaltype-homepage .portlet-static-mycnm {
   margin-top: 20px;
+}
+
+/* Steps Portlet */
+$step-height: 46px;
+div.portlet-static-steps {
+  color: $steps-font-color;
+  background-color: $mediumgray;
+  line-height: $step-height;
+  
+  * {
+    vertical-align: middle;
+  }
+
+  ul {
+    padding: 2px 0px 2px 0px;
+  }
+  
+  li {
+    margin: 0;
+    padding: 7px 0 7px 10px;
+    border-top: 1px solid $white;
+  }
+  li:first-child {
+    border-top-width: 0;
+  }
+
+  a {
+    line-height: $step-height;
+    display: block;
+    height: $step-height;
+    color: $steps-font-color;
+    @include lato;
+    font-size: 18px;
+  }
+  
+  h3 {
+    @include oswald;
+    font-size: 31px;
+    color: #b4b6b8;
+    background-color: $white;
+    display: inline-block;
+    width: $step-height;
+    height: $step-height;
+    line-height: $step-height;
+    @include border-radius(50%);
+    text-align: center;
+    margin: -4px 5px 0 0;
+    position: relative;
+  }
 }
 
 /* Calendar Portlet */
