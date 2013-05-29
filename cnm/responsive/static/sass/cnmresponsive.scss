@@ -8,6 +8,7 @@ $white: #FFFFFF;
 $darkgray: #3C3D3E;
 $mediumgray: #D0D2D4;
 $lightgray: #F5F7F9;
+$navitemseparator: #ced8e1;
 
 /* Fonts */
 $default-font-color: #2d2d2f;
@@ -261,6 +262,51 @@ dl.portletRss {
 body.portaltype-homepage .portlet-static-mycnm {
   margin-top: 20px;
 }
+
+/* Nav Tree Portlet */
+dl.portlet ul.navTree {
+  @include lato;
+  font-size: 18px;
+  color: $default-font-color;
+  
+  li {
+    margin-bottom: 0;
+  }
+  a {
+    font-size: 18px;
+    color: $default-font-color;
+    line-height: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* Just the top level items */
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+  line-height: 20px;
+  border-top: 1px solid $navitemseparator;
+  border-bottom-width: 0;
+  padding: 0px 10px;
+}
+/* All items below top level */
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+  line-height: 20px;
+  padding-left: 15px;
+}
+dl.portlet ul.navTree .navTreeCurrentItem {
+  background-color: transparent;
+  border-left: 0em solid #ddd;
+  margin-left: -0em;
+  margin-right: -0em;
+  color: $heading-font-color;
+}
+dl.portlet {
+  li.navTreeCurrentNode,
+  li.navTreeItemInPath
+  {
+    background-color: $lightgray; 
+  }
+}
+
 
 /* Steps Portlet */
 $step-height: 46px;
