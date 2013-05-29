@@ -10,6 +10,8 @@ $mediumgray: #D0D2D4;
 $lightgray: #F5F7F9;
 
 /* Fonts */
+$default-font-color: #2d2d2f;
+$light-font-color: #3c3e3f;
 $footer-links-color: #FFFFFF; /* White */
 $footer-font-color: #aebfd0; /* Light blue */
 $heading-font-color: #0f0c5d; /* Deep blue */
@@ -39,6 +41,10 @@ $h1-font-size: 28px;
   @include border-left-radius(8px);
   line-height: 25px;
   display: inline-block;
+}
+
+body {
+  color: $default-font-color;
 }
 
 
@@ -229,6 +235,22 @@ dl.portletError dd
 {
   padding: 0;
   line-height: 20px;
+}
+dl.portletRss {
+
+  dd.portletItem {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .portletItemDetails {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-style: italic;
+    color: $light-font-color;
+    font-size: 12px;
+    font-weight: normal;
+  }
 }
 
 /* myCNM Portlet */
