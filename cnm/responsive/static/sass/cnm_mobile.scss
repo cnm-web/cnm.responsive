@@ -1,0 +1,89 @@
+$cnmblue: #004890;
+$cnmyellow: #FBD10B;
+$white: #FFFFFF;
+$darkgray: #3C3D3E;
+$mediumgray: #D0D2D4;
+$lightgray: #F5F7F9;
+$navitemseparator: #ced8e1;
+
+/* Header */
+#header-wrapper {
+  display: none;
+}
+
+/* Navigation Bar */
+#navigation {
+  width: auto;
+  background-color: $cnmblue;
+  color: $white;
+}
+#nav-wrapper {
+
+  .bootstrapStyles {
+    a.brand {
+      display: inline-block;
+      img {
+        height: 40px;
+      }
+    }
+  }
+}
+
+/* Homepage */
+#frontpage-news-wrapper {
+  .row .cell {
+    display: none;
+  }
+  .row .cell:first-child {
+    display: block;
+    width: 97.75%;
+  }
+  .description {
+    display: none;
+  }
+}
+#main {
+  #steps-row {
+    display: none;
+  }
+}
+
+/* Portlets */
+.portlet-static-mycnm {
+  display: none;
+}
+.portletRss {
+  display: none;
+}
+body.portaltype-homepage .portletRss {
+  display: block;
+}
+
+/* Content */
+#main {
+  width: auto;
+}
+#portal-breadcrumbs {
+  display: none;
+}
+#popular-cell {
+  margin-left: -98.875%;
+  width: 97.75%;
+}
+
+/* Footer */
+#footer-wrapper {
+  #footer {
+    padding: 0;
+    width: auto;
+  }
+  #footerlinks {
+    display: none;
+  }
+}
+
+#colophon-wrapper {
+  #colophon {
+    width: auto;
+  }
+}

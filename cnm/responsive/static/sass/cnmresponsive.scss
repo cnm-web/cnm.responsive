@@ -110,8 +110,11 @@ a:visited {
   background-color: $cnmyellow;
 
   .bootstrapStyles {
-    a.brand img {
-      height: 40px;
+    a.brand {
+      display: none;
+      img {
+        height: 40px;
+      }
     }
     .navbar {
       margin-bottom: 0;
@@ -124,21 +127,25 @@ a:visited {
       @include box-shadow(none);
       padding: 0;
     }
-    .nav {
+    ul.nav {
       margin: 0;
-      display: table;
-      width: 100%;
-      li {
-        display: table-cell;
-        float: none;
+      //display: table;
+      //width: 100%;
+      > li {
+        //display: table-cell;
+        /* float: none; */ /* Breaks drop-down alignment */
         text-align: center;
         font-size: 21px;
       }
     }
     .nav > li > a {
       @include text-shadow(none);
-      padding: 20px 10px
+      padding: 20px 50px
     }
+  }
+  
+  .dropdown-menu {
+    text-align: left;
   }
 }
 

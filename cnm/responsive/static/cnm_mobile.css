@@ -1,0 +1,91 @@
+/* Header */
+/* line 10, sass/cnm_mobile.scss */
+#header-wrapper {
+  display: none;
+}
+
+/* Navigation Bar */
+/* line 15, sass/cnm_mobile.scss */
+#navigation {
+  width: auto;
+  background-color: #004890;
+  color: white;
+}
+
+/* line 23, sass/cnm_mobile.scss */
+#nav-wrapper .bootstrapStyles a.brand {
+  display: inline-block;
+}
+/* line 25, sass/cnm_mobile.scss */
+#nav-wrapper .bootstrapStyles a.brand img {
+  height: 40px;
+}
+
+/* Homepage */
+/* line 34, sass/cnm_mobile.scss */
+#frontpage-news-wrapper .row .cell {
+  display: none;
+}
+/* line 37, sass/cnm_mobile.scss */
+#frontpage-news-wrapper .row .cell:first-child {
+  display: block;
+  width: 97.75%;
+}
+/* line 41, sass/cnm_mobile.scss */
+#frontpage-news-wrapper .description {
+  display: none;
+}
+
+/* line 46, sass/cnm_mobile.scss */
+#main #steps-row {
+  display: none;
+}
+
+/* Portlets */
+/* line 52, sass/cnm_mobile.scss */
+.portlet-static-mycnm {
+  display: none;
+}
+
+/* line 55, sass/cnm_mobile.scss */
+.portletRss {
+  display: none;
+}
+
+/* line 58, sass/cnm_mobile.scss */
+body.portaltype-homepage .portletRss {
+  display: block;
+}
+
+/* Content */
+/* line 63, sass/cnm_mobile.scss */
+#main {
+  width: auto;
+}
+
+/* line 66, sass/cnm_mobile.scss */
+#portal-breadcrumbs {
+  display: none;
+}
+
+/* line 69, sass/cnm_mobile.scss */
+#popular-cell {
+  margin-left: -98.875%;
+  width: 97.75%;
+}
+
+/* Footer */
+/* line 76, sass/cnm_mobile.scss */
+#footer-wrapper #footer {
+  padding: 0;
+  width: auto;
+}
+/* line 80, sass/cnm_mobile.scss */
+#footer-wrapper #footerlinks {
+  display: none;
+}
+
+/* line 86, sass/cnm_mobile.scss */
+#colophon-wrapper #colophon {
+  width: auto;
+}
