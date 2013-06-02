@@ -83,7 +83,21 @@ body.portaltype-homepage .portletRss {
 }
 
 #colophon-wrapper {
+  background-color: $cnmblue;
+  
   #colophon {
     width: auto;
   }
+}
+#colophon-text {
+  text-align: center;
+  .footer-mobile-bottom {
+    text-transform: uppercase;
+  }
+}
+
+/* Helpers */
+.fullWidthOnMobile {
+  margin-left: -98.875% !important;
+  width: 97.75% !important;
 }

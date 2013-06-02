@@ -25,6 +25,9 @@ $visited-link-color: #8b9bab;
 
 $h1-font-size: 28px;
 
+@mixin arial {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 @mixin lato {
   font-family: 'Lato', sans-serif;
 }
@@ -48,6 +51,7 @@ $h1-font-size: 28px;
 
 body {
   color: $default-font-color;
+  @include arial;
 }
 
 
@@ -573,7 +577,8 @@ body.portaltype-homepage #main {
   #colophon {
     @include fixed-width;
     padding: 10px 0;
-    .footer-about a {
+    .footer-about a,
+    .footer-mobile-bottom a {
       margin-left: 20px;
     }
   }
@@ -582,4 +587,26 @@ body.portaltype-homepage #main {
   text-align: right;
   font-size: 14px;
   line-height: 20px;
+}
+
+/* Visibility */
+@media only screen and (max-width: 767px) {
+
+//  .showForSmall {
+//    display: inherit !important;
+//  }
+  .showForLarge {
+    display: none !important;
+  }
+
+}
+@media only screen and (min-width: 768px) {
+
+  .showForSmall {
+    display: none !important;
+  }
+//  .showForLarge {
+//    display: inherit !important;
+//  }
+
 }

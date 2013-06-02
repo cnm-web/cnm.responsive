@@ -85,7 +85,27 @@ body.portaltype-homepage .portletRss {
   display: none;
 }
 
-/* line 86, sass/cnm_mobile.scss */
+/* line 85, sass/cnm_mobile.scss */
+#colophon-wrapper {
+  background-color: #004890;
+}
+/* line 88, sass/cnm_mobile.scss */
 #colophon-wrapper #colophon {
   width: auto;
+}
+
+/* line 92, sass/cnm_mobile.scss */
+#colophon-text {
+  text-align: center;
+}
+/* line 94, sass/cnm_mobile.scss */
+#colophon-text .footer-mobile-bottom {
+  text-transform: uppercase;
+}
+
+/* Helpers */
+/* line 100, sass/cnm_mobile.scss */
+.fullWidthOnMobile {
+  margin-left: -98.875% !important;
+  width: 97.75% !important;
 }
