@@ -2,7 +2,8 @@
 <rules
   xmlns="http://namespaces.plone.org/diazo"
   xmlns:css="http://namespaces.plone.org/diazo/css"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
@@ -16,6 +17,12 @@
 
   <!-- Navigation -->
   <replace css:theme="#nav" css:content="#portal-globalnav" />
+  <replace css:theme-children="#nav-new">
+      <xsl:for-each css:select="#portal-globalnav > li">
+          <xi:include href="navigation-rules.xml"/>
+      </xsl:for-each>
+  </replace>
+  <copy attributes="href title" css:content="#portal-logo" css:theme=".navbar a.brand" />
 
   <!--Content-->
   <merge attributes="class" css:content="body" css:theme="body" />

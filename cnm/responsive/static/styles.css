@@ -4854,16 +4854,16 @@ input[type="submit"].btn.btn-mini {
 .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
-  color: #777777;
+  color: #0f0c5d;
 }
 
 /* line 75, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-link {
-  color: #777777;
+  color: #0f0c5d;
 }
 /* line 78, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-link:hover, .navbar-link:focus {
-  color: #333333;
+  color: #fbf0c0;
 }
 
 /* line 85, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5054,7 +5054,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #777777;
+  color: #0f0c5d;
   text-decoration: none;
   text-shadow: 0 1px 0 white;
 }
@@ -5067,8 +5067,8 @@ input[type="submit"].btn.btn-mini {
 /* line 256, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: transparent;
-  color: #333333;
+  background-color: #0f0c5d;
+  color: #fbf0c0;
   text-decoration: none;
 }
 
@@ -5076,9 +5076,9 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #555555;
+  color: #fbf0c0;
   text-decoration: none;
-  background-color: #e6e6e6;
+  background-color: #0f0c5d;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -5183,30 +5183,30 @@ input[type="submit"].btn.btn-mini {
 /* line 343, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown > a:hover .caret,
 .navbar .nav li.dropdown > a:focus .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555;
+  border-top-color: #fbf0c0;
+  border-bottom-color: #fbf0c0;
 }
 
 /* line 351, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #e6e6e6;
-  color: #555555;
+  background-color: #0f0c5d;
+  color: #fbf0c0;
 }
 
 /* line 355, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: #0f0c5d;
+  border-bottom-color: #0f0c5d;
 }
 
 /* line 361, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555;
+  border-top-color: #fbf0c0;
+  border-bottom-color: #fbf0c0;
 }
 
 /* line 368, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -8136,7 +8136,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
   /* line 62, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_responsive-navbar.scss */
   .nav-collapse .nav .nav-header {
-    color: #777777;
+    color: #0f0c5d;
     text-shadow: none;
   }
 
@@ -8145,7 +8145,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
     font-weight: bold;
-    color: #777777;
+    color: #0f0c5d;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;

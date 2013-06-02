@@ -1,6 +1,8 @@
 @import "font-icons";
 @include font-icon-family(entypo);
 @import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
 
 $cnmblue: #004890;
 $cnmyellow: #FBD10B;
@@ -106,13 +108,48 @@ a:visited {
 /*Nav Bar*/
 #nav-wrapper {
   background-color: $cnmyellow;
+
+  .bootstrapStyles {
+    a.brand img {
+      height: 40px;
+    }
+    .navbar {
+      margin-bottom: 0;
+    }
+    .navbar-inner {
+      background-color: transparent;
+      background-image: none;
+      border-width: 0;
+      @include border-radius(0);
+      @include box-shadow(none);
+      padding: 0;
+    }
+    .nav {
+      margin: 0;
+      display: table;
+      width: 100%;
+      li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+        font-size: 21px;
+      }
+    }
+    .nav > li > a {
+      @include text-shadow(none);
+      padding: 20px 10px
+    }
+  }
 }
+
+/* Old Nav Bar */
+
 #navigation {
   color: $heading-font-color;
   @include lato;
-  a {
-    color: $heading-font-color;
-  }
+  /*a {*/
+    /*color: $heading-font-color;*/
+  /*}*/
 }
 #portal-globalnav {
   display: table;

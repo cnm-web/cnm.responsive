@@ -1,3 +1,6 @@
-.bootstrap-styles {
+/*  Namespacing bootstrap css inside .bootstrap-styles so they don't interfere with Plone CSS.
+    Wherever you want to use boostrap CSS, just wrap the element inside of something with class="boostrapStyles"
+*/
+.bootstrapStyles {
   @import 'styles';
 }
