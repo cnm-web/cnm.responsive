@@ -1,10 +1,8 @@
-$cnmblue: #004890;
-$cnmyellow: #FBD10B;
-$white: #FFFFFF;
-$darkgray: #3C3D3E;
-$mediumgray: #D0D2D4;
-$lightgray: #F5F7F9;
-$navitemseparator: #ced8e1;
+@import "cnmresponsive_variables";
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
 
 /* Header */
 #header-wrapper {
@@ -43,8 +41,66 @@ $navitemseparator: #ced8e1;
   }
 }
 #main {
-  #steps-row {
-    display: none;
+
+}
+
+#homepage-bottom {
+  #steps {
+    color: $steps-font-color;
+    background-color: $mediumgray;
+    line-height: $step-height;
+    
+    * {
+      vertical-align: middle;
+    }
+    ul {
+      display: block; // unique
+      text-align: left;
+      padding: 2px 0px 2px 0px;
+    }
+    li {
+      display: list-item; //unique
+      width: auto;
+      margin: 0;
+      padding: 7px 0 7px 10px;
+      border-top: 1px solid $white;
+    }
+    li:first-child {
+      border-top-width: 0;
+    }
+    a {
+      line-height: $step-height;
+      display: block;
+      height: $step-height;
+      color: $steps-font-color;
+      @include lato;
+      font-size: 18px;
+    }
+    h3 {
+      position: static; //unique
+      top: auto; //unique
+      @include oswald;
+      font-size: 31px;
+      color: #b4b6b8;
+      background-color: $white;
+      display: inline-block;
+      width: $step-height;
+      height: $step-height;
+      line-height: $step-height;
+      @include border-radius(50%);
+      text-align: center;
+      margin: -4px 5px 0 0;
+      position: relative;
+    }
+    //unique from here on
+    .description {
+      position: static;
+      top: auto;
+      display: inline;
+    }
+    .learnMore {
+      display: none;
+    }
   }
 }
 
@@ -88,6 +144,11 @@ body.portaltype-homepage .portletRss {
   #colophon {
     width: auto;
   }
+  #blackboard-footer {
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 #colophon-text {
   text-align: center;
@@ -100,4 +161,5 @@ body.portaltype-homepage .portletRss {
 .fullWidthOnMobile {
   margin-left: -98.875% !important;
   width: 97.75% !important;
+  clear: both;
 }

@@ -38,11 +38,12 @@
   <!-- end CSS-->
 
   <!-- mobile -->
-  <meta name="viewport" content="width=320, initial-scale=1"/>
+  <!--<meta name="viewport" content="width=320, initial-scale=1"/>-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--Covers all devices with screens 768px WIDE or less, which is iPhones, iPads (even retinas), etc.
     But this excludes desktops even at 800x600 resolution.-->
   <!--<link media="only screen and (max-device-width : 768px)" name="mobile" href="mobile.css" type="text/css" rel="stylesheet" />-->
-  <link media="only screen and (max-width : 960px)" name="mobile" href="cnm_mobile.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (max-width : 767px)" name="mobile" href="cnm_mobile.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -330,8 +331,11 @@
   <div id="colophon-wrapper">
     <div id="colophon">
       <div class="row">
-        <div class="cell position-0 width-4 showForLarge">
-          <a href="/login_form"><img src="img/cnm-logo-footer.png" id="logo-footer" alt="CNM - Central New Mexico Community College"/></a>
+        <div class="cell position-0 width-4 fullWidthOnMobile">
+          <a href="/login_form" class="showForLarge"><img src="img/cnm-logo-footer.png" id="logo-footer" alt="CNM - Central New Mexico Community College"/></a>
+          <a href="http://my.cnm.edu" class="showForSmall"><img src="img/mycnm-logo.png" id="mycnm-logo-footer" alt="myCNM"/></a>
+          <a title="Blackboard login Distance Learning" 
+            href="http://cnm.blackboard.com" target="_blank" class="showForSmall" id="blackboard-footer">Blackboard</a>
         </div>
         
         <div id="colophon-text" class="cell position-4 width-12 fullWidthOnMobile">

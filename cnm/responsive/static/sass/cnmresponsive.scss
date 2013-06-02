@@ -1,53 +1,4 @@
-@import "font-icons";
-@include font-icon-family(entypo);
-@import "compass/css3/border-radius";
-@import "compass/css3/box-shadow";
-@import "compass/css3/text-shadow";
-
-$cnmblue: #004890;
-$cnmyellow: #FBD10B;
-$white: #FFFFFF;
-$darkgray: #3C3D3E;
-$mediumgray: #D0D2D4;
-$lightgray: #F5F7F9;
-$navitemseparator: #ced8e1;
-
-/* Fonts */
-$default-font-color: #2d2d2f;
-$light-font-color: #3c3e3f;
-$footer-links-color: #FFFFFF; /* White */
-$footer-font-color: #aebfd0; /* Light blue */
-$heading-font-color: #0f0c5d; /* Deep blue */
-$description-font-color: #668eb6; /* Medium blue */
-$steps-font-color: #494a4c; /* Medium gray */
-$link-color: #1b60a4;
-$visited-link-color: #8b9bab;
-
-$h1-font-size: 28px;
-
-@mixin arial {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-@mixin lato {
-  font-family: 'Lato', sans-serif;
-}
-@mixin oswald {
-  font-family: 'Oswald', sans-serif;
-}
-@mixin fixed-width {
-  width: 60em; 
-  margin: 0 auto;
-}
-@mixin read-more {
-  background-color: $cnmblue;
-  color: $white;
-  font-style: normal;
-  @include oswald;
-  padding: 0 20px;
-  @include border-left-radius(8px);
-  line-height: 25px;
-  display: inline-block;
-}
+@import "cnmresponsive_variables";
 
 body {
   color: $default-font-color;
@@ -357,7 +308,6 @@ dl.portlet {
 
 
 /* Steps Portlet */
-$step-height: 46px;
 div.portlet-static-steps {
   color: $steps-font-color;
   background-color: $mediumgray;
