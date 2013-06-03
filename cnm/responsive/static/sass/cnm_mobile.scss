@@ -142,10 +142,15 @@ body {
 body.portaltype-homepage .portletRss {
   display: block;
 }
+.portletWrapper {
+  margin-bottom: 10px;
+}
 
 /* Content */
 #main {
   width: auto;
+  padding-bottom: 60px;
+  padding-top: 0px;
 }
 #portal-breadcrumbs {
   display: none;

@@ -46,13 +46,15 @@
             }
         });
      };
+    /* Alex ponders: What the hell is this doing? It's messing up the layout! */
     BM.columnglue = function() {
         var c1 = $("#portal-column-one");
         var c2 = $("#portal-column-two");
         var cc = $("#portal-column-content").height();
         var ccc = cc + 50
-        if (c1.height() < cc ) {c1.css("height",ccc);}
-        if (c2.height() < cc ) {c2.css("height",ccc);}
+        // Alex disabling using JS to set the heights of columns! WTF!
+        //if (c1.height() < cc ) {c1.css("height",ccc);}
+        //if (c2.height() < cc ) {c2.css("height",ccc);}
     };
 
 })();
