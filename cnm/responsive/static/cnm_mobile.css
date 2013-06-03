@@ -40,38 +40,76 @@ body {
   height: 40px;
 }
 
+/* line 29, sass/cnm_mobile.scss */
+.bootstrapStyles .nav-collapse .nav > li > a, .bootstrapStyles .nav-collapse .dropdown-menu a {
+  color: white;
+}
+
+/* line 35, sass/cnm_mobile.scss */
+.bootstrapStyles .nav-collapse .nav > li > a:hover,
+.bootstrapStyles .nav-collapse .nav > li > a:focus,
+.bootstrapStyles .nav-collapse .dropdown-menu a:hover,
+.bootstrapStyles .nav-collapse .dropdown-menu a:focus {
+  background-color: #0f0c5d;
+}
+
+/* line 38, sass/cnm_mobile.scss */
+.bootstrapStyles .navbar .btn-navbar {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #004890;
+  background-image: -moz-linear-gradient(top, #004890, #0f0c5d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#004890), to(#0f0c5d));
+  background-image: -webkit-linear-gradient(top, #004890, #0f0c5d);
+  background-image: -o-linear-gradient(top, #004890, #0f0c5d);
+  background-image: linear-gradient(to bottom, #004890, #0f0c5d);
+}
+
+/* line 48, sass/cnm_mobile.scss */
+.bootstrapStyles .navbar .btn-navbar:hover, .bootstrapStyles .navbar .btn-navbar:focus, .bootstrapStyles .navbar .btn-navbar:active, .bootstrapStyles .navbar .btn-navbar.active, .bootstrapStyles .navbar .btn-navbar.disabled, .bootstrapStyles .navbar .btn-navbar[disabled] {
+  color: white;
+  background-color: #004890;
+  background-image: none;
+}
+
+/* line 53, sass/cnm_mobile.scss */
+.bootstrapStyles .navbar .btn-navbar .icon-bar {
+  margin-bottom: 6px;
+  width: 30px;
+}
+
 /* Homepage */
-/* line 32, sass/cnm_mobile.scss */
+/* line 60, sass/cnm_mobile.scss */
 #frontpage-news-wrapper .row .cell {
   display: none;
 }
-/* line 35, sass/cnm_mobile.scss */
+/* line 63, sass/cnm_mobile.scss */
 #frontpage-news-wrapper .row .cell:first-child {
   display: block;
   width: 97.75%;
 }
-/* line 39, sass/cnm_mobile.scss */
+/* line 67, sass/cnm_mobile.scss */
 #frontpage-news-wrapper .description {
   display: none;
 }
 
-/* line 48, sass/cnm_mobile.scss */
+/* line 76, sass/cnm_mobile.scss */
 #homepage-bottom #steps {
   color: #494a4c;
   background-color: #d0d2d4;
   line-height: 46px;
 }
-/* line 53, sass/cnm_mobile.scss */
+/* line 81, sass/cnm_mobile.scss */
 #homepage-bottom #steps * {
   vertical-align: middle;
 }
-/* line 56, sass/cnm_mobile.scss */
+/* line 84, sass/cnm_mobile.scss */
 #homepage-bottom #steps ul {
   display: block;
   text-align: left;
   padding: 2px 0px 2px 0px;
 }
-/* line 61, sass/cnm_mobile.scss */
+/* line 89, sass/cnm_mobile.scss */
 #homepage-bottom #steps li {
   display: list-item;
   width: auto;
@@ -79,11 +117,11 @@ body {
   padding: 7px 0 7px 10px;
   border-top: 1px solid white;
 }
-/* line 68, sass/cnm_mobile.scss */
+/* line 96, sass/cnm_mobile.scss */
 #homepage-bottom #steps li:first-child {
   border-top-width: 0;
 }
-/* line 71, sass/cnm_mobile.scss */
+/* line 99, sass/cnm_mobile.scss */
 #homepage-bottom #steps a {
   line-height: 46px;
   display: block;
@@ -92,7 +130,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-/* line 79, sass/cnm_mobile.scss */
+/* line 107, sass/cnm_mobile.scss */
 #homepage-bottom #steps h3 {
   position: static;
   top: auto;
@@ -113,87 +151,87 @@ body {
   margin: -4px 5px 0 0;
   position: relative;
 }
-/* line 96, sass/cnm_mobile.scss */
+/* line 124, sass/cnm_mobile.scss */
 #homepage-bottom #steps .description {
   position: static;
   top: auto;
   display: inline;
 }
-/* line 101, sass/cnm_mobile.scss */
+/* line 129, sass/cnm_mobile.scss */
 #homepage-bottom #steps .learnMore {
   display: none;
 }
 
 /* Portlets */
-/* line 108, sass/cnm_mobile.scss */
+/* line 136, sass/cnm_mobile.scss */
 .portlet-static-mycnm {
   display: none;
 }
 
-/* line 111, sass/cnm_mobile.scss */
+/* line 139, sass/cnm_mobile.scss */
 .portletRss {
   display: none;
 }
 
-/* line 114, sass/cnm_mobile.scss */
+/* line 142, sass/cnm_mobile.scss */
 body.portaltype-homepage .portletRss {
   display: block;
 }
 
 /* Content */
-/* line 119, sass/cnm_mobile.scss */
+/* line 147, sass/cnm_mobile.scss */
 #main {
   width: auto;
 }
 
-/* line 122, sass/cnm_mobile.scss */
+/* line 150, sass/cnm_mobile.scss */
 #portal-breadcrumbs {
   display: none;
 }
 
-/* line 125, sass/cnm_mobile.scss */
+/* line 153, sass/cnm_mobile.scss */
 #popular-cell {
   margin-left: -98.875%;
   width: 97.75%;
 }
 
 /* Footer */
-/* line 132, sass/cnm_mobile.scss */
+/* line 160, sass/cnm_mobile.scss */
 #footer-wrapper #footer {
   padding: 0;
   width: auto;
 }
-/* line 136, sass/cnm_mobile.scss */
+/* line 164, sass/cnm_mobile.scss */
 #footer-wrapper #footerlinks {
   display: none;
 }
 
-/* line 141, sass/cnm_mobile.scss */
+/* line 169, sass/cnm_mobile.scss */
 #colophon-wrapper {
   background-color: #004890;
 }
-/* line 144, sass/cnm_mobile.scss */
+/* line 172, sass/cnm_mobile.scss */
 #colophon-wrapper #colophon {
   width: auto;
 }
-/* line 147, sass/cnm_mobile.scss */
+/* line 175, sass/cnm_mobile.scss */
 #colophon-wrapper #blackboard-footer {
   float: right;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 153, sass/cnm_mobile.scss */
+/* line 181, sass/cnm_mobile.scss */
 #colophon-text {
   text-align: center;
 }
-/* line 155, sass/cnm_mobile.scss */
+/* line 183, sass/cnm_mobile.scss */
 #colophon-text .footer-mobile-bottom {
   text-transform: uppercase;
 }
 
 /* Helpers */
-/* line 161, sass/cnm_mobile.scss */
+/* line 189, sass/cnm_mobile.scss */
 .fullWidthOnMobile {
   margin-left: -98.875% !important;
   width: 97.75% !important;
