@@ -16,6 +16,9 @@ $navbar-selected-background-color: #0f0c5d;
 $navbar-dropdown-background-color: #fae790;
 $navbar-dropdown-separator-color: #a09b85;
 
+/* Hover Effects */
+$steps-hover: scale-lightness($mediumgray, 50%);
+
 /* Font Colors */
 $default-font-color: #2d2d2f;
 $light-font-color: #3c3e3f;

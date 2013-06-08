@@ -319,6 +319,9 @@ dl.portlet ul.navTree {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  a:hover {
+    color: $heading-font-color;
+  }
 }
 /* Just the top level items */
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
@@ -359,7 +362,7 @@ div.portlet-static-steps {
   }
 
   ul {
-    padding: 2px 0px 2px 0px;
+    padding: 0px;
   }
   
   li {
@@ -369,6 +372,9 @@ div.portlet-static-steps {
   }
   li:first-child {
     border-top-width: 0;
+  }
+  li:hover {
+    background-color: $steps-hover;
   }
 
   a {
@@ -441,6 +447,9 @@ body.portaltype-homepage #main {
       position: relative;
       width: 1%;
     }
+    li:hover {
+      background-color: $steps-hover;
+    }
     h3 {
       @include oswald;
       font-size: 50px;
@@ -506,6 +515,9 @@ body.portaltype-homepage #main {
     margin: -10px 0 9px 0;
     a {
       color: $footer-font-color;
+    }
+    a:hover {
+      color: #FBD10B;
     }
   }
   #social {
