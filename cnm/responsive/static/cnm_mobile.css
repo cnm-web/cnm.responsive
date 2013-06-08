@@ -39,13 +39,26 @@ body {
 #nav-wrapper .bootstrapStyles a.brand img {
   height: 40px;
 }
-
+/* line 27, sass/cnm_mobile.scss */
+#nav-wrapper .bootstrapStyles ul.nav > li {
+  text-align: left;
+}
 /* line 29, sass/cnm_mobile.scss */
+#nav-wrapper .bootstrapStyles ul.nav > li > a {
+  padding: 20px 10px;
+}
+
+/* line 35, sass/cnm_mobile.scss */
+.bootstrapStyles .navbar .brand {
+  padding-left: 15px;
+}
+
+/* line 38, sass/cnm_mobile.scss */
 .bootstrapStyles .nav-collapse .nav > li > a, .bootstrapStyles .nav-collapse .dropdown-menu a {
   color: white;
 }
 
-/* line 35, sass/cnm_mobile.scss */
+/* line 44, sass/cnm_mobile.scss */
 .bootstrapStyles .nav-collapse .nav > li > a:hover,
 .bootstrapStyles .nav-collapse .nav > li > a:focus,
 .bootstrapStyles .nav-collapse .dropdown-menu a:hover,
@@ -53,7 +66,7 @@ body {
   background-color: #0f0c5d;
 }
 
-/* line 38, sass/cnm_mobile.scss */
+/* line 47, sass/cnm_mobile.scss */
 .bootstrapStyles .navbar .btn-navbar {
   margin-top: 10px;
   margin-right: 10px;
@@ -65,55 +78,55 @@ body {
   background-image: linear-gradient(to bottom, #004890, #0f0c5d);
 }
 
-/* line 48, sass/cnm_mobile.scss */
+/* line 57, sass/cnm_mobile.scss */
 .bootstrapStyles .navbar .btn-navbar:hover, .bootstrapStyles .navbar .btn-navbar:focus, .bootstrapStyles .navbar .btn-navbar:active, .bootstrapStyles .navbar .btn-navbar.active, .bootstrapStyles .navbar .btn-navbar.disabled, .bootstrapStyles .navbar .btn-navbar[disabled] {
   color: white;
   background-color: #004890;
   background-image: none;
 }
 
-/* line 53, sass/cnm_mobile.scss */
+/* line 62, sass/cnm_mobile.scss */
 .bootstrapStyles .navbar .btn-navbar .icon-bar {
   margin-bottom: 6px;
   width: 30px;
 }
 
 /* Homepage */
-/* line 59, sass/cnm_mobile.scss */
+/* line 68, sass/cnm_mobile.scss */
 #frontpage-news-wrapper {
   padding-bottom: 10px;
 }
-/* line 62, sass/cnm_mobile.scss */
+/* line 71, sass/cnm_mobile.scss */
 #frontpage-news-wrapper .row .cell {
   display: none;
 }
-/* line 65, sass/cnm_mobile.scss */
+/* line 74, sass/cnm_mobile.scss */
 #frontpage-news-wrapper .row .cell:first-child {
   display: block;
   width: 97.75%;
 }
-/* line 69, sass/cnm_mobile.scss */
+/* line 78, sass/cnm_mobile.scss */
 #frontpage-news-wrapper .description {
   display: none;
 }
 
-/* line 78, sass/cnm_mobile.scss */
+/* line 87, sass/cnm_mobile.scss */
 #homepage-bottom #steps {
   color: #494a4c;
   background-color: #d0d2d4;
   line-height: 46px;
 }
-/* line 83, sass/cnm_mobile.scss */
+/* line 92, sass/cnm_mobile.scss */
 #homepage-bottom #steps * {
   vertical-align: middle;
 }
-/* line 86, sass/cnm_mobile.scss */
+/* line 95, sass/cnm_mobile.scss */
 #homepage-bottom #steps ul {
   display: block;
   text-align: left;
   padding: 2px 0px 2px 0px;
 }
-/* line 91, sass/cnm_mobile.scss */
+/* line 100, sass/cnm_mobile.scss */
 #homepage-bottom #steps li {
   display: list-item;
   width: auto;
@@ -121,11 +134,11 @@ body {
   padding: 7px 0 7px 10px;
   border-top: 1px solid white;
 }
-/* line 98, sass/cnm_mobile.scss */
+/* line 107, sass/cnm_mobile.scss */
 #homepage-bottom #steps li:first-child {
   border-top-width: 0;
 }
-/* line 101, sass/cnm_mobile.scss */
+/* line 110, sass/cnm_mobile.scss */
 #homepage-bottom #steps a {
   line-height: 46px;
   display: block;
@@ -134,7 +147,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-/* line 109, sass/cnm_mobile.scss */
+/* line 118, sass/cnm_mobile.scss */
 #homepage-bottom #steps h3 {
   position: static;
   top: auto;
@@ -155,110 +168,110 @@ body {
   margin: -4px 5px 0 0;
   position: relative;
 }
-/* line 126, sass/cnm_mobile.scss */
+/* line 135, sass/cnm_mobile.scss */
 #homepage-bottom #steps .description {
   position: static;
   top: auto;
   display: inline;
 }
-/* line 131, sass/cnm_mobile.scss */
+/* line 140, sass/cnm_mobile.scss */
 #homepage-bottom #steps .learnMore {
   display: none;
 }
 
 /* Portlets */
-/* line 138, sass/cnm_mobile.scss */
+/* line 147, sass/cnm_mobile.scss */
 .portlet-static-mycnm {
   display: none;
 }
 
-/* line 141, sass/cnm_mobile.scss */
+/* line 150, sass/cnm_mobile.scss */
 .portletRss {
   display: none;
 }
 
-/* line 144, sass/cnm_mobile.scss */
+/* line 153, sass/cnm_mobile.scss */
 body.portaltype-homepage .portletRss {
   display: block;
   background-color: #d0d2d4;
 }
-/* line 147, sass/cnm_mobile.scss */
+/* line 156, sass/cnm_mobile.scss */
 body.portaltype-homepage .portletRss dt {
   border-bottom-width: 0;
   margin-bottom: 0;
   padding: 10px;
 }
-/* line 152, sass/cnm_mobile.scss */
+/* line 161, sass/cnm_mobile.scss */
 body.portaltype-homepage .portletRss dd.portletItem {
   border-top: 1px solid white;
   padding: 10px 10px 0px 10px;
 }
-/* line 156, sass/cnm_mobile.scss */
+/* line 165, sass/cnm_mobile.scss */
 body.portaltype-homepage .portletRss dd.portletFooter {
   padding-bottom: 10px;
 }
 
-/* line 160, sass/cnm_mobile.scss */
+/* line 169, sass/cnm_mobile.scss */
 .portletWrapper {
   margin-bottom: 10px;
 }
 
 /* Content */
-/* line 165, sass/cnm_mobile.scss */
+/* line 174, sass/cnm_mobile.scss */
 #main {
   width: auto;
   padding-bottom: 60px;
   padding-top: 0px;
 }
 
-/* line 170, sass/cnm_mobile.scss */
+/* line 179, sass/cnm_mobile.scss */
 #portal-breadcrumbs {
   display: none;
 }
 
-/* line 173, sass/cnm_mobile.scss */
+/* line 182, sass/cnm_mobile.scss */
 #popular-cell {
   margin-left: -98.875%;
   width: 97.75%;
 }
 
 /* Footer */
-/* line 180, sass/cnm_mobile.scss */
+/* line 189, sass/cnm_mobile.scss */
 #footer-wrapper #footer {
   padding: 0;
   width: auto;
 }
-/* line 184, sass/cnm_mobile.scss */
+/* line 193, sass/cnm_mobile.scss */
 #footer-wrapper #footerlinks {
   display: none;
 }
 
-/* line 189, sass/cnm_mobile.scss */
+/* line 198, sass/cnm_mobile.scss */
 #colophon-wrapper {
   background-color: #004890;
 }
-/* line 192, sass/cnm_mobile.scss */
+/* line 201, sass/cnm_mobile.scss */
 #colophon-wrapper #colophon {
   width: auto;
 }
-/* line 195, sass/cnm_mobile.scss */
+/* line 204, sass/cnm_mobile.scss */
 #colophon-wrapper #blackboard-footer {
   float: right;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 201, sass/cnm_mobile.scss */
+/* line 210, sass/cnm_mobile.scss */
 #colophon-text {
   text-align: center;
 }
-/* line 203, sass/cnm_mobile.scss */
+/* line 212, sass/cnm_mobile.scss */
 #colophon-text .footer-mobile-bottom {
   text-transform: uppercase;
 }
 
 /* Helpers */
-/* line 209, sass/cnm_mobile.scss */
+/* line 218, sass/cnm_mobile.scss */
 .fullWidthOnMobile {
   margin-left: -98.875% !important;
   width: 97.75% !important;
