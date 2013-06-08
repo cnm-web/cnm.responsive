@@ -477,6 +477,7 @@ body.portaltype-homepage #main {
     }
     .learnMore {
       text-transform: lowercase;
+      padding-bottom: 10px;
     }
   }
   #popular {
@@ -517,7 +518,7 @@ body.portaltype-homepage #main {
       color: $footer-font-color;
     }
     a:hover {
-      color: #FBD10B;
+      color: $cnmyellow;
     }
   }
   #social {

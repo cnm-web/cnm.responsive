@@ -127,7 +127,7 @@ body {
 #homepage-bottom #steps ul {
   display: block;
   text-align: left;
-  padding: 2px 0px 2px 0px;
+  padding: 0px;
 }
 /* line 100, sass/cnm_mobile.scss */
 #homepage-bottom #steps li {
