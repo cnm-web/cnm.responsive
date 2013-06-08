@@ -4,6 +4,7 @@
 @import "compass/css3/box-shadow";
 @import "compass/css3/text-shadow";
 
+/* Colors */
 $cnmblue: #004890;
 $cnmyellow: #FBD10B;
 $white: #FFFFFF;
@@ -11,9 +12,11 @@ $darkgray: #3C3D3E;
 $mediumgray: #D0D2D4;
 $lightgray: #F5F7F9;
 $navitemseparator: #ced8e1;
-$navbar-background-color: #0f0c5d;
+$navbar-selected-background-color: #0f0c5d;
+$navbar-dropdown-background-color: #fae790;
+$navbar-dropdown-separator-color: #a09b85;
 
-/* Fonts */
+/* Font Colors */
 $default-font-color: #2d2d2f;
 $light-font-color: #3c3e3f;
 $footer-links-color: #FFFFFF; /* White */
@@ -23,6 +26,8 @@ $description-font-color: #668eb6; /* Medium blue */
 $steps-font-color: #494a4c; /* Medium gray */
 $link-color: #1b60a4;
 $visited-link-color: #8b9bab;
+$navbar-selected-font-color: #FBF0C0;
+$navbar-dropdown-font-color: #04192d;
 
 $h1-font-size: 28px;
 
@@ -51,3 +56,7 @@ $h1-font-size: 28px;
 }
 
 $step-height: 46px;
+
+/* Responsive breakpoints */
+$max-width: 767px;
+$min-width: 768px;

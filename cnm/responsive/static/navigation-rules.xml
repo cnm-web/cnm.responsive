@@ -8,9 +8,7 @@
 
     <xsl:if test="not(ul)">
         <li><xsl:attribute name="class">
-                <xsl:if test="contains(@class,'selected')">
-                    active
-                </xsl:if>
+                <xsl:if test="contains(@class,'selected')">active</xsl:if>
             </xsl:attribute>
             <xsl:copy-of select="a[node()]"/>
         </li>

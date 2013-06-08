@@ -101,6 +101,47 @@ a:visited {
   
   .dropdown-menu {
     text-align: left;
+    > li > a {
+      white-space: normal;
+    }
+  }
+}
+/* Nav Bar Drop Down */
+/* Hiding arrow at top of nav bar drop down */
+.bootstrapStyles {
+  .navbar .nav > li > .dropdown-menu:before,
+  .navbar .nav > li > .dropdown-menu:after
+  {
+    display: none;
+  }
+  .dropdown-menu {
+    @include border-radius(0);
+    background-color: $navbar-dropdown-background-color;
+    border-width: 0px;
+    padding: 0;
+    margin: 0;
+    /* Uncomment to remove box shadow from drop-downs */
+    //@include box-shadow(none);
+  }
+  .dropdown-menu > li > a:hover,
+  .dropdown-submenu:hover > a
+  {
+    background-color: $navbar-selected-background-color;
+    background-image: none;
+    color: $navbar-selected-font-color;
+  }
+  /* Bleeding through to mobile, so wrapping in a media query */
+  @media only screen and (min-width: $min-width) {
+    .dropdown-menu > li > a {
+      color: $navbar-dropdown-font-color;
+      font-size: 18px;
+      border-top: 1px solid $navbar-dropdown-separator-color;
+      padding: 10px 20px;
+      width: 218px; /* Same width as left column */
+    }
+    .dropdown-menu > li:first-child > a {
+      border-top-width: 0px;
+    }
   }
 }
 
@@ -540,7 +581,7 @@ body.portaltype-homepage #main {
 }
 
 /* Visibility */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: $max-width) {
 
 //  .showForSmall {
 //    display: inherit !important;
@@ -550,7 +591,7 @@ body.portaltype-homepage #main {
   }
 
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $min-width) {
 
   .showForSmall {
     display: none !important;

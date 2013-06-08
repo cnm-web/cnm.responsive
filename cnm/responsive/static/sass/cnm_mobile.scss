@@ -42,7 +42,7 @@ body {
 .bootstrapStyles .nav-collapse .nav > li > a:focus,
 .bootstrapStyles .nav-collapse .dropdown-menu a:hover,
 .bootstrapStyles .nav-collapse .dropdown-menu a:focus {
-  background-color: $navbar-background-color;
+  background-color: $navbar-selected-background-color;
 }
 .bootstrapStyles .navbar .btn-navbar {
   margin-top: 10px;
