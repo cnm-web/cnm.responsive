@@ -141,6 +141,26 @@ body {
       display: none;
     }
   }
+  #popular {
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: block;
+      width: auto;
+      margin: 0;
+      float: none;
+      a {
+        display: block;
+        padding: 20px 80px 20px 20px;
+        border-bottom: 1px solid $white;
+        font-size: 20px;
+        background: transparent url(img/cnm-arrow-icon.png) no-repeat right center;
+        margin-right: 20px;
+      }
+    }
+  }
 }
 
 /* Portlets */

@@ -486,6 +486,7 @@ body.portaltype-homepage #main {
     
     h2 {
       margin-top: 0;
+      margin-bottom: 20px;
       padding: 0 20px;
       display: inline-block;
       background: $cnmyellow;
@@ -496,6 +497,13 @@ body.portaltype-homepage #main {
     }
     ul {
       padding: 0 20px;
+      list-style-type: disc;
+    }
+    li {
+      float: left;
+      width: 42%;
+      display: list-item;
+      margin: 0px 20px;
     }
   }
 }
