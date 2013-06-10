@@ -13,6 +13,7 @@ Dependencies
 ============
 
 This theme depends on the following packages:
+
 - plonetheme.sunburst => 1.4.3
 - plone.app.theming => 1.1.1
 - diazo => 1.0.3
