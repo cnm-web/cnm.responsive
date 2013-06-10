@@ -30,5 +30,33 @@ The following steps are necessary only for the first install at CNM.
 #. Install “cnm.responsive” in portal_quickinstaller
 #. If you don’t see the theme take hold on the site, you’ll need to active it in Site Setup > Theming.
 #. Make sure “Automatically Generate Tabs” is checked in Site Setup > Navigation. This seems to get set to off by cnm.website. Easy to change, but didn’t want to without checking first.
+#. Add steps portlet at the root of the site. The header needs to be titled "Steps" and here is the HTML that needs to be in the body.
+
+.. code:: html
+
+    <ul>
+    <li><a href="#">
+    <h3>1</h3>
+    Apply to CNM</a></li>
+    <li><a href="#">
+    <h3>2</h3>
+    Financial Aid</a></li>
+    <li><a href="#">
+    <h3>3</h3>
+    See an Advisor</a></li>
+    <li><a href="#">
+    <h3>4</h3>
+    Register for Class</a></li>
+    <li><a href="#">
+    <h3>5</h3>
+    Your First Day</a></li>
+    </ul>
+
+About
+=====
+
+This theme integrated Bootstrap. To use Bootstrap components, wrap your code in a container with a class of bootstrapStyles. This is required because without this namespacing Bootstrap interferes with Plone code.
+
+Switch to mobile happens at 767px width.
 
 
