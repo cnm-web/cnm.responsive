@@ -2,6 +2,9 @@
 <metadata>
   <version>1</version>
     <dependencies>
-      <dependency>profile-plone.app.theming:default</dependency>
+      <!--We don't need to reinstall these on every reinstall of this product-->
+      <!--<dependency>profile-plonetheme.sunburst:default</dependency>-->
+      <!--<dependency>profile-plone.app.theming:default</dependency>-->
+      <!--<dependency>profile-webcouturier.dropdownmenu:default</dependency>-->
     </dependencies>
 </metadata>

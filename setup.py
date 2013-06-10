@@ -24,7 +24,12 @@ setup(name='cnm.responsive',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'Plone',
           # -*- Extra requirements: -*-
+          'plonetheme.sunburst>=1.4.3',
+          'plone.app.theming>=1.1.1',
+          'diazo>=1.0.3',
+          'webcouturier.dropdownmenu>=2.3.1',
       ],
       entry_points="""
       # -*- Entry points: -*-
