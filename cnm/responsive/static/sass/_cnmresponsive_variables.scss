@@ -5,6 +5,7 @@
 @import "compass/css3/text-shadow";
 
 /* Colors */
+$emergency-red: #F2DEDE;
 $cnmblue: #004890;
 $cnmyellow: #FBD10B;
 $white: #FFFFFF;
@@ -20,6 +21,7 @@ $navbar-dropdown-separator-color: #a09b85;
 $steps-hover: scale-lightness($mediumgray, 50%);
 
 /* Font Colors */
+$emergency-font-color: #B94A48;
 $default-font-color: #2d2d2f;
 $light-font-color: #3c3e3f;
 $footer-links-color: #FFFFFF; /* White */
