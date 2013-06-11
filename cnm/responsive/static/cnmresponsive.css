@@ -31,32 +31,170 @@
 /* Medium blue */
 /* Medium gray */
 /* Responsive breakpoints */
-/* line 3, sass/cnmresponsive.scss */
+/* line 35, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/font-icons-1.0.5.beta/stylesheets/base/_entypo-vars.scss */
+#portal-siteactions #siteaction-mycnm a:before {
+  content: "🔒";
+}
+
+/* line 51, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/font-icons-1.0.5.beta/stylesheets/base/_entypo-vars.scss */
+#portal-siteactions #siteaction-distance-learning a:before {
+  content: "✎";
+}
+
+/* line 56, ../../../../../../../../../../../var/lib/gems/1.9.1/gems/font-icons-1.0.5.beta/stylesheets/base/_entypo-vars.scss */
+#portal-siteactions #siteaction-chat-now a:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "entypo";
+  src: url('./fonts/entypo.eot');
+  src: url('./fonts/entypo.eot?#iefix') format("embedded-opentype"), url('./fonts/entypo.woff') format("woff"), url('./fonts/entypo.ttf') format("truetype"), url('./fonts/entypo.svg#entypo') format("svg"), url('./fonts/entypo.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Colors */
+/* Hover Effects */
+/* Font Colors */
+/* White */
+/* Light blue */
+/* Deep blue */
+/* Medium blue */
+/* Medium gray */
+/* Responsive breakpoints */
+/* line 3, sass/_tiny_customs.scss */
+h4 {
+  font-size: 1.125em;
+}
+
+/* line 20, sass/_tiny_customs.scss */
+.rightcolumn,
+.pullquote {
+  float: right;
+  clear: right;
+  width: 200px;
+  color: #76797C;
+  font-weight: normal;
+  border-left: 0px solid #76797C;
+  padding: 10px;
+  margin: 30px 0px 30px 15px;
+}
+
+/* line 26, sass/_tiny_customs.scss */
+.highlightbox {
+  background-color: #f5f7f9;
+  padding: 15px;
+  margin: 0.75em 0;
+}
+
+/* line 32, sass/_tiny_customs.scss */
+.rightcolumn-highlight {
+  float: right;
+  clear: right;
+  width: 200px;
+  color: #76797C;
+  font-weight: normal;
+  border-left: 0px solid #76797C;
+  background-color: #f5f7f9;
+  padding: 10px;
+  margin: 30px 0px 30px 30px;
+}
+
+/* line 39, sass/_tiny_customs.scss */
+.agate {
+  font-size: .75em;
+}
+
+/* line 42, sass/_tiny_customs.scss */
+.pullquoteOriginal {
+  background-color: White;
+  border-left: 4px solid #8CACBB;
+  clear: right;
+  color: #CC9933;
+  float: right;
+  font-weight: bold;
+  margin: 0 0 1em 1em;
+  padding: 0 1em;
+  width: 35%;
+}
+
+/* line 54, sass/_tiny_customs.scss */
+ul.no_decoration {
+  list-style: none;
+}
+
+/* line 63, sass/_tiny_customs.scss */
+div.two_column {
+  float: left;
+  padding: 0 5px;
+  width: 45%;
+}
+
+/* line 68, sass/_tiny_customs.scss */
+div.three_column {
+  float: left;
+  padding: 0 5px;
+  width: 30%;
+}
+
+/* line 73, sass/_tiny_customs.scss */
+table.listing th, .stx table th {
+  background-color: #f5f7f9;
+  border-top-color: #999;
+  border-bottom-color: #999;
+  border-right-color: #999;
+  border-left-color: #999;
+  text-transform: none;
+}
+
+/* line 81, sass/_tiny_customs.scss */
+table.listing {
+  border-top-color: #999;
+  border-left-color: #999;
+  border-right-color: #999;
+  border-bottom-color: #999;
+}
+
+/* line 87, sass/_tiny_customs.scss */
+table.listing td {
+  border-top-color: #999;
+  border-left-color: #999;
+  border-right-color: #999;
+  border-bottom-color: #999;
+}
+
+/* line 93, sass/_tiny_customs.scss */
+img.no-frame {
+  border: none !important;
+}
+
+/* line 4, sass/cnmresponsive.scss */
 body {
   color: #2d2d2f;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/* line 9, sass/cnmresponsive.scss */
+/* line 10, sass/cnmresponsive.scss */
 a {
   color: #1b60a4;
 }
 
-/* line 12, sass/cnmresponsive.scss */
+/* line 13, sass/cnmresponsive.scss */
 a:visited {
   color: #8b9bab;
 }
 
-/* line 15, sass/cnmresponsive.scss */
+/* line 16, sass/cnmresponsive.scss */
 #emergency-wrapper {
   background-color: #ee5646;
 }
-/* line 17, sass/cnmresponsive.scss */
+/* line 18, sass/cnmresponsive.scss */
 #emergency-wrapper #emergency-width {
   width: 60em;
   margin: 0 auto;
 }
-/* line 20, sass/cnmresponsive.scss */
+/* line 21, sass/cnmresponsive.scss */
 #emergency-wrapper h1 {
   color: white;
   border-color: #B94A48;
@@ -64,19 +202,19 @@ a:visited {
   margin: 10px 0px;
   padding-bottom: 0px;
 }
-/* line 27, sass/cnmresponsive.scss */
+/* line 28, sass/cnmresponsive.scss */
 #emergency-wrapper li {
   display: block;
   margin-bottom: 10px;
 }
-/* line 30, sass/cnmresponsive.scss */
+/* line 31, sass/cnmresponsive.scss */
 #emergency-wrapper li a {
   display: block;
   color: white;
   text-decoration: underline;
 }
 
-/* line 37, sass/cnmresponsive.scss */
+/* line 38, sass/cnmresponsive.scss */
 #header {
   width: 60em;
   margin: 0 auto;
@@ -84,35 +222,35 @@ a:visited {
   background: #004890 url(img/CNM_web_header.jpg) no-repeat right top;
 }
 
-/* line 43, sass/cnmresponsive.scss */
+/* line 44, sass/cnmresponsive.scss */
 #navigation {
   width: 60em;
   margin: 0 auto;
 }
 
-/* line 47, sass/cnmresponsive.scss */
+/* line 48, sass/cnmresponsive.scss */
 #header-wrapper {
   background-color: #004890;
   color: white;
 }
 
-/* line 52, sass/cnmresponsive.scss */
+/* line 53, sass/cnmresponsive.scss */
 #header-wrapper a {
   color: white;
 }
 
-/* line 56, sass/cnmresponsive.scss */
+/* line 57, sass/cnmresponsive.scss */
 #portal-siteactions {
   text-align: right;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;
 }
-/* line 61, sass/cnmresponsive.scss */
+/* line 62, sass/cnmresponsive.scss */
 #portal-siteactions li {
   margin-left: 20px;
 }
-/* line 64, sass/cnmresponsive.scss */
+/* line 65, sass/cnmresponsive.scss */
 #portal-siteactions a {
   line-height: 20px;
 }
@@ -126,35 +264,35 @@ a:visited {
   display: inline-block;
   width: 1em;
 }
-/* line 68, sass/cnmresponsive.scss */
+/* line 69, sass/cnmresponsive.scss */
 #portal-siteactions a:before {
   font-size: 1.5em;
   margin-right: 0.2em;
 }
 
-/* line 82, sass/cnmresponsive.scss */
+/* line 83, sass/cnmresponsive.scss */
 #portal-searchbox {
   text-align: right;
 }
 
 /*Nav Bar*/
-/* line 87, sass/cnmresponsive.scss */
+/* line 88, sass/cnmresponsive.scss */
 #nav-wrapper {
   background-color: #fbd10b;
 }
-/* line 91, sass/cnmresponsive.scss */
+/* line 92, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles a.brand {
   display: none;
 }
-/* line 93, sass/cnmresponsive.scss */
+/* line 94, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles a.brand img {
   height: 40px;
 }
-/* line 97, sass/cnmresponsive.scss */
+/* line 98, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles .navbar {
   margin-bottom: 0;
 }
-/* line 100, sass/cnmresponsive.scss */
+/* line 101, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles .navbar-inner {
   background-color: transparent;
   background-image: none;
@@ -169,43 +307,43 @@ a:visited {
   box-shadow: none;
   padding: 0;
 }
-/* line 108, sass/cnmresponsive.scss */
+/* line 109, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles ul.nav {
   margin: 0;
 }
-/* line 112, sass/cnmresponsive.scss */
+/* line 113, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles ul.nav > li {
   /* float: none; */
   /* Breaks drop-down alignment */
   text-align: center;
   font-size: 14px;
 }
-/* line 119, sass/cnmresponsive.scss */
+/* line 120, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles .nav > li > a {
   text-shadow: none;
   padding: 20px 20px;
 }
-/* line 125, sass/cnmresponsive.scss */
+/* line 126, sass/cnmresponsive.scss */
 #nav-wrapper .dropdown-menu {
   text-align: left;
 }
-/* line 127, sass/cnmresponsive.scss */
+/* line 128, sass/cnmresponsive.scss */
 #nav-wrapper .dropdown-menu > li > a {
   white-space: normal;
 }
 
 /* Nav Bar Drop Down */
 /* Hiding arrow at top of nav bar drop down */
-/* line 134, sass/cnmresponsive.scss */
+/* line 135, sass/cnmresponsive.scss */
 .bootstrapStyles {
   /* Bleeding through to mobile, so wrapping in a media query */
 }
-/* line 137, sass/cnmresponsive.scss */
+/* line 138, sass/cnmresponsive.scss */
 .bootstrapStyles .navbar .nav > li > .dropdown-menu:before,
 .bootstrapStyles .navbar .nav > li > .dropdown-menu:after {
   display: none;
 }
-/* line 140, sass/cnmresponsive.scss */
+/* line 141, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -218,7 +356,7 @@ a:visited {
   margin: 0;
   /* Uncomment to remove box shadow from drop-downs */
 }
-/* line 151, sass/cnmresponsive.scss */
+/* line 152, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu > li > a:hover,
 .bootstrapStyles .dropdown-submenu:hover > a {
   background-color: #0f0c5d;
@@ -226,7 +364,7 @@ a:visited {
   color: #fbf0c0;
 }
 @media only screen and (min-width: 768px) {
-  /* line 158, sass/cnmresponsive.scss */
+  /* line 159, sass/cnmresponsive.scss */
   .bootstrapStyles .dropdown-menu > li > a {
     color: #04192d;
     font-size: 14px;
@@ -235,14 +373,14 @@ a:visited {
     width: 178px;
     /* Same width as left column */
   }
-  /* line 165, sass/cnmresponsive.scss */
+  /* line 166, sass/cnmresponsive.scss */
   .bootstrapStyles .dropdown-menu > li:first-child > a {
     border-top-width: 0px;
   }
 }
 
 /* Old Nav Bar */
-/* line 173, sass/cnmresponsive.scss */
+/* line 174, sass/cnmresponsive.scss */
 #navigation {
   color: #0f0c5d;
   font-family: 'Lato', sans-serif;
@@ -251,17 +389,17 @@ a:visited {
   /*}*/
 }
 
-/* line 180, sass/cnmresponsive.scss */
+/* line 181, sass/cnmresponsive.scss */
 #portal-globalnav {
   display: table;
   width: 100%;
 }
-/* line 183, sass/cnmresponsive.scss */
+/* line 184, sass/cnmresponsive.scss */
 #portal-globalnav li {
   display: table-cell;
   float: none;
 }
-/* line 187, sass/cnmresponsive.scss */
+/* line 188, sass/cnmresponsive.scss */
 #portal-globalnav li a {
   border-top-width: 0;
   line-height: 60px;
@@ -271,33 +409,33 @@ a:visited {
 }
 
 /* Content Area */
-/* line 198, sass/cnmresponsive.scss */
+/* line 199, sass/cnmresponsive.scss */
 #main {
   width: 60em;
   margin: 0 auto;
   padding: 20px 0 80px 0;
 }
 
-/* line 202, sass/cnmresponsive.scss */
+/* line 203, sass/cnmresponsive.scss */
 #portal-breadcrumbs {
   font-size: 12px;
   line-height: 20px;
   margin-bottom: 40px;
 }
 
-/* line 207, sass/cnmresponsive.scss */
+/* line 208, sass/cnmresponsive.scss */
 body.portaltype-homepage #portal-breadcrumbs {
   display: none;
 }
 
-/* line 210, sass/cnmresponsive.scss */
+/* line 211, sass/cnmresponsive.scss */
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   color: #0f0c5d;
   font-weight: normal;
 }
 
-/* line 215, sass/cnmresponsive.scss */
+/* line 216, sass/cnmresponsive.scss */
 h1 {
   font-size: 28px;
   border-bottom: 1px dotted #0f0c5d;
@@ -307,28 +445,28 @@ h1 {
   /* To make room for the 1px border at the bottom */
 }
 
-/* line 222, sass/cnmresponsive.scss */
+/* line 223, sass/cnmresponsive.scss */
 h2 {
   font-size: 20px;
   line-height: 40px;
   margin: 20px 0 10px 0;
 }
 
-/* line 227, sass/cnmresponsive.scss */
+/* line 228, sass/cnmresponsive.scss */
 h3 {
   font-size: 16px;
   line-height: 20px;
   margin: 20px 0 10px 0;
 }
 
-/* line 232, sass/cnmresponsive.scss */
+/* line 233, sass/cnmresponsive.scss */
 p {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 237, sass/cnmresponsive.scss */
+/* line 238, sass/cnmresponsive.scss */
 .documentDescription {
   font-family: 'Lato', sans-serif;
   color: #668eb6;
@@ -338,13 +476,13 @@ p {
   margin-bottom: 40px;
 }
 
-/* line 247, sass/cnmresponsive.scss */
+/* line 248, sass/cnmresponsive.scss */
 #content ul,
 #content ol {
   margin-bottom: 10px;
 }
 
-/* line 252, sass/cnmresponsive.scss */
+/* line 253, sass/cnmresponsive.scss */
 #content li,
 li {
   line-height: 20px;
@@ -353,17 +491,17 @@ li {
 }
 
 /* Portlets */
-/* line 259, sass/cnmresponsive.scss */
+/* line 260, sass/cnmresponsive.scss */
 .portletWrapper {
   margin-bottom: 40px;
 }
 
-/* line 262, sass/cnmresponsive.scss */
+/* line 263, sass/cnmresponsive.scss */
 dl.portlet {
   font-size: 14px;
   margin: 0 0 0px 0;
 }
-/* line 266, sass/cnmresponsive.scss */
+/* line 267, sass/cnmresponsive.scss */
 dl.portlet dt {
   padding: 0 0 9px 0;
   /* only 9px at bottom to make room for 1px border at bottom */
@@ -375,18 +513,18 @@ dl.portlet dt {
   border-bottom: 1px dotted #0f0c5d;
   margin-bottom: 20px;
 }
-/* line 278, sass/cnmresponsive.scss */
+/* line 279, sass/cnmresponsive.scss */
 dl.portlet dt a:link,
 dl.portlet dt a:visited,
 dl.portlet dt a:hover {
   color: #0f0c5d;
 }
-/* line 283, sass/cnmresponsive.scss */
+/* line 284, sass/cnmresponsive.scss */
 dl.portlet dd.portletFooter {
   text-align: right;
   font-style: italic;
 }
-/* line 287, sass/cnmresponsive.scss */
+/* line 288, sass/cnmresponsive.scss */
 dl.portlet dd.portletFooter a {
   background-color: #004890;
   color: white;
@@ -402,13 +540,13 @@ dl.portlet dd.portletFooter a {
   line-height: 25px;
   display: inline-block;
 }
-/* line 291, sass/cnmresponsive.scss */
+/* line 292, sass/cnmresponsive.scss */
 dl.portlet dd.portletFooter .hiddenStructure {
   display: none;
   /* Otherwise RSS portlets' MORE button is broken */
 }
 
-/* line 299, sass/cnmresponsive.scss */
+/* line 300, sass/cnmresponsive.scss */
 dl.portlet dd.portletItem,
 dl.portlet dd.portletFooter,
 dl.portletError dd {
@@ -416,12 +554,16 @@ dl.portletError dd {
   line-height: 20px;
 }
 
-/* line 305, sass/cnmresponsive.scss */
+/* line 306, sass/cnmresponsive.scss */
 dl.portletRss dd.portletItem {
   font-weight: bold;
   margin-bottom: 10px;
 }
 /* line 309, sass/cnmresponsive.scss */
+dl.portletRss dd.portletItem a:hover {
+  text-decoration: underline;
+}
+/* line 313, sass/cnmresponsive.scss */
 dl.portletRss .portletItemDetails {
   margin: 0;
   padding: 0;
@@ -433,29 +575,29 @@ dl.portletRss .portletItemDetails {
 }
 
 /* myCNM Portlet */
-/* line 321, sass/cnmresponsive.scss */
+/* line 325, sass/cnmresponsive.scss */
 .portlet-static-mycnm img {
   background-color: #004890;
   padding: 10px;
 }
 
-/* line 325, sass/cnmresponsive.scss */
+/* line 329, sass/cnmresponsive.scss */
 body.portaltype-homepage .portlet-static-mycnm {
   margin-top: 20px;
 }
 
 /* Nav Tree Portlet */
-/* line 330, sass/cnmresponsive.scss */
+/* line 334, sass/cnmresponsive.scss */
 dl.portlet ul.navTree {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   color: #2d2d2f;
 }
-/* line 335, sass/cnmresponsive.scss */
+/* line 339, sass/cnmresponsive.scss */
 dl.portlet ul.navTree li {
   margin-bottom: 0;
 }
-/* line 338, sass/cnmresponsive.scss */
+/* line 342, sass/cnmresponsive.scss */
 dl.portlet ul.navTree a {
   font-size: 18px;
   color: #2d2d2f;
@@ -463,13 +605,13 @@ dl.portlet ul.navTree a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 345, sass/cnmresponsive.scss */
+/* line 349, sass/cnmresponsive.scss */
 dl.portlet ul.navTree a:hover {
   color: #0f0c5d;
 }
 
 /* Just the top level items */
-/* line 350, sass/cnmresponsive.scss */
+/* line 354, sass/cnmresponsive.scss */
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
   line-height: 20px;
   border-top: 1px solid #ced8e1;
@@ -478,13 +620,13 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 /* All items below top level */
-/* line 357, sass/cnmresponsive.scss */
+/* line 361, sass/cnmresponsive.scss */
 dl.portlet ul.navTreeLevel1 .navTreeItem {
   line-height: 20px;
   padding-left: 15px;
 }
 
-/* line 361, sass/cnmresponsive.scss */
+/* line 365, sass/cnmresponsive.scss */
 dl.portlet ul.navTree .navTreeCurrentItem {
   background-color: transparent;
   border-left: 0em solid #ddd;
@@ -493,42 +635,42 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   color: #0f0c5d;
 }
 
-/* line 371, sass/cnmresponsive.scss */
+/* line 375, sass/cnmresponsive.scss */
 dl.portlet li.navTreeCurrentNode,
 dl.portlet li.navTreeItemInPath {
   background-color: #f5f7f9;
 }
 
 /* Steps Portlet */
-/* line 378, sass/cnmresponsive.scss */
+/* line 382, sass/cnmresponsive.scss */
 div.portlet-static-steps {
   color: #494a4c;
   background-color: #d0d2d4;
   line-height: 46px;
 }
-/* line 383, sass/cnmresponsive.scss */
+/* line 387, sass/cnmresponsive.scss */
 div.portlet-static-steps * {
   vertical-align: middle;
 }
-/* line 387, sass/cnmresponsive.scss */
+/* line 391, sass/cnmresponsive.scss */
 div.portlet-static-steps ul {
   padding: 0px;
 }
-/* line 391, sass/cnmresponsive.scss */
+/* line 395, sass/cnmresponsive.scss */
 div.portlet-static-steps li {
   margin: 0;
   padding: 7px 0 7px 10px;
   border-top: 1px solid white;
 }
-/* line 396, sass/cnmresponsive.scss */
+/* line 400, sass/cnmresponsive.scss */
 div.portlet-static-steps li:first-child {
   border-top-width: 0;
 }
-/* line 399, sass/cnmresponsive.scss */
+/* line 403, sass/cnmresponsive.scss */
 div.portlet-static-steps li:hover {
   background-color: #e7e9ea;
 }
-/* line 403, sass/cnmresponsive.scss */
+/* line 407, sass/cnmresponsive.scss */
 div.portlet-static-steps a {
   line-height: 46px;
   display: block;
@@ -537,7 +679,7 @@ div.portlet-static-steps a {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-/* line 412, sass/cnmresponsive.scss */
+/* line 416, sass/cnmresponsive.scss */
 div.portlet-static-steps h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 31px;
@@ -558,38 +700,38 @@ div.portlet-static-steps h3 {
 }
 
 /* Calendar Portlet */
-/* line 429, sass/cnmresponsive.scss */
+/* line 433, sass/cnmresponsive.scss */
 .portletCalendar dt {
   font-weight: normal;
 }
 
 /* Homepage */
-/* line 434, sass/cnmresponsive.scss */
+/* line 438, sass/cnmresponsive.scss */
 body.portaltype-homepage #main {
   padding-bottom: 0;
   padding-top: 0;
 }
 
-/* line 438, sass/cnmresponsive.scss */
+/* line 442, sass/cnmresponsive.scss */
 #frontpage-news-wrapper {
   background-color: #f5f7f9;
   padding: 20px 0 40px 0;
 }
 
-/* line 443, sass/cnmresponsive.scss */
+/* line 447, sass/cnmresponsive.scss */
 .frontpage-news h2 {
   color: #0f0c5d;
   font-size: 28px;
 }
-/* line 447, sass/cnmresponsive.scss */
+/* line 451, sass/cnmresponsive.scss */
 .frontpage-news h2 a {
   color: #0f0c5d;
 }
-/* line 451, sass/cnmresponsive.scss */
+/* line 455, sass/cnmresponsive.scss */
 .frontpage-news .readMore {
   text-align: right;
 }
-/* line 453, sass/cnmresponsive.scss */
+/* line 457, sass/cnmresponsive.scss */
 .frontpage-news .readMore a {
   background-color: #004890;
   color: white;
@@ -606,28 +748,28 @@ body.portaltype-homepage #main {
   display: inline-block;
 }
 
-/* line 459, sass/cnmresponsive.scss */
+/* line 463, sass/cnmresponsive.scss */
 #homepage-bottom #steps {
   color: #494a4c;
   background-color: #d0d2d4;
 }
-/* line 463, sass/cnmresponsive.scss */
+/* line 467, sass/cnmresponsive.scss */
 #homepage-bottom #steps ul {
   display: table;
   width: 100%;
   text-align: center;
 }
-/* line 468, sass/cnmresponsive.scss */
+/* line 472, sass/cnmresponsive.scss */
 #homepage-bottom #steps li {
   display: table-cell;
   position: relative;
   width: 1%;
 }
-/* line 473, sass/cnmresponsive.scss */
+/* line 477, sass/cnmresponsive.scss */
 #homepage-bottom #steps li:hover {
   background-color: #e7e9ea;
 }
-/* line 476, sass/cnmresponsive.scss */
+/* line 480, sass/cnmresponsive.scss */
 #homepage-bottom #steps h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
@@ -645,30 +787,30 @@ body.portaltype-homepage #main {
   position: relative;
   top: 23px;
 }
-/* line 491, sass/cnmresponsive.scss */
+/* line 495, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description,
 #homepage-bottom #steps .learnMore {
   display: block;
   color: #494a4c;
 }
-/* line 495, sass/cnmresponsive.scss */
+/* line 499, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   position: relative;
   top: -97px;
 }
-/* line 501, sass/cnmresponsive.scss */
+/* line 505, sass/cnmresponsive.scss */
 #homepage-bottom #steps .learnMore {
   text-transform: lowercase;
   padding-bottom: 10px;
 }
-/* line 506, sass/cnmresponsive.scss */
+/* line 510, sass/cnmresponsive.scss */
 #homepage-bottom #popular {
   background-color: #f5f7f9;
   padding: 20px 0 100px 0;
 }
-/* line 510, sass/cnmresponsive.scss */
+/* line 514, sass/cnmresponsive.scss */
 #homepage-bottom #popular h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -685,12 +827,12 @@ body.portaltype-homepage #main {
   -webkit-border-bottom-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-/* line 521, sass/cnmresponsive.scss */
+/* line 525, sass/cnmresponsive.scss */
 #homepage-bottom #popular ul {
   padding: 0 20px;
   list-style-type: disc;
 }
-/* line 525, sass/cnmresponsive.scss */
+/* line 529, sass/cnmresponsive.scss */
 #homepage-bottom #popular li {
   float: left;
   width: 42%;
@@ -699,16 +841,20 @@ body.portaltype-homepage #main {
 }
 
 /* Footer */
-/* line 535, sass/cnmresponsive.scss */
+/* line 539, sass/cnmresponsive.scss */
 #footer-wrapper {
   background-color: #004890;
   color: #aebfd0;
 }
-/* line 538, sass/cnmresponsive.scss */
+/* line 542, sass/cnmresponsive.scss */
 #footer-wrapper a {
   color: white;
 }
-/* line 541, sass/cnmresponsive.scss */
+/* line 545, sass/cnmresponsive.scss */
+#footer-wrapper a:hover {
+  text-decoration: underline;
+}
+/* line 548, sass/cnmresponsive.scss */
 #footer-wrapper h3 {
   color: #aebfd0;
   border-bottom: 1px dotted #aebfd0;
@@ -717,15 +863,15 @@ body.portaltype-homepage #main {
   line-height: 40px;
   margin: -10px 0 9px 0;
 }
-/* line 548, sass/cnmresponsive.scss */
+/* line 555, sass/cnmresponsive.scss */
 #footer-wrapper h3 a {
   color: #aebfd0;
 }
-/* line 551, sass/cnmresponsive.scss */
+/* line 558, sass/cnmresponsive.scss */
 #footer-wrapper h3 a:hover {
   color: #fbd10b;
 }
-/* line 555, sass/cnmresponsive.scss */
+/* line 562, sass/cnmresponsive.scss */
 #footer-wrapper #social {
   text-align: right;
   position: absolute;
@@ -734,11 +880,11 @@ body.portaltype-homepage #main {
   color: #004890;
   line-height: 40px;
 }
-/* line 562, sass/cnmresponsive.scss */
+/* line 569, sass/cnmresponsive.scss */
 #footer-wrapper #social li {
   line-height: 40px;
 }
-/* line 565, sass/cnmresponsive.scss */
+/* line 572, sass/cnmresponsive.scss */
 #footer-wrapper #social a {
   color: #004890;
   display: inline-block;
@@ -747,27 +893,27 @@ body.portaltype-homepage #main {
   overflow: hidden;
   width: 0;
 }
-/* line 573, sass/cnmresponsive.scss */
+/* line 580, sass/cnmresponsive.scss */
 #footer-wrapper #social #facebook a {
   background: transparent url(img/facebook.png) no-repeat left center;
 }
-/* line 576, sass/cnmresponsive.scss */
+/* line 583, sass/cnmresponsive.scss */
 #footer-wrapper #social #twitter a {
   background: transparent url(img/twitter_bird.png) no-repeat left center;
 }
-/* line 579, sass/cnmresponsive.scss */
+/* line 586, sass/cnmresponsive.scss */
 #footer-wrapper #social #flickr a {
   background: transparent url(img/flickr.png) no-repeat left center;
 }
-/* line 582, sass/cnmresponsive.scss */
+/* line 589, sass/cnmresponsive.scss */
 #footer-wrapper #social #youtube a {
   background: transparent url(img/youtube.png) no-repeat left center;
 }
-/* line 586, sass/cnmresponsive.scss */
+/* line 593, sass/cnmresponsive.scss */
 #footer-wrapper #flickr-wrapper .tabs {
   display: none;
 }
-/* line 589, sass/cnmresponsive.scss */
+/* line 596, sass/cnmresponsive.scss */
 #footer-wrapper #footer {
   width: 60em;
   margin: 0 auto;
@@ -775,42 +921,46 @@ body.portaltype-homepage #main {
   /* needed for abolute positioning of #social */
   padding: 20px 0;
 }
-/* line 593, sass/cnmresponsive.scss */
+/* line 600, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 596, sass/cnmresponsive.scss */
+/* line 603, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks li {
   display: block;
 }
-/* line 601, sass/cnmresponsive.scss */
+/* line 608, sass/cnmresponsive.scss */
 #footer-wrapper #infophotos {
   margin-top: 20px;
 }
 
-/* line 606, sass/cnmresponsive.scss */
+/* line 613, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #3c3d3e;
   color: #aebfd0;
 }
-/* line 609, sass/cnmresponsive.scss */
+/* line 616, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: white;
 }
-/* line 612, sass/cnmresponsive.scss */
+/* line 619, sass/cnmresponsive.scss */
+#colophon-wrapper a:hover {
+  text-decoration: underline;
+}
+/* line 622, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 616, sass/cnmresponsive.scss */
+/* line 626, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 621, sass/cnmresponsive.scss */
+/* line 631, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -819,13 +969,13 @@ body.portaltype-homepage #main {
 
 /* Visibility */
 @media only screen and (max-width: 767px) {
-  /* line 633, sass/cnmresponsive.scss */
+  /* line 643, sass/cnmresponsive.scss */
   .showForLarge {
     display: none !important;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 640, sass/cnmresponsive.scss */
+  /* line 650, sass/cnmresponsive.scss */
   .showForSmall {
     display: none !important;
   }

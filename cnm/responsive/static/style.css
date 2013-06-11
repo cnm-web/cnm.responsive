@@ -1205,12 +1205,29 @@ version: 2.8.2r1
   }
 }
 /* Custom styles for tinymce */
-/* line 1, sass/_tiny_customs.scss */
+@font-face {
+  font-family: "entypo";
+  src: url('./fonts/entypo.eot');
+  src: url('./fonts/entypo.eot?#iefix') format("embedded-opentype"), url('./fonts/entypo.woff') format("woff"), url('./fonts/entypo.ttf') format("truetype"), url('./fonts/entypo.svg#entypo') format("svg"), url('./fonts/entypo.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Colors */
+/* Hover Effects */
+/* Font Colors */
+/* White */
+/* Light blue */
+/* Deep blue */
+/* Medium blue */
+/* Medium gray */
+/* Responsive breakpoints */
+/* line 3, sass/_tiny_customs.scss */
 h4 {
   font-size: 1.125em;
 }
 
-/* line 18, sass/_tiny_customs.scss */
+/* line 20, sass/_tiny_customs.scss */
 .rightcolumn,
 .pullquote {
   float: right;
@@ -1223,14 +1240,14 @@ h4 {
   margin: 30px 0px 30px 15px;
 }
 
-/* line 24, sass/_tiny_customs.scss */
+/* line 26, sass/_tiny_customs.scss */
 .highlightbox {
-  background-color: #e0debf;
+  background-color: #f5f7f9;
   padding: 15px;
   margin: 0.75em 0;
 }
 
-/* line 30, sass/_tiny_customs.scss */
+/* line 32, sass/_tiny_customs.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1238,17 +1255,17 @@ h4 {
   color: #76797C;
   font-weight: normal;
   border-left: 0px solid #76797C;
-  background-color: #e0debf;
+  background-color: #f5f7f9;
   padding: 10px;
   margin: 30px 0px 30px 30px;
 }
 
-/* line 37, sass/_tiny_customs.scss */
+/* line 39, sass/_tiny_customs.scss */
 .agate {
   font-size: .75em;
 }
 
-/* line 40, sass/_tiny_customs.scss */
+/* line 42, sass/_tiny_customs.scss */
 .pullquoteOriginal {
   background-color: White;
   border-left: 4px solid #8CACBB;
@@ -1261,28 +1278,28 @@ h4 {
   width: 35%;
 }
 
-/* line 52, sass/_tiny_customs.scss */
+/* line 54, sass/_tiny_customs.scss */
 ul.no_decoration {
   list-style: none;
 }
 
-/* line 61, sass/_tiny_customs.scss */
+/* line 63, sass/_tiny_customs.scss */
 div.two_column {
   float: left;
   padding: 0 5px;
   width: 45%;
 }
 
-/* line 66, sass/_tiny_customs.scss */
+/* line 68, sass/_tiny_customs.scss */
 div.three_column {
   float: left;
   padding: 0 5px;
   width: 30%;
 }
 
-/* line 71, sass/_tiny_customs.scss */
+/* line 73, sass/_tiny_customs.scss */
 table.listing th, .stx table th {
-  background-color: #E0DEBF;
+  background-color: #f5f7f9;
   border-top-color: #999;
   border-bottom-color: #999;
   border-right-color: #999;
@@ -1290,7 +1307,7 @@ table.listing th, .stx table th {
   text-transform: none;
 }
 
-/* line 79, sass/_tiny_customs.scss */
+/* line 81, sass/_tiny_customs.scss */
 table.listing {
   border-top-color: #999;
   border-left-color: #999;
@@ -1298,7 +1315,7 @@ table.listing {
   border-bottom-color: #999;
 }
 
-/* line 85, sass/_tiny_customs.scss */
+/* line 87, sass/_tiny_customs.scss */
 table.listing td {
   border-top-color: #999;
   border-left-color: #999;
@@ -1306,7 +1323,7 @@ table.listing td {
   border-bottom-color: #999;
 }
 
-/* line 91, sass/_tiny_customs.scss */
+/* line 93, sass/_tiny_customs.scss */
 img.no-frame {
   border: none !important;
 }

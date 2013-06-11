@@ -1,3 +1,5 @@
+@import "cnmresponsive_variables";
+
 h4 {
   font-size: 1.125em;
 }
@@ -11,7 +13,7 @@ h4 {
 }
 
 @mixin highlightbox {
-    background-color: #e0debf;
+    background-color: $lightgray;
 }
 
 .rightcolumn,
@@ -69,7 +71,7 @@ div.three_column {
 }
 
 table.listing th, .stx table th {
-background-color: #E0DEBF;
+background-color: $lightgray;
 border-top-color: #999;
 border-bottom-color: #999;
 border-right-color: #999;

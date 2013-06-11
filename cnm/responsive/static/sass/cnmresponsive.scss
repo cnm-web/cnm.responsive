@@ -1,4 +1,5 @@
 @import "cnmresponsive_variables";
+@import "tiny_customs";
 
 body {
   color: $default-font-color;
@@ -305,6 +306,9 @@ dl.portletRss {
   dd.portletItem {
     font-weight: bold;
     margin-bottom: 10px;
+    a:hover {
+      text-decoration: underline;
+    }
   }
   .portletItemDetails {
     margin: 0;
@@ -538,6 +542,9 @@ body.portaltype-homepage #main {
   a {
     color: $footer-links-color;
   }
+  a:hover {
+    text-decoration: underline;
+  }
   h3 {
     color: $footer-font-color;
     border-bottom: 1px dotted $footer-font-color;
@@ -608,6 +615,9 @@ body.portaltype-homepage #main {
   color: $footer-font-color;
   a {
     color: $footer-links-color;
+  }
+  a:hover {
+    text-decoration: underline;
   }
   #colophon {
     @include fixed-width;
