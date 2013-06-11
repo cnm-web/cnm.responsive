@@ -174,12 +174,12 @@ a:visited {
   /* float: none; */
   /* Breaks drop-down alignment */
   text-align: center;
-  font-size: 21px;
+  font-size: 14px;
 }
 /* line 114, sass/cnmresponsive.scss */
 #nav-wrapper .bootstrapStyles .nav > li > a {
   text-shadow: none;
-  padding: 20px 50px;
+  padding: 20px 20px;
 }
 /* line 120, sass/cnmresponsive.scss */
 #nav-wrapper .dropdown-menu {
@@ -225,10 +225,10 @@ a:visited {
   /* line 153, sass/cnmresponsive.scss */
   .bootstrapStyles .dropdown-menu > li > a {
     color: #04192d;
-    font-size: 18px;
+    font-size: 14px;
     border-top: 1px solid #a09b85;
     padding: 10px 20px;
-    width: 218px;
+    width: 178px;
     /* Same width as left column */
   }
   /* line 160, sass/cnmresponsive.scss */

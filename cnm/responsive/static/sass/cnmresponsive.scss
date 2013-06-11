@@ -108,12 +108,12 @@ a:visited {
         //display: table-cell;
         /* float: none; */ /* Breaks drop-down alignment */
         text-align: center;
-        font-size: 21px;
+        font-size: $navbar-font-size;
       }
     }
     .nav > li > a {
       @include text-shadow(none);
-      padding: 20px 50px
+      padding: 20px 20px
     }
   }
   
@@ -152,10 +152,10 @@ a:visited {
   @media only screen and (min-width: $min-width) {
     .dropdown-menu > li > a {
       color: $navbar-dropdown-font-color;
-      font-size: 18px;
+      font-size: $navbar-font-size;
       border-top: 1px solid $navbar-dropdown-separator-color;
       padding: 10px 20px;
-      width: 218px; /* Same width as left column */
+      width: 178px; /* Same width as left column */
     }
     .dropdown-menu > li:first-child > a {
       border-top-width: 0px;

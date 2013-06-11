@@ -15,7 +15,7 @@
     </xsl:if>
     <xsl:if test="ul">
         <li class="dropdown"><xsl:attribute name="class">
-                <xsl:if test="contains(@class,'selected')">active</xsl:if>
+                <xsl:if test="contains(@class,'selected')">active dropdown</xsl:if>
                 <xsl:if test="not(contains(@class,'selected'))">dropdown</xsl:if>
             </xsl:attribute>
             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#"><xsl:copy-of select="a/node()"/>
