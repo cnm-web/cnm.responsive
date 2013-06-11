@@ -23,6 +23,8 @@
       </xsl:for-each>
   </replace>
   <copy attributes="href title" css:content="#portal-logo" css:theme=".navbar a.brand" />
+  <copy css:theme="#navbar-searchbox" css:content="#portal-searchbox form" attributes="action"/>
+  <before css:theme="#navbar-searchbox input" css:content="#portal-searchbox form input[type=hidden]"/>
 
   <!--Content-->
   <merge attributes="class" css:content="body" css:theme="body" />

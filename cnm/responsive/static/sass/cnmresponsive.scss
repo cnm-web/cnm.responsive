@@ -37,6 +37,7 @@ a:visited {
 #header {
   @include fixed-width;
   padding: 20px 0;
+  background: $cnmblue url(img/CNM_web_header.jpg) no-repeat right top;
 }
 #navigation
 {
@@ -44,7 +45,8 @@ a:visited {
 }
 
 #header-wrapper {
-  background: $cnmblue url(img/bg.jpg) no-repeat right top;
+  //background: $cnmblue url(img/bg.jpg) no-repeat right top;
+  background-color: $cnmblue;
   color: $white;
 }
 #header-wrapper a {

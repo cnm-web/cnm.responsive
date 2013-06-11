@@ -71,6 +71,19 @@ body {
   width: 30px;
 }
 
+/* Search */
+// The Form
+.bootstrapStyles .nav-collapse .navbar-form, .bootstrapStyles .nav-collapse .navbar-search {
+  border-width: 0;
+  @include box-shadow(none);
+  margin: 0;
+  padding: 20px 10px;
+}
+// The input field
+.bootstrapStyles .navbar-search .search-query {
+  width: 90%;
+}
+
 /* Homepage */
 #frontpage-news-wrapper {
   padding-bottom: 10px;
