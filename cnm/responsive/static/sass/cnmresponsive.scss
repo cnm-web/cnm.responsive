@@ -531,6 +531,9 @@ body.portaltype-homepage #main {
       width: 42%;
       display: list-item;
       margin: 0px 20px;
+      a:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

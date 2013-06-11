@@ -44,6 +44,7 @@
   <after css:content="#portal-languageselector" css:theme="#logo" />    
 
   <!--Portlets-->
+  <drop css:content="dl.portletRss dd.portletItem span.portletItemDetails" />
 
   <!-- Control Panel -->
   <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
