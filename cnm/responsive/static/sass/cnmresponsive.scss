@@ -18,16 +18,19 @@ a:visited {
     @include fixed-width;
   }
   h1 {
-    color: #B94A48;
+    color: $emergency-font-color;
     border-color: #B94A48;
+    border-width: 0;
     margin: 10px 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
   li {
     display: block;
     margin-bottom: 10px;
     a {
       display: block;
+      color: $emergency-font-color;
+      text-decoration: underline;
     }
   }
 }

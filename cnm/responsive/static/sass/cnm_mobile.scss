@@ -3,6 +3,13 @@
 body {
   -webkit-text-size-adjust: 100%;
 }
+/* Emergency */
+#emergency-wrapper #emergency-width {
+  width: auto;
+  #emergency-news {
+    padding: 0 12px;
+  }
+}
 
 /* Header */
 #header-wrapper {
