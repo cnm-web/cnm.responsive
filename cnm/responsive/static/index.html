@@ -38,12 +38,18 @@
   <!-- end CSS-->
 
   <!-- mobile -->
-  <!--<meta name="viewport" content="width=320, initial-scale=1"/>-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--Covers all devices with screens 768px WIDE or less, which is iPhones, iPads (even retinas), etc.
-    But this excludes desktops even at 800x600 resolution.-->
-  <!--<link media="only screen and (max-device-width : 768px)" name="mobile" href="mobile.css" type="text/css" rel="stylesheet" />-->
+  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
   <link media="only screen and (max-width : 767px)" href="cnm_mobile.css" type="text/css" rel="stylesheet" />
+  <!--Hack to stop left column from appearing as left column as page is loaded on mobile-->
+  <style>
+  @media only screen and (max-width: 767px) {
+    #portal-column-one, #portal-column-two, #portal-column-content {
+      clear: both;
+      margin-left: -98.875%;
+      width: 97.75%;
+    }
+  }
+  </style>
 </head>
 
 <body>
