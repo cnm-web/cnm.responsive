@@ -451,6 +451,20 @@ body.portaltype-homepage #main {
     a {
       color: $heading-font-color;
     }
+    .breakingNews {
+      background-color: $breaking-red;
+      color: $white;
+      @include lato;
+      font-size: 15px;
+      // vertical-align: middle;
+      padding: 6px 10px;
+      @include border-right-radius(8px);
+      text-transform: uppercase;
+      margin: 5px 10px 0 0;
+      line-height: 17px;
+      float: left;
+      display: block;
+    }
   }
   .readMore {
     text-align: right;
