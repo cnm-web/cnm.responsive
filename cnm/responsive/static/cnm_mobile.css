@@ -1874,43 +1874,49 @@ body.portaltype-homepage .portletRss dd.portletFooter {
   width: 97.75%;
 }
 
+/* Search */
+/* line 241, sass/cnm_mobile.scss */
+#cse-search-results iframe {
+  width: 100%;
+}
+
 /* Footer */
-/* line 242, sass/cnm_mobile.scss */
+/* line 248, sass/cnm_mobile.scss */
 #footer-wrapper #footer {
   padding: 0;
   width: auto;
 }
-/* line 246, sass/cnm_mobile.scss */
+/* line 252, sass/cnm_mobile.scss */
 #footer-wrapper #footerlinks {
   display: none;
 }
 
-/* line 251, sass/cnm_mobile.scss */
+/* line 257, sass/cnm_mobile.scss */
 #colophon-wrapper {
   background-color: #004890;
 }
-/* line 254, sass/cnm_mobile.scss */
+/* line 260, sass/cnm_mobile.scss */
 #colophon-wrapper #colophon {
   width: auto;
 }
-/* line 257, sass/cnm_mobile.scss */
+/* line 263, sass/cnm_mobile.scss */
 #colophon-wrapper #blackboard-footer {
   float: right;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 263, sass/cnm_mobile.scss */
+/* line 269, sass/cnm_mobile.scss */
 #colophon-text {
   text-align: center;
 }
-/* line 265, sass/cnm_mobile.scss */
+/* line 271, sass/cnm_mobile.scss */
 #colophon-text .footer-mobile-bottom {
   text-transform: uppercase;
 }
 
 /* Helpers */
-/* line 271, sass/cnm_mobile.scss */
+/* line 277, sass/cnm_mobile.scss */
 .fullWidthOnMobile {
   margin-left: -98.875% !important;
   width: 97.75% !important;

@@ -236,6 +236,12 @@ body.portaltype-homepage .portletRss {
   margin-left: -98.875%;
   width: 97.75%;
 }
+/* Search */
+#cse-search-results {
+  iframe {
+    width: 100%;
+  }
+}
 
 /* Footer */
 #footer-wrapper {
