@@ -98,6 +98,13 @@ body {
   .description {
     display: none;
   }
+  .frontpage-news {
+    img {
+      /* Fill the viewport for mobile */
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 #main {
 

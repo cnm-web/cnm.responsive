@@ -442,6 +442,14 @@ body.portaltype-homepage #main {
 #frontpage-news-wrapper {
   background-color: $lightgray;
   padding: 20px 0 40px 0;
+
+  .frontpage-news {
+    img {
+      /* Fill the viewport for mobile */
+      width: 305px;
+      height: 150px;
+    }
+  }
 }
 .frontpage-news {
   h2 {
