@@ -158,9 +158,9 @@ a:visited {
   @media only screen and (min-width: $min-width) {
     .dropdown-menu > li > a {
       color: $navbar-dropdown-font-color;
-      font-size: $navbar-font-size;
+      font-size: $navbar-dropdown-font-size;
       border-top: 1px solid $navbar-dropdown-separator-color;
-      padding: 10px 20px;
+      padding: 5px 20px;
       width: 178px; /* Same width as left column */
     }
     .dropdown-menu > li:first-child > a {
