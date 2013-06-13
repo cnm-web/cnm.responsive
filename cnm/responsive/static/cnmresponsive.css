@@ -3338,24 +3338,24 @@ a:visited {
   width: 60em;
   margin: 0 auto;
   padding: 20px 0;
-  background: #004890 url(img/CNM_web_header.jpg) no-repeat right top;
 }
 
-/* line 44, sass/cnmresponsive.scss */
+/* line 43, sass/cnmresponsive.scss */
 #navigation {
   width: 60em;
   margin: 0 auto;
 }
 
-/* line 48, sass/cnmresponsive.scss */
+/* line 47, sass/cnmresponsive.scss */
 #header-wrapper {
-  background-color: #004890;
+  background: #004890 url(img/CNM_web_header.png) no-repeat right top;
   color: white;
 }
 
-/* line 53, sass/cnmresponsive.scss */
+/* line 52, sass/cnmresponsive.scss */
 #header-wrapper a {
   color: white;
+  font-weight: bold;
 }
 
 /* line 57, sass/cnmresponsive.scss */
