@@ -98,13 +98,6 @@ body {
   .description {
     display: none;
   }
-  .frontpage-news {
-    img {
-      /* Fill the viewport for mobile */
-      width: 100%;
-      height: auto;
-    }
-  }
 }
 #main {
 
@@ -223,24 +216,12 @@ body.portaltype-homepage .portletRss {
   padding-bottom: 60px;
   padding-top: 0px;
 }
-#breadcrumbs-you-are-here {
-  display: none;
-}
 #portal-breadcrumbs {
-/*  display: none; */
-  font-size: 0.6em;
-  margin-top: 5px;
-  margin-bottom: -20px;
+  display: none;
 }
 #popular-cell {
   margin-left: -98.875%;
   width: 97.75%;
-}
-/* Search */
-#cse-search-results {
-  iframe {
-    width: 100%;
-  }
 }
 
 /* Footer */
@@ -254,11 +235,6 @@ body.portaltype-homepage .portletRss {
   }
 }
 
-#mycnm-logo-footer {
-  width: 48%;
-  height: auto;
-}
-
 #colophon-wrapper {
   background-color: $cnmblue;
   
@@ -266,14 +242,9 @@ body.portaltype-homepage .portletRss {
     width: auto;
   }
   #blackboard-footer {
-    @include font-icon-base(entypo);
     float: right;
-    font-size: 1.5em;
-    margin-right: 5%;
-    @extend %entypo-pencil;
-    &:before {
-      content: "✎";
-    }
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 #colophon-text {

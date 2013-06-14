@@ -38,6 +38,7 @@ a:visited {
 #header {
   @include fixed-width;
   padding: 20px 0;
+  background: $cnmblue url(img/CNM_web_header.jpg) no-repeat right top;
 }
 #navigation
 {
@@ -45,8 +46,8 @@ a:visited {
 }
 
 #header-wrapper {
-  background: $cnmblue url(img/CNM_web_header.png) no-repeat right top;
-  //background-color: $cnmblue;
+  //background: $cnmblue url(img/bg.jpg) no-repeat right top;
+  background-color: $cnmblue;
   color: $white;
 }
 #header-wrapper a {
@@ -69,16 +70,6 @@ a:visited {
     font-size: 1.5em;
     margin-right: 0.2em;
   }
-  #siteaction-chat-now a:before {
-    content: "";
-  }
-  #siteaction-mycnm a:before {
-    content: "🔒";
-  }
-  #siteaction-distance-learning a:before {
-    content: "✎";
-  }
-
   #siteaction-chat-now a {
     @extend %entypo-comment;
   }
@@ -89,42 +80,9 @@ a:visited {
     @extend %entypo-pencil;
   }
 }
-
-/* Search */
 #portal-searchbox {
-    float: right; 
-    margin: 1% 1% 0 0; 
-    width: 250px; 
-    font-size: 1.3em;
-    padding: 0;
-    background: #fff;
-    border: 1px solid $cnmblue;
-    input[name="q"], #searchGadget {
-        padding: 1.2% 0  1.1% 0;
-        margin-right: 0.6%;
-        text-indent: 2%;
-        width: 85%;
-        font-size:1.1em;
-        background: transparent;
-        border: none;
-        color: #7fa3c7;
-        font-style: italic;  
-    }
-    form, form .LSBox {
-        font-size: 100%;
-    }
-    .searchButton {
-        font-size:0.8em; 
-        width: 10%; 
-        padding:1.899% 0  1.2% 0; 
-        text-align:center;
-        text-indent: -1000em;
-        background: transparent url(img/search-button.png) no-repeat;
-        border: none;
-        cursor: pointer;
-    }
+  text-align: right;
 }
-#LSResult {z-index:9999; margin-top: 0.5%;}
 
 /*Nav Bar*/
 #nav-wrapper {
@@ -200,9 +158,9 @@ a:visited {
   @media only screen and (min-width: $min-width) {
     .dropdown-menu > li > a {
       color: $navbar-dropdown-font-color;
-      font-size: $navbar-dropdown-font-size;
+      font-size: $navbar-font-size;
       border-top: 1px solid $navbar-dropdown-separator-color;
-      padding: 5px 20px;
+      padding: 10px 20px;
       width: 178px; /* Same width as left column */
     }
     .dropdown-menu > li:first-child > a {
@@ -484,14 +442,6 @@ body.portaltype-homepage #main {
 #frontpage-news-wrapper {
   background-color: $lightgray;
   padding: 20px 0 40px 0;
-
-  .frontpage-news {
-    img {
-      /* Fill the viewport for mobile */
-      width: 305px;
-      height: 150px;
-    }
-  }
 }
 .frontpage-news {
   h2 {
