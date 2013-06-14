@@ -51,7 +51,6 @@ a:visited {
 }
 #header-wrapper a {
   color: $white;
-  font-weight: bold;
 }
 
 #portal-siteactions {
@@ -70,6 +69,16 @@ a:visited {
     font-size: 1.5em;
     margin-right: 0.2em;
   }
+  #siteaction-chat-now a:before {
+    content: "";
+  }
+  #siteaction-mycnm a:before {
+    content: "🔒";
+  }
+  #siteaction-distance-learning a:before {
+    content: "✎";
+  }
+
   #siteaction-chat-now a {
     @extend %entypo-comment;
   }
@@ -80,6 +89,7 @@ a:visited {
     @extend %entypo-pencil;
   }
 }
+
 #portal-searchbox {
   text-align: right;
 }
