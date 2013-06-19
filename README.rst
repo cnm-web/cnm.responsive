@@ -30,6 +30,7 @@ The following steps are necessary only for the first install at CNM.
 #. Install “cnm.responsive” in portal_quickinstaller
 #. If you don’t see the theme take hold on the site, you’ll need to active it in Site Setup > Theming.
 #. Make sure “Automatically Generate Tabs” is checked in Site Setup > Navigation. This seems to get set to off by cnm.website. Easy to change, but didn’t want to without checking first.
+#. Set depth of dropdowns to 1 in Site Setup > Dropdown menu configuration.
 #. Add steps portlet at the root of the site. The header needs to be titled "Steps" and here is the HTML that needs to be in the body.
 
 .. code:: html
