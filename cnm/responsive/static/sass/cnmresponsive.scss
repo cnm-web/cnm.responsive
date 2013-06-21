@@ -218,8 +218,10 @@ ul.nav > li:first-child a {
   padding: 20px 1px !important;
 }
 ul.nav > li:first-child a:after {
-  @extend %entypo-home;
+  font-family: "entypo";
+  font-style: normal;
   padding-left: 25px;
+  content: "⌂";
 }
 
 /* Old Nav Bar */
