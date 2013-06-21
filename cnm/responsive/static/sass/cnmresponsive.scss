@@ -114,7 +114,7 @@ a:visited {
     }
     .searchButton {
         font-size:0.8em; 
-        width: 10%; 
+        width: 12%; 
         padding:1.899% 0  1.2% 0; 
         text-align:center;
         text-indent: -1000em;
@@ -208,6 +208,18 @@ a:visited {
       border-top-width: 0px;
     }
   }
+}
+/* Home icon for navigation */
+ul.nav > li:first-child a {
+  text-indent: -117px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 35px;
+  padding: 20px 1px !important;
+}
+ul.nav > li:first-child a:after {
+  @extend %entypo-home;
+  padding-left: 25px;
 }
 
 /* Old Nav Bar */

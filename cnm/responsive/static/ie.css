@@ -1,15 +1,19 @@
 #navbar-searchbox {
-        display: none;
+    display: none;
 }
 
 #mycnm-logo-footer {
-        display: none;
+    display: none;
 }
 
-        #blackboard-footer {
-                display: none;
-            }
+#blackboard-footer {
+	display: none;
+}
 
-            .bootstrapStyles div.navbar-inner {
-                    filter: none;
-                }
+.bootstrapStyles div.navbar-inner {
+	filter: none;
+}
+
+ul.nav > li:first-child a {
+  padding: 20px 20px !important;
+}
