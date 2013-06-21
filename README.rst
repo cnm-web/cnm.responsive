@@ -35,20 +35,19 @@ The following steps are necessary only for the first install at CNM.
 
 .. code:: html
 
-    <ul>
-    <li><a href="#">
+    <ul><li><a href="/registration">
     <h3>1</h3>
     Apply to CNM</a></li>
-    <li><a href="#">
+    <li><a href="/depts/financial-aid">
     <h3>2</h3>
     Financial Aid</a></li>
-    <li><a href="#">
+    <li><a href="/depts/advisement">
     <h3>3</h3>
     See an Advisor</a></li>
-    <li><a href="#">
+    <li><a href="/registration/registration-application-at-cnm#Register">
     <h3>4</h3>
     Register for Class</a></li>
-    <li><a href="#">
+    <li><a href="/registration/your-first-day">
     <h3>5</h3>
     Your First Day</a></li>
     </ul>
