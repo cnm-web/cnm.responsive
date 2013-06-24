@@ -38,6 +38,7 @@ a:visited {
 #header {
   @include fixed-width;
   padding: 20px 0;
+  /*background-color: $cnmblue;*/
 }
 #navigation
 {
@@ -51,6 +52,11 @@ a:visited {
 }
 #header-wrapper a {
   color: $white;
+}
+
+
+dl.actionMenu {
+  background-color: #E3E3E3;
 }
 
 #portal-siteactions {
@@ -128,7 +134,10 @@ a:visited {
 /*Nav Bar*/
 #nav-wrapper {
   background-color: $cnmyellow;
-
+  
+  #navigation {
+    background-color: $cnmyellow;
+  }
   .bootstrapStyles {
     a.brand {
       display: none;
@@ -216,6 +225,7 @@ ul.nav > li:first-child a {
   overflow: hidden;
   font-size: 35px;
   padding: 20px 1px !important;
+  height: 20px;
 }
 ul.nav > li:first-child a:after {
   font-family: "entypo";
@@ -229,9 +239,6 @@ ul.nav > li:first-child a:after {
 #navigation {
   color: $heading-font-color;
   @include lato;
-  /*a {*/
-    /*color: $heading-font-color;*/
-  /*}*/
 }
 #portal-globalnav {
   display: table;
@@ -674,6 +681,7 @@ body.portaltype-homepage #main {
     display: none;
   }
   #footer {
+    background-color: $cnmblue;
     @include fixed-width;
     position: relative; /* needed for abolute positioning of #social */
     padding: 20px 0;
@@ -700,6 +708,7 @@ body.portaltype-homepage #main {
     text-decoration: underline;
   }
   #colophon {
+    background-color: $darkgray;
     @include fixed-width;
     padding: 10px 0;
     .footer-about a,
@@ -715,23 +724,34 @@ body.portaltype-homepage #main {
 }
 
 /* Visibility */
-@media only screen and (max-width: $max-width) {
+.showForSmall {
+  display: none !important;
+}
 
-//  .showForSmall {
-//    display: inherit !important;
-//  }
-  .showForLarge {
-    display: none !important;
+@media only screen and (max-width: $max-width) {
+  #view-mobile-site {
+    display: inline;
   }
+
+  /*.showForSmall {*/
+    /*display: inherit !important;*/
+  /*}*/
+  
+  /*.showForLarge {*/
+    /*display: none !important;*/
+  /*}*/
 
 }
 @media only screen and (min-width: $min-width) {
-
-  .showForSmall {
-    display: none !important;
+  #view-mobile-site {
+    display: none;
   }
-//  .showForLarge {
-//    display: inherit !important;
-//  }
+  /*.showForSmall {*/
+    /*display: none !important;*/
+  /*}*/
+  
+  /*.showForLarge {*/
+    /*display: inherit !important;*/
+  /*}*/
 
 }

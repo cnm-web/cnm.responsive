@@ -12,5 +12,31 @@
     allowed_interface="plonetheme.sunburst.browser.interfaces.ISunburstView"
     layer="cnm.responsive.interfaces.IAddOnInstalled"
     />
+  
+  <!--Alex registering resource directory, though it's not being used yet-->
+  <browser:resourceDirectory
+    name="cnmresponsive"
+    directory="resources"
+    />
+  
+  <!--Alex registering views for 'view full site' functionality-->
+  <browser:page
+    for="*"
+    name="setFullsite"
+    class=".fullsite.SetFullSite"
+    permission="zope2.View"
+    />
+  <browser:page
+    for="*"
+    name="clearFullsite"
+    class=".fullsite.ClearFullSite"
+    permission="zope2.View"
+    />
+  <browser:page
+    for="*"
+    name="allowMobile"
+    class=".fullsite.AllowMobile"
+    permission="zope2.View"
+    />
 
 </configure>

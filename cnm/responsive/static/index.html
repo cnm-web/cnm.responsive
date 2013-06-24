@@ -8,13 +8,6 @@
 
   <title>Page Title</title>
 
-  <!-- bootstrap and fontawesome -->
-  <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">-->
-  <!--<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css "/>-->
-  <!--[if IE 7]>
-  <link rel="stylesheet" href="fontawesome/css/font-awesome-ie7.min.css">
-  <![endif]-->
-
   <!-- icons -->
   <meta property="og:title" content="Central New Mexico Community College"/>
   <meta property="og:description" content="Central New Mexico Community College, serving over 30,000 students!"/>
@@ -26,12 +19,6 @@
   <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
 
   <!-- styles -->
-  <link type="text/css" rel="stylesheet" href="bootstrap_plone.css">
-  <link type="text/css" rel="stylesheet" href="cnmresponsive.css" />
-  <!--Next line loads Foundation CSS-->
-  <!--<link type="text/css" rel="stylesheet" href="app.css" />-->
-  <!--Alex disabling since we are starting a new theme now-->
-  <!--<link type="text/css" rel="stylesheet" href="style.css" />-->
   <!--<link rel="stylesheet" media="print" href="dprint.css" type="text/css">-->
   <script src="function.js"></script> 
   <script src="redmine_issue.js"></script>
@@ -42,8 +29,9 @@
 
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=0.5" />
-  <link media="only screen and (max-width : 767px)" href="cnm_mobile.css" type="text/css" rel="stylesheet" />
-  <!--Hack to stop left column from appearing as left column as page is loaded on mobile-->
+  <!--Hack to stop left column from appearing as left column as page is loaded on mobile.
+      Now that CSS is loaded through portal_css, this needs to be moved somewhere in there
+      since here it forces left column to always be below content, even with 'view full site' enabled.-->
   <style>
   @media only screen and (max-width: 767px) {
     #portal-column-one, #portal-column-two, #portal-column-content {
@@ -320,6 +308,7 @@
         
         <div id="colophon-text" class="cell position-4 width-12 fullWidthOnMobile">
           <div class="footer-about">
+            <a href="/@@clearFullsite" id="view-mobile-site">View Mobile Site</a>
             <a href="/depts/ppo/tchusmen.html">IT Use Policy</a>
             <a href="/about">About CNM</a>
             <a href="/contact">Contact Us</a>
@@ -327,7 +316,7 @@
           <div class="footer-copyright">&copy; 2012 Central New Mexico Community College</div>
           <div class="footer-adress">525 Buena Vista Dr. SE, Albuquerque, NM 87106 &nbsp;&nbsp;&nbsp;  (505) 224-3000</div>
           <div class="footer-mobile-bottom showForSmall">
-            <a href="/disable-mobile">View Full Site</a>
+            <a href="/@@setFullsite">View Full Site</a>
             <a href="/about">Back To Top</a>
           </div>
         </div>
@@ -376,10 +365,10 @@
   var jQuery17 = jQuery;
   $ = jQuery14;
   jQuery = jQuery14;
-  <!--Next lines seem to be unnecessary even though diazotheme.bootstrap does this anyway-->
-  <!--jQuery17(document).ready(function () {-->
-     <!--jQuery17('.dropdown-toggle').dropdown();-->
-  <!--});-->
+  //Next lines seem to be unnecessary even though diazotheme.bootstrap does this anyway
+  //jQuery17(document).ready(function () {
+     //jQuery17('.dropdown-toggle').dropdown();
+  //});
 </script>
  
 </body>

@@ -1,14 +1,8 @@
 // Import all the variables into the main css file.
 @import "variables";
 
-// Alex customizing variables
-$navbarText:                      #0f0c5d;
-$navbarLinkColor:                 #0f0c5d;
-$navbarLinkColorHover:            #FBF0C0;
-$navbarLinkColorActive:           #FBF0C0;
-$navbarLinkBackgroundHover:       #0F0C5D;
-$navbarLinkBackgroundActive:      #0F0C5D;
-$navbarCollapseWidth:             767px;
+// Alex importing boostrap variable customization for CNM
+@import "cnm_bootstrap_variables";
 
 // I gather this file is a starting point for the project.
 @import "bootstrap";

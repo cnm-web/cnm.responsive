@@ -13,7 +13,35 @@
   
   <!--Alex disabling public.css since it just contains Sunburst styles for basic UI around Plone-->
   <stylesheet enabled="0" id="public.css" />
+  
   <!--Alex changing media query for mobile.css so that it goes through to devices whose width is 767px or less.-->
-  <stylesheet id="mobile.css" media="handheld, screen and (max-width: 767px)" />
+  <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression="python: portal.restrictedTraverse('@@allowMobile')()"
+    id="mobile.css" media="only screen and (max-width : 767px)"
+    rel="stylesheet" rendering="link"/>
+  
+  <!--Alex adding theme specific CSS to portal_css so we can control them using python expressions-->
+  <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression="python: portal.restrictedTraverse('@@allowMobile')()"
+    id="++theme++cnm.responsive/bootstrap_plone.css" media="" rel="stylesheet"
+    rendering="import"/>
+  <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression="python: not portal.restrictedTraverse('@@allowMobile')()"
+    id="++theme++cnm.responsive/bootstrap_plone_fullsite.css" media="" rel="stylesheet"
+    rendering="import"/>
+ <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression=""
+    id="++theme++cnm.responsive/cnmresponsive.css" media="" rel="stylesheet"
+    rendering="import"/>
+ <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression="python: portal.restrictedTraverse('@@allowMobile')()"
+    id="++theme++cnm.responsive/cnm_mobile.css"
+    media="only screen and (max-width : 767px)" rel="stylesheet"
+    rendering="import"/>
 
 </object>

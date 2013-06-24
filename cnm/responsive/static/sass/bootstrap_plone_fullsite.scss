@@ -11,6 +11,6 @@
   // Import the main bootstrap file
   @import "bootstrap";
   
-  // Include responsive Bootstrap styles
-  @import "bootstrap-responsive";
+  // Excluding responsive Bootstrap styles since we don't want them when "view fullsite" is in effect
+  //@import "bootstrap-responsive";
 }
