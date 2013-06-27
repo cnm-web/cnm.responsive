@@ -537,9 +537,13 @@ body.portaltype-homepage #main {
     }
   }
   .readMore {
-    text-align: right;
     a {
       @include read-more;
+      float: right;
+    }
+    #all-news {
+      @include right-rounded-link-box;
+      float: left;
     }
   }
 }

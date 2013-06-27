@@ -62,7 +62,18 @@ $navbar-dropdown-font-size: 12px;
   line-height: 25px;
   display: inline-block;
 }
-
+@mixin right-rounded-link-box {
+  color: $cnmblue;
+  background-color: $cnmyellow;
+  font-style: normal;
+  @include oswald;
+  padding: 0 20px;
+  margin: 0 -6px;
+  line-height: 25px;
+  display: inline-block;
+  @include border-left-radius(0);
+  @include border-right-radius(8px);
+}
 $step-height: 46px;
 
 /* Responsive breakpoints */
