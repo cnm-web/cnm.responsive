@@ -1,0 +1,82 @@
+@mixin slightly-rounded {
+	-moz-border-radius: 0.25em;
+	border-radius: 0.25em;	
+}
+
+@mixin subtle-shadow {
+	-moz-box-shadow: 2px 2px 10px #888;
+	-webkit-box-shadow: 2px 2px 10px #888;
+	box-shadow: 2px 2px 10px #888;
+}
+
+#career-coach {
+	border: 1px #fbf0c0 solid;
+	width: 75%;
+	@include subtle-shadow;
+	@include slightly-rounded;
+	padding: 5px 10px;
+	font-size: 1.0em;
+
+	img.career-coach-image {
+		width: 40%;
+		height: auto;
+	}
+
+	h2.box-heading {
+		float: right;
+		padding: 0;
+		margin: 6% 0 0 0;
+		font-size: 1.5em;
+	}
+	
+	div.search-row {
+		padding: .55em 0;
+
+		p {
+			float: left;
+			width: 27%;
+			padding: 0;
+			margin: 0;
+			font-size: 0.75em;
+		}		
+	}
+
+	div.search-inputs {
+		float: right;
+		width: 65%;
+	}
+
+	input[type=text] {
+		width: 99%;
+		height: 30px;
+		font-size: 1.2em;
+		@include slightly-rounded;
+	}
+
+	input[type=submit] {
+		font-size: 1.2em;
+		width: 50px;
+		height: 37px;
+		background: #049cdb;
+		color: #FFF;
+		border: none;
+		@include slightly-rounded;
+		float: right;
+		margin: 5px 0;
+	}
+
+	input[type=submit]:hover {
+		color: #fbf0c0;
+		border: 1px solid #fbf0c0;
+		background: #0064cd;
+		cursor: pointer;
+	}
+
+	a {
+		font-size: 0.8em;
+	}
+
+	span.bigger {
+		font-size: 2.5em;
+	}
+} //#career-coach
