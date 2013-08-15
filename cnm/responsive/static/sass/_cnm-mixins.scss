@@ -1,0 +1,18 @@
+@mixin slightly-rounded {
+	-moz-border-radius: 0.25em;
+	border-radius: 0.25em;	
+}
+
+@mixin subtle-shadow {
+	-moz-box-shadow: 2px 2px 10px #888;
+	-webkit-box-shadow: 2px 2px 10px #888;
+	box-shadow: 2px 2px 10px #888;
+}
+
+@mixin text-input-blue-border {
+	@include slightly-rounded;
+	@include lato;
+	-moz-box-shadow: 0px 0px 1px #888;
+	-webkit-box-shadow: 0px 0px 1px #888;
+	box-shadow: 0px 0px 1px #888;
+}

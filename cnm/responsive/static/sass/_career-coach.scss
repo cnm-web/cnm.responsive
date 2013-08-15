@@ -1,13 +1,5 @@
-@mixin slightly-rounded {
-	-moz-border-radius: 0.25em;
-	border-radius: 0.25em;	
-}
-
-@mixin subtle-shadow {
-	-moz-box-shadow: 2px 2px 10px #888;
-	-webkit-box-shadow: 2px 2px 10px #888;
-	box-shadow: 2px 2px 10px #888;
-}
+@import "cnm-mixins";
+@import "cnmresponsive_variables";
 
 #career-coach {
 	border: 1px #fbf0c0 solid;
@@ -47,10 +39,10 @@
 	}
 
 	input[type=text] {
+		@include text-input-blue-border;
 		width: 99%;
 		height: 30px;
 		font-size: 1.2em;
-		@include slightly-rounded;
 	}
 
 	input[type=submit] {
