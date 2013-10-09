@@ -18,6 +18,7 @@ $(document).ready(function () {
 		$("#results p.you-are").text("You are " + shapes[result-1].name);
 		$("#results p.description").text(shapes[result-1].description);
 		$("#results img").attr("src", shapes[result-1].image)
+		$("#parent-fieldname-title").text("The Results Are In!")
 		$("#results").css("display", "block");
 	});
 	function calc(arr) {
