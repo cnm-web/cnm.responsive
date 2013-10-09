@@ -15,7 +15,7 @@ $(document).ready(function () {
 		result = calc(answers);
 		
 		$("#quiz").css("display", "none");
-		$("#results p.you-are").text("You are " + shapes[result-1].name);
+		$("#results p.you-are").text(" the " + shapes[result-1].name + " balloon!");
 		$("#results p.description").text(shapes[result-1].description);
 		$("#results img").attr("src", shapes[result-1].image)
 		$("#parent-fieldname-title").text("The Results Are In!")
