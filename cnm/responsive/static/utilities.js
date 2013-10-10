@@ -16,7 +16,7 @@ $(document).ready(function () {
 		
 		$("#quiz").css("display", "none");
 		$("#results p.you-are").html(shapes[result-1].name);
-		$("#results p.description").html(shapes[result-1].description);
+		$("#results p.result-description").html(shapes[result-1].description);
 		$("#results img").attr("src", shapes[result-1].image)
 		$("#parent-fieldname-title").html("The Results Are In!")
 		$("#results").css("display", "block");
