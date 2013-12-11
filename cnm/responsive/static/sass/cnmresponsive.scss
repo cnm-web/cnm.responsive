@@ -54,6 +54,12 @@ a:visited {
   color: $white;
 }
 
+#logo {
+  img {
+    width: 190px;
+    height: auto;
+  }
+}
 
 dl.actionMenu {
   background-color: #E3E3E3;
@@ -730,6 +736,13 @@ body.portaltype-homepage #main {
 /* Visibility */
 .showForSmall {
   display: none !important;
+}
+
+/* Plone internal overrides */
+#content img.tileImage, #content div.newsImageContainer {
+  float: right;
+  margin: 0 1em 0.5em;
+  width: 200px;
 }
 
 @import "career-coach";
