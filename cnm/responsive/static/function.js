@@ -1,13 +1,16 @@
 (function() {
      BM = window.BM || {};
-     var _write = document.write;
-     var _writeln = document.writeln;
+     document._write = document.write;
+     document._writeln = document.writeln;
      document.writeln = document.write = function(s) {
          var id='';
          if (s.match(/\bflickr_badge_image\b/)) {
              id='flickr_badge_wrapper';
+             BM.onavailable(id, function(el) { el.innerHTML = s; });
          }
-         BM.onavailable(id, function(el) { el.innerHTML = s; });
+         else {
+             document._write(s);
+         }
          return true;
      };
      BM.onavailable = function(id, fn) {
