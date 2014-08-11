@@ -13,7 +13,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
   <!-- font styles -->
-  <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
 
   <!-- styles -->
   <!--<link rel="stylesheet" media="print" href="dprint.css" type="text/css">-->
@@ -44,15 +44,27 @@
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WGDXPP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+
+function loadGTM(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WGDXPP');</script>
+}
+
+(function(){
+    var ua = navigator.userAgent,
+    M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || null;
+    if (M === null){
+        loadGTM(window,document,'script','dataLayer','GTM-WGDXPP');
+    }
+})();
+
+</script>
 <!-- End Google Tag Manager -->
 <script>
 (function() {
-  BM.load("http://www.flickr.com/badge_code_v2.gne?count=1&display=random&size=m&layout=h&context=in%2Fpool-cnmonline%2F&source=group&group=1630996%40N20", null);
+  BM.load("//www.flickr.com/badge_code_v2.gne?count=1&display=random&size=m&layout=h&context=in%2Fpool-cnmonline%2F&source=group&group=1630996%40N20", null);
   jq(document).ready(function() {
     BM.emergency();
     BM.columnglue();
