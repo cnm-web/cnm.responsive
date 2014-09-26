@@ -660,7 +660,7 @@ body.portaltype-homepage #main {
     text-align: right;
     position: absolute;
     right: 16px;
-    top: -55px;
+    top: -120px;
     color: $cnmblue;
     line-height: 40px;
     li {
@@ -680,14 +680,12 @@ body.portaltype-homepage #main {
     #twitter a {
       background: transparent url(img/twitter_bird.png) no-repeat left center;
     }
-    #flickr a {
-      background: transparent url(img/flickr.png) no-repeat left center;
-    }
     #youtube a {
       background: transparent url(img/youtube.png) no-repeat left center;
     }
     #espanol a {
       background: transparent url(img/espanol.png) no-repeat left center;
+      padding-left: 64px;
     }
   }
   #flickr-wrapper .tabs {
