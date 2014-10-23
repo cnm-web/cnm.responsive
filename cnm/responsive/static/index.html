@@ -53,9 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 
 (function(){
-    var ua = navigator.userAgent,
-    M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || null;
-    if (M === null){
+    if (!/msie 8/i.test(navigator.userAgent)){
         loadGTM(window,document,'script','dataLayer','GTM-WGDXPP');
     }
 })();
