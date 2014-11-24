@@ -33,6 +33,7 @@
   <replace css:content="#portal-columns" css:theme="#content" />
   <drop if-not="$is_portal_root" css:theme="#homepage-bottom" />
   <rules if="$is_portal_root">
+    <copy attributes="class" css:content="#portal-column-content" css:theme="#portal-column-home" />
     <replace css:content-children="#portal-column-one" css:theme-children="#calendar-cell" />
     <drop css:content="#portal-column-one" />
     <replace css:theme-children="#popular h2" css:content-children="dl.portletListPagesPortlet dt.portletHeader span:nth-of-type(2)" />
