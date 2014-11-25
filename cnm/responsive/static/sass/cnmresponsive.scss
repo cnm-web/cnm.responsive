@@ -507,6 +507,16 @@ body.portaltype-homepage #main {
   padding-bottom: 0;
   padding-top: 0;
 }
+#frontpage-feature {
+    padding: 20px 0px 65px 0px;
+    background: $lightgray;
+
+  img {
+    width: 565px;
+    height: 370px;
+  }
+}
+
 #frontpage-news-wrapper {
   background-color: $lightgray;
   padding: 20px 0 40px 0;
@@ -527,14 +537,14 @@ div.readMore {
   position: relative;
   z-index: 100;
   top: -25px;
-  left: -25px;
+  left: 25px;
 }
 .frontpage-news {
   h2 {
     font-size: 24px;
     margin: 0;
 
-    a {
+    a, a:visited {
       display: inline-block;
       width: 305px;
       height: 150px;
