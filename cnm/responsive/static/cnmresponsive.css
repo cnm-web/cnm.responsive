@@ -787,12 +787,12 @@ body.portaltype-homepage #main {
 }
 
 /* line 510, sass/cnmresponsive.scss */
-#frontpage-feature {
+div.frontpage-feature {
   padding: 20px 0px 65px 0px;
   background: #F5F7F9;
 }
 /* line 514, sass/cnmresponsive.scss */
-#frontpage-feature img {
+div.frontpage-feature img {
   width: 565px;
   height: 370px;
 }
