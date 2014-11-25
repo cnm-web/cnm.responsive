@@ -85,9 +85,15 @@ body {
 }
 
 /* Homepage */
+div.frontpage-feature {
+  width: 160%;
+  height: auto;
+}
+
 #frontpage-news-wrapper {
   padding-bottom: 10px;
-  
+  display: none;
+
   .row .cell {
     display: none;
   }
