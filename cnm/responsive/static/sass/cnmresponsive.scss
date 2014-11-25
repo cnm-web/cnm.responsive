@@ -526,29 +526,33 @@ div.frontpage-news {
 div.readMore {
   position: relative;
   z-index: 100;
-  top: -35px;
+  top: -25px;
+  left: -25px;
 }
 .frontpage-news {
   h2 {
     font-size: 24px;
     margin: 0;
-  }
 
-  a {
-    display: inline-block;
-    width: 305px;
-    height: 150px;
-    background-size: 305px 150px;
-    padding: 5px 20px 5px 5px;
-    text-shadow: black 2px 2px 1px;
-    color: #fefcef;
-    transition: color 2s ease;
-    -webkit-transition: color 2s ease;
+    a {
+      display: inline-block;
+      width: 305px;
+      height: 150px;
+      background-size: 305px 150px;
+      padding: 5px 20px 5px 5px;
+      text-shadow: black 2px 2px 1px;
+      color: #fefcef;
+      transition: color 1s ease;
+      -webkit-transition: color 1s ease;
 
-    &:hover {
-      color: #FFD200;
+      &:hover {
+        color: #FFD200;
+        text-decoration: none;
+      }
     }
   }
+
+  
     .breakingNews {
       background-color: $breaking-red;
       color: $white;
@@ -570,6 +574,7 @@ div.readMore {
     }
     #all-news {
       @include right-rounded-link-box;
+      margin: 0 -25px;
       float: left;
     }
   }
