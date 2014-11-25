@@ -508,7 +508,8 @@ body.portaltype-homepage #main {
   padding-top: 0;
 }
 div.frontpage-feature {
-    padding: 20px 0px 65px 0px;
+  margin-left: -10px;
+    padding: 20px 0px 65px 10px;
     background: $lightgray;
 
   img {
@@ -523,7 +524,7 @@ div.frontpage-feature {
 
   .frontpage-news {
     margin-bottom: 10px;
-    
+
     img {
       /* Fill the viewport for mobile */
       width: 305px;
