@@ -405,12 +405,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="javascripts/bootstrap-dropdown.js"></script>
 <script src="javascripts/bootstrap-collapse.js"></script>
+<script src="javascripts/bootstrap-carousel.js"></script>
 <!-- Making bootstrap nav drop down on hover by using https://github.com/CWSpear/twitter-bootstrap-hover-dropdown -->
 <!--<script src="javascripts/twitter-bootstrap-hover-dropdown.js"></script>-->
 <script>
   var jQuery17 = jQuery;
   $ = jQuery14;
   jQuery = jQuery14;
+  jQuery17(document).ready(function () {
+      jQuery17('#carousel-frontpage-features').carousel();
+  });
   //Next lines seem to be unnecessary even though diazotheme.bootstrap does this anyway
   //jQuery17(document).ready(function () {
      //jQuery17('.dropdown-toggle').dropdown();
