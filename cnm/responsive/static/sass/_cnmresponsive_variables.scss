@@ -7,10 +7,13 @@
 /* Colors */
 $emergency-red: #EE5646;
 $breaking-red: #8b2222;
-$cnmblue: #004890;
-$cnmyellow: #FBD10B;
+$dark-blue: #003A70;
+$gold: #f6be00;
+$orange: #e35205;
+$sky-blue: #41b6e6;
+$cream: #fcf8e5;
 $white: #FFFFFF;
-$darkgray: #3C3D3E;
+$darkgray: #51534A;
 $mediumgray: #D0D2D4;
 $lightgray: #F5F7F9;
 $navitemseparator: #ced8e1;
@@ -53,7 +56,7 @@ $navbar-dropdown-font-size: 12px;
   margin: 0 auto;
 }
 @mixin read-more {
-  background-color: $cnmblue;
+  background-color: $dark-blue;
   color: $white;
   font-style: normal;
   @include oswald;
@@ -63,8 +66,8 @@ $navbar-dropdown-font-size: 12px;
   display: inline-block;
 }
 @mixin right-rounded-link-box {
-  color: $cnmblue;
-  background-color: $cnmyellow;
+  color: $dark-blue;
+  background-color: $gold;
   font-style: normal;
   @include oswald;
   padding: 0 20px;
