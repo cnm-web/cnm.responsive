@@ -6,8 +6,8 @@
 
 @font-face {
   font-family: "entypo";
-  src: url('fonts/entypo.eot?1415639475');
-  src: url('fonts/entypo.eot?&1415639475#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1415639475') format("woff"), url('fonts/entypo.ttf?1415639475') format("truetype"), url('fonts/entypo.svg?1415639475#entypo') format("svg"), url('fonts/entypo.otf') format("opentype");
+  src: url('fonts/entypo.eot?1422396531');
+  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -45,7 +45,7 @@ body {
 /* line 20, sass/cnm_mobile.scss */
 #nav-wrapper #navigation {
   width: auto;
-  background-color: #004890;
+  background-color: #003A70;
   color: #FFFFFF;
 }
 
@@ -334,7 +334,7 @@ body.portaltype-homepage .portletRss dd.portletFooter {
 
 /* line 268, sass/cnm_mobile.scss */
 #colophon-wrapper {
-  background-color: #004890;
+  background-color: #003A70;
 }
 /* line 271, sass/cnm_mobile.scss */
 #colophon-wrapper #colophon {
