@@ -705,6 +705,26 @@ div.readMore {
       color: $orange;
     }
   }
+  #flickr-wrapper .tabs {
+    display: none;
+  }
+  #footer {
+    @include fixed-width;
+    position: relative; /* needed for abolute positioning of #social */
+    padding: 20px 0;
+    #footerlinks {
+      font-size: 14px;
+      line-height: 20px;
+      li {
+        display: block;
+      }
+    }
+  }
+  #infophotos {
+    margin-top: 20px;
+  }
+}
+
   #social {
     color: $dark-blue;
     line-height: 40px;
@@ -737,26 +757,7 @@ div.readMore {
       padding-left: 64px;
     }
   }
-  #flickr-wrapper .tabs {
-    display: none;
-  }
-  #footer {
-    @include fixed-width;
-    position: relative; /* needed for abolute positioning of #social */
-    padding: 20px 0;
-    #footerlinks {
-      font-size: 14px;
-      line-height: 20px;
-      li {
-        display: block;
-      }
-    }
-  }
-  #infophotos {
-    margin-top: 20px;
-  }
-}
-
+  
 /* Tiny Styles */
 .rightcolumn-highlight {
   float: right;

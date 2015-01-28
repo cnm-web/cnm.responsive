@@ -1050,49 +1050,10 @@ div.readMore {
   color: #e35205;
 }
 /* line 708, sass/cnmresponsive.scss */
-#footer-wrapper #social {
-  color: #003A70;
-  line-height: 40px;
-}
-/* line 711, sass/cnmresponsive.scss */
-#footer-wrapper #social li {
-  line-height: 40px;
-}
-/* line 714, sass/cnmresponsive.scss */
-#footer-wrapper #social a {
-  color: #003A70;
-  display: inline-block;
-  padding-left: 39px;
-  text-indent: 100%;
-  overflow: hidden;
-  width: 0;
-}
-/* line 722, sass/cnmresponsive.scss */
-#footer-wrapper #social a:hover {
-  color: #e35205;
-}
-/* line 726, sass/cnmresponsive.scss */
-#footer-wrapper #social #facebook a {
-  background: transparent url(img/facebook.png) no-repeat left center;
-}
-/* line 729, sass/cnmresponsive.scss */
-#footer-wrapper #social #twitter a {
-  background: transparent url(img/twitter_bird.png) no-repeat left center;
-}
-/* line 732, sass/cnmresponsive.scss */
-#footer-wrapper #social #youtube a {
-  background: transparent url(img/youtube.png) no-repeat left center;
-}
-/* line 735, sass/cnmresponsive.scss */
-#footer-wrapper #social #espanol a {
-  background: transparent url(img/espanol.png) no-repeat left center;
-  padding-left: 64px;
-}
-/* line 740, sass/cnmresponsive.scss */
 #footer-wrapper #flickr-wrapper .tabs {
   display: none;
 }
-/* line 743, sass/cnmresponsive.scss */
+/* line 711, sass/cnmresponsive.scss */
 #footer-wrapper #footer {
   width: 60em;
   margin: 0 auto;
@@ -1100,22 +1061,62 @@ div.readMore {
   /* needed for abolute positioning of #social */
   padding: 20px 0;
 }
-/* line 747, sass/cnmresponsive.scss */
+/* line 715, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 750, sass/cnmresponsive.scss */
+/* line 718, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks li {
   display: block;
 }
-/* line 755, sass/cnmresponsive.scss */
+/* line 723, sass/cnmresponsive.scss */
 #footer-wrapper #infophotos {
   margin-top: 20px;
 }
 
+/* line 728, sass/cnmresponsive.scss */
+#social {
+  color: #003A70;
+  line-height: 40px;
+}
+/* line 731, sass/cnmresponsive.scss */
+#social li {
+  line-height: 40px;
+}
+/* line 734, sass/cnmresponsive.scss */
+#social a {
+  color: #003A70;
+  display: inline-block;
+  padding-left: 39px;
+  text-indent: 100%;
+  overflow: hidden;
+  width: 0;
+}
+/* line 742, sass/cnmresponsive.scss */
+#social a:hover {
+  color: #e35205;
+}
+/* line 746, sass/cnmresponsive.scss */
+#social #facebook a {
+  background: transparent url(img/facebook.png) no-repeat left center;
+}
+/* line 749, sass/cnmresponsive.scss */
+#social #twitter a {
+  background: transparent url(img/twitter_bird.png) no-repeat left center;
+}
+/* line 752, sass/cnmresponsive.scss */
+#social #youtube a {
+  background: transparent url(img/youtube.png) no-repeat left center;
+}
+/* line 755, sass/cnmresponsive.scss */
+#social #espanol a {
+  background: transparent url(img/espanol.png) no-repeat left center;
+  padding-left: 64px;
+}
+
 /* Tiny Styles */
-/* line 761, sass/cnmresponsive.scss */
+/* line 762, sass/cnmresponsive.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1132,33 +1133,33 @@ div.readMore {
   background-position: top right;
 }
 
-/* line 777, sass/cnmresponsive.scss */
+/* line 778, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #51534A;
   color: #aebfd0;
 }
-/* line 780, sass/cnmresponsive.scss */
+/* line 781, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: #FFFFFF;
 }
-/* line 783, sass/cnmresponsive.scss */
+/* line 784, sass/cnmresponsive.scss */
 #colophon-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 786, sass/cnmresponsive.scss */
+/* line 787, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   background-color: #51534A;
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 790, sass/cnmresponsive.scss */
+/* line 791, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 796, sass/cnmresponsive.scss */
+/* line 797, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -1166,13 +1167,13 @@ div.readMore {
 }
 
 /* Visibility */
-/* line 803, sass/cnmresponsive.scss */
+/* line 804, sass/cnmresponsive.scss */
 .showForSmall {
   display: none !important;
 }
 
 /* Plone internal overrides */
-/* line 808, sass/cnmresponsive.scss */
+/* line 809, sass/cnmresponsive.scss */
 #content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em;
@@ -1293,7 +1294,7 @@ div.readMore {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 817, sass/cnmresponsive.scss */
+  /* line 818, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: inline;
   }
@@ -1306,7 +1307,7 @@ div.readMore {
   /*}*/
 }
 @media only screen and (min-width: 768px) {
-  /* line 831, sass/cnmresponsive.scss */
+  /* line 832, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: none;
   }
