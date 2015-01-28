@@ -736,7 +736,6 @@ div.readMore {
     display: none;
   }
   #footer {
-    background-color: $dark-blue;
     @include fixed-width;
     position: relative; /* needed for abolute positioning of #social */
     padding: 20px 0;
