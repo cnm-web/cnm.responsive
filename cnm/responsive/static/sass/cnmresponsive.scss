@@ -706,10 +706,6 @@ div.readMore {
     }
   }
   #social {
-    text-align: right;
-    position: absolute;
-    right: 16px;
-    top: -120px;
     color: $dark-blue;
     line-height: 40px;
     li {
@@ -722,6 +718,10 @@ div.readMore {
       text-indent: 100%;
       overflow: hidden;
       width: 0;
+
+      &:hover {
+        color: $orange;
+      }
     }
     #facebook a {
       background: transparent url(img/facebook.png) no-repeat left center;

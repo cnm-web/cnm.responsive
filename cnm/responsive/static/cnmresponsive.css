@@ -1051,18 +1051,14 @@ div.readMore {
 }
 /* line 708, sass/cnmresponsive.scss */
 #footer-wrapper #social {
-  text-align: right;
-  position: absolute;
-  right: 16px;
-  top: -120px;
   color: #003A70;
   line-height: 40px;
 }
-/* line 715, sass/cnmresponsive.scss */
+/* line 711, sass/cnmresponsive.scss */
 #footer-wrapper #social li {
   line-height: 40px;
 }
-/* line 718, sass/cnmresponsive.scss */
+/* line 714, sass/cnmresponsive.scss */
 #footer-wrapper #social a {
   color: #003A70;
   display: inline-block;
@@ -1070,6 +1066,10 @@ div.readMore {
   text-indent: 100%;
   overflow: hidden;
   width: 0;
+}
+/* line 722, sass/cnmresponsive.scss */
+#footer-wrapper #social a:hover {
+  color: #e35205;
 }
 /* line 726, sass/cnmresponsive.scss */
 #footer-wrapper #social #facebook a {
