@@ -599,6 +599,9 @@ div.readMore {
   }
 }
 #homepage-bottom {
+  #steps-row {
+    margin-bottom: 40px;
+  }
   #steps {
     color: $steps-font-color;
     background-color: $cream;
@@ -678,7 +681,7 @@ div.readMore {
   }
 }
 #calendar-cell {
-  padding-top: 20px;
+  padding-top: 11px;
 }
 /* Footer */
 #footer-wrapper {
