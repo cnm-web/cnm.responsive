@@ -655,12 +655,12 @@ div.readMore {
     h2 {
       margin-top: 0;
       margin-bottom: 20px;
-      padding: 0 20px;
+      padding: 0 5px;
       display: inline-block;
       @include lato;
-      font-size: 25px;
+      font-size: 28px;
       color: $sky-blue;
-      border-bottom: 1px dotted #aebfd0;
+      border-bottom: 1px dotted $dark-blue;
     }
     ul {
       padding: 0 20px;
@@ -677,7 +677,9 @@ div.readMore {
     }
   }
 }
-
+#calendar-cell {
+  padding-top: 20px;
+}
 /* Footer */
 #footer-wrapper {
   background-color: $cream;
