@@ -601,7 +601,7 @@ div.readMore {
 #homepage-bottom {
   #steps {
     color: $steps-font-color;
-    background-color: $mediumgray;
+    background-color: $cream;
     
     ul {
       display: table;
@@ -612,6 +612,7 @@ div.readMore {
       display: table-cell;
       position: relative;
       width: 1%;
+      padding-bottom: 30px;
     }
     li:hover {
       background-color: $gold;
