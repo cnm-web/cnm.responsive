@@ -657,11 +657,10 @@ div.readMore {
       margin-bottom: 20px;
       padding: 0 20px;
       display: inline-block;
-      background: $orange;
       @include lato;
       font-size: 25px;
-      color: #04192D;
-      @include border-right-radius(8px);
+      color: $sky-blue;
+      border-bottom: 1px dotted #aebfd0;
     }
     ul {
       padding: 0 20px;
@@ -730,6 +729,7 @@ div.readMore {
     line-height: 40px;
     li {
       line-height: 40px;
+      display: inline;
     }
     a {
       color: $dark-blue;
@@ -757,7 +757,7 @@ div.readMore {
       padding-left: 64px;
     }
   }
-  
+
 /* Tiny Styles */
 .rightcolumn-highlight {
   float: right;
