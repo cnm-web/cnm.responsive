@@ -809,27 +809,26 @@ div.frontpage-feature img {
 
 /* line 527, sass/cnmresponsive.scss */
 #frontpage-news-wrapper {
-  background-color: #F5F7F9;
   padding: 20px 0 40px 0;
 }
-/* line 531, sass/cnmresponsive.scss */
+/* line 530, sass/cnmresponsive.scss */
 #frontpage-news-wrapper .frontpage-news {
   margin-bottom: 10px;
 }
-/* line 534, sass/cnmresponsive.scss */
+/* line 533, sass/cnmresponsive.scss */
 #frontpage-news-wrapper .frontpage-news img {
   /* Fill the viewport for mobile */
   width: 305px;
   height: 150px;
 }
 
-/* line 541, sass/cnmresponsive.scss */
+/* line 540, sass/cnmresponsive.scss */
 div.frontpage-news {
   width: 305px;
   height: 150px;
 }
 
-/* line 545, sass/cnmresponsive.scss */
+/* line 544, sass/cnmresponsive.scss */
 div.readMore {
   position: relative;
   z-index: 100;
@@ -837,16 +836,16 @@ div.readMore {
   left: 25px;
 }
 
-/* line 552, sass/cnmresponsive.scss */
+/* line 551, sass/cnmresponsive.scss */
 .frontpage-news h2 {
   font-size: 24px;
   margin: 0;
 }
-/* line 556, sass/cnmresponsive.scss */
+/* line 555, sass/cnmresponsive.scss */
 .frontpage-news h2 a, .frontpage-news h2 a:visited {
   display: inline-block;
   width: 305px;
-  height: 150px;
+  height: 180px;
   background-size: 305px 150px;
   padding: 5px 20px 5px 5px;
   text-shadow: black 2px 2px 1px;
@@ -854,12 +853,12 @@ div.readMore {
   transition: color 1s ease;
   -webkit-transition: color 1s ease;
 }
-/* line 567, sass/cnmresponsive.scss */
+/* line 566, sass/cnmresponsive.scss */
 .frontpage-news h2 a:hover, .frontpage-news h2 a:visited:hover {
   color: #FFD200;
   text-decoration: none;
 }
-/* line 575, sass/cnmresponsive.scss */
+/* line 574, sass/cnmresponsive.scss */
 .frontpage-news .breakingNews {
   background-color: #8b2222;
   color: #FFFFFF;
@@ -878,7 +877,7 @@ div.readMore {
   float: left;
   display: block;
 }
-/* line 590, sass/cnmresponsive.scss */
+/* line 589, sass/cnmresponsive.scss */
 .frontpage-news .readMore a {
   background-color: #003A70;
   color: #FFFFFF;
@@ -895,7 +894,7 @@ div.readMore {
   display: inline-block;
   float: right;
 }
-/* line 594, sass/cnmresponsive.scss */
+/* line 593, sass/cnmresponsive.scss */
 .frontpage-news .readMore #all-news {
   color: #003A70;
   background-color: #f6be00;
@@ -921,34 +920,34 @@ div.readMore {
   float: left;
 }
 
-/* line 602, sass/cnmresponsive.scss */
+/* line 601, sass/cnmresponsive.scss */
 #homepage-bottom #steps-row {
   margin-bottom: 40px;
 }
-/* line 605, sass/cnmresponsive.scss */
+/* line 604, sass/cnmresponsive.scss */
 #homepage-bottom #steps {
   color: #494a4c;
   background-color: #fcf8e5;
 }
-/* line 609, sass/cnmresponsive.scss */
+/* line 608, sass/cnmresponsive.scss */
 #homepage-bottom #steps ul {
   display: table;
   width: 100%;
   text-align: center;
 }
-/* line 614, sass/cnmresponsive.scss */
+/* line 613, sass/cnmresponsive.scss */
 #homepage-bottom #steps li {
   display: table-cell;
   position: relative;
   width: 1%;
   padding-bottom: 30px;
 }
-/* line 620, sass/cnmresponsive.scss */
+/* line 619, sass/cnmresponsive.scss */
 #homepage-bottom #steps li:hover {
   background-color: #f6be00;
   color: #FFFFFF;
 }
-/* line 624, sass/cnmresponsive.scss */
+/* line 623, sass/cnmresponsive.scss */
 #homepage-bottom #steps h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
@@ -964,30 +963,30 @@ div.readMore {
   position: relative;
   top: 23px;
 }
-/* line 637, sass/cnmresponsive.scss */
+/* line 636, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description,
 #homepage-bottom #steps .learnMore {
   display: block;
   color: #494a4c;
 }
-/* line 643, sass/cnmresponsive.scss */
+/* line 642, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   position: relative;
   top: -97px;
 }
-/* line 649, sass/cnmresponsive.scss */
+/* line 648, sass/cnmresponsive.scss */
 #homepage-bottom #steps .learnMore {
   text-transform: lowercase;
   padding-bottom: 10px;
 }
-/* line 654, sass/cnmresponsive.scss */
+/* line 653, sass/cnmresponsive.scss */
 #homepage-bottom #popular {
   background-color: #F5F7F9;
   padding: 20px 0 100px 0;
 }
-/* line 658, sass/cnmresponsive.scss */
+/* line 657, sass/cnmresponsive.scss */
 #homepage-bottom #popular h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -998,44 +997,44 @@ div.readMore {
   color: #41b6e6;
   border-bottom: 1px dotted #003A70;
 }
-/* line 668, sass/cnmresponsive.scss */
+/* line 667, sass/cnmresponsive.scss */
 #homepage-bottom #popular ul {
   padding: 0 20px;
   list-style-type: disc;
 }
-/* line 672, sass/cnmresponsive.scss */
+/* line 671, sass/cnmresponsive.scss */
 #homepage-bottom #popular li {
   float: left;
   width: 42%;
   display: list-item;
   margin: 0px 20px;
 }
-/* line 677, sass/cnmresponsive.scss */
+/* line 676, sass/cnmresponsive.scss */
 #homepage-bottom #popular li a:hover {
   text-decoration: underline;
 }
 
-/* line 683, sass/cnmresponsive.scss */
+/* line 682, sass/cnmresponsive.scss */
 #calendar-cell {
   padding-top: 11px;
 }
 
 /* Footer */
-/* line 687, sass/cnmresponsive.scss */
+/* line 686, sass/cnmresponsive.scss */
 #footer-wrapper {
   background-color: #fcf8e5;
   color: #41b6e6;
   border-top: 6px solid #e35205;
 }
-/* line 692, sass/cnmresponsive.scss */
+/* line 691, sass/cnmresponsive.scss */
 #footer-wrapper a {
   color: #51534A;
 }
-/* line 695, sass/cnmresponsive.scss */
+/* line 694, sass/cnmresponsive.scss */
 #footer-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 698, sass/cnmresponsive.scss */
+/* line 697, sass/cnmresponsive.scss */
 #footer-wrapper h3 {
   color: #41b6e6;
   border-bottom: 1px dotted #aebfd0;
@@ -1044,19 +1043,19 @@ div.readMore {
   line-height: 40px;
   margin: -10px 0 9px 0;
 }
-/* line 705, sass/cnmresponsive.scss */
+/* line 704, sass/cnmresponsive.scss */
 #footer-wrapper h3 a {
   color: #41b6e6;
 }
-/* line 708, sass/cnmresponsive.scss */
+/* line 707, sass/cnmresponsive.scss */
 #footer-wrapper h3 a:hover {
   color: #e35205;
 }
-/* line 712, sass/cnmresponsive.scss */
+/* line 711, sass/cnmresponsive.scss */
 #footer-wrapper #flickr-wrapper .tabs {
   display: none;
 }
-/* line 715, sass/cnmresponsive.scss */
+/* line 714, sass/cnmresponsive.scss */
 #footer-wrapper #footer {
   width: 60em;
   margin: 0 auto;
@@ -1064,31 +1063,31 @@ div.readMore {
   /* needed for abolute positioning of #social */
   padding: 20px 0;
 }
-/* line 719, sass/cnmresponsive.scss */
+/* line 718, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 722, sass/cnmresponsive.scss */
+/* line 721, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks li {
   display: block;
 }
-/* line 727, sass/cnmresponsive.scss */
+/* line 726, sass/cnmresponsive.scss */
 #footer-wrapper #infophotos {
   margin-top: 20px;
 }
 
-/* line 732, sass/cnmresponsive.scss */
+/* line 731, sass/cnmresponsive.scss */
 #social {
   color: #003A70;
   line-height: 40px;
 }
-/* line 735, sass/cnmresponsive.scss */
+/* line 734, sass/cnmresponsive.scss */
 #social li {
   line-height: 40px;
   display: inline;
 }
-/* line 739, sass/cnmresponsive.scss */
+/* line 738, sass/cnmresponsive.scss */
 #social a {
   color: #003A70;
   display: inline-block;
@@ -1097,30 +1096,30 @@ div.readMore {
   overflow: hidden;
   width: 0;
 }
-/* line 747, sass/cnmresponsive.scss */
+/* line 746, sass/cnmresponsive.scss */
 #social a:hover {
   color: #e35205;
 }
-/* line 751, sass/cnmresponsive.scss */
+/* line 750, sass/cnmresponsive.scss */
 #social #facebook a {
   background: transparent url(img/facebook.png) no-repeat left center;
 }
-/* line 754, sass/cnmresponsive.scss */
+/* line 753, sass/cnmresponsive.scss */
 #social #twitter a {
   background: transparent url(img/twitter_bird.png) no-repeat left center;
 }
-/* line 757, sass/cnmresponsive.scss */
+/* line 756, sass/cnmresponsive.scss */
 #social #youtube a {
   background: transparent url(img/youtube.png) no-repeat left center;
 }
-/* line 760, sass/cnmresponsive.scss */
+/* line 759, sass/cnmresponsive.scss */
 #social #espanol a {
   background: transparent url(img/espanol.png) no-repeat left center;
   padding-left: 64px;
 }
 
 /* Tiny Styles */
-/* line 767, sass/cnmresponsive.scss */
+/* line 766, sass/cnmresponsive.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1137,33 +1136,33 @@ div.readMore {
   background-position: top right;
 }
 
-/* line 783, sass/cnmresponsive.scss */
+/* line 782, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #51534A;
   color: #aebfd0;
 }
-/* line 786, sass/cnmresponsive.scss */
+/* line 785, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: #FFFFFF;
 }
-/* line 789, sass/cnmresponsive.scss */
+/* line 788, sass/cnmresponsive.scss */
 #colophon-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 792, sass/cnmresponsive.scss */
+/* line 791, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   background-color: #51534A;
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 796, sass/cnmresponsive.scss */
+/* line 795, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 802, sass/cnmresponsive.scss */
+/* line 801, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -1171,13 +1170,13 @@ div.readMore {
 }
 
 /* Visibility */
-/* line 809, sass/cnmresponsive.scss */
+/* line 808, sass/cnmresponsive.scss */
 .showForSmall {
   display: none !important;
 }
 
 /* Plone internal overrides */
-/* line 814, sass/cnmresponsive.scss */
+/* line 813, sass/cnmresponsive.scss */
 #content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em;
@@ -1298,7 +1297,7 @@ div.readMore {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 823, sass/cnmresponsive.scss */
+  /* line 822, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: inline;
   }
@@ -1311,7 +1310,7 @@ div.readMore {
   /*}*/
 }
 @media only screen and (min-width: 768px) {
-  /* line 837, sass/cnmresponsive.scss */
+  /* line 836, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: none;
   }
