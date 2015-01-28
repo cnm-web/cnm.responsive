@@ -10,7 +10,7 @@ javascripts_dir = "javascripts"
 # Alex requiring Foundation, Bootstrap, etc.
 require "zurb-foundation"
 require 'font-icons'
-require 'bootstrap-sass'
+require 'bootstrap-sass' #VERSION 2.3.3.2 
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
