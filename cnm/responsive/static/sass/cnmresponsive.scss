@@ -771,7 +771,7 @@ div.readMore {
 }
 
 #colophon-wrapper {
-  background-color: $darkgray;
+  background-color: $dark-gray;
   color: $footer-font-color;
   a {
     color: $footer-links-color;
@@ -780,7 +780,7 @@ div.readMore {
     text-decoration: underline;
   }
   #colophon {
-    background-color: $darkgray;
+    background-color: $dark-gray;
     @include fixed-width;
     padding: 10px 0;
     .footer-about a,
