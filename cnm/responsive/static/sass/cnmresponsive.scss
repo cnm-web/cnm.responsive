@@ -197,19 +197,20 @@ dl.actionMenu {
   .navbar {
     .nav {
       &>li {
+        
+        &>.dropdown-menu:before, &>.dropdown-menu:after {
+          display: none;
+        }
+
         &>a {
           &:hover, &:focus {
             background-color: $navbar-selected-background-color;
             color: $navbar-selected-font-color;
           }
         }
+
       }
     }
-  }
-  .navbar .nav > li > .dropdown-menu:before,
-  .navbar .nav > li > .dropdown-menu:after
-  {
-    display: none;
   }
   .dropdown-menu {
     @include border-radius(0);
@@ -217,8 +218,6 @@ dl.actionMenu {
     border-width: 0px;
     padding: 0;
     margin: 0;
-    /* Uncomment to remove box shadow from drop-downs */
-    //@include box-shadow(none);
   }
   .dropdown-menu > li > a,
   .dropdown-submenu > a {
