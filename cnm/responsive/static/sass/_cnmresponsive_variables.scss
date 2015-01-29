@@ -17,9 +17,9 @@ $dark-gray: #51534A;
 $mediumgray: #D0D2D4;
 $lightgray: #F5F7F9;
 $navitemseparator: #ced8e1;
-$navbar-selected-background-color: #0f0c5d;
-$navbar-dropdown-background-color: #fae790;
-$navbar-dropdown-separator-color: #2796c4;
+$navbar-selected-background-color: $dark-blue;
+$navbar-dropdown-background-color: $cream;
+$navbar-dropdown-separator-color: $sky-blue;
 
 /* Hover Effects */
 $steps-hover: scale-lightness($mediumgray, 50%);

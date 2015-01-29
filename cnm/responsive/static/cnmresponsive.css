@@ -186,7 +186,7 @@ body {
 /* line 10, sass/cnmresponsive.scss */
 a {
   color: #1b60a4;
-  transition: background-color 0.2s ease, color 0.5s ease 0.1s;
+  transition: background-color 0.1s ease, color 0.15s ease 0.01s;
 }
 /* line 14, sass/cnmresponsive.scss */
 a:hover {
@@ -422,7 +422,7 @@ dl.actionMenu {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  background-color: #fae790;
+  background-color: #fcf8e5;
   border-width: 0px;
   padding: 0;
   margin: 0;
@@ -437,7 +437,7 @@ dl.actionMenu {
 /* line 215, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu > li > a:hover,
 .bootstrapStyles .dropdown-submenu:hover > a {
-  background-color: #0f0c5d;
+  background-color: #003A70;
   background-image: none;
   color: #FBF0C0;
 }
@@ -446,7 +446,7 @@ dl.actionMenu {
   .bootstrapStyles .dropdown-menu > li > a {
     color: #04192d;
     font-size: 12px;
-    border-top: 1px solid #2796c4;
+    border-top: 1px solid #41b6e6;
     padding: 5px 20px;
     width: 178px;
     /* Same width as left column */
