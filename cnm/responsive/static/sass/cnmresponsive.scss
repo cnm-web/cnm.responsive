@@ -205,7 +205,7 @@ dl.actionMenu {
   }
   .dropdown-menu > li > a,
   .dropdown-submenu > a {
-    @include transition("background-color", "0.5s");
+    @include transition(background-color, 0.5s);
   }
   .dropdown-menu > li > a:hover,
   .dropdown-submenu:hover > a
@@ -562,7 +562,7 @@ div.readMore {
       padding: 5px 20px 5px 5px;
       text-shadow: black 2px 2px 1px;
       color: #fefcef;
-      @include transition("color", "0.5s");
+      @include transition(color, 0.5s);
 
       &:hover {
         color: #FFD200;
@@ -609,7 +609,7 @@ div.readMore {
       position: relative;
       width: 1%;
       padding-bottom: 30px;
-      @include transition("background-color", "0.5s");
+      @include transition(background-color, 0.5s);
     }
     li:hover {
       background-color: $gold;

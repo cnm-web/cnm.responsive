@@ -426,8 +426,8 @@ dl.actionMenu {
 /* line 206, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu > li > a,
 .bootstrapStyles .dropdown-submenu > a {
-  transition: "background-color" "0.5s" ease;
-  -webkit-transition: "background-color" "0.5s" ease;
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
 }
 /* line 210, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu > li > a:hover,
@@ -869,8 +869,8 @@ div.readMore a:last-child:hover {
   padding: 5px 20px 5px 5px;
   text-shadow: black 2px 2px 1px;
   color: #fefcef;
-  transition: "color" "0.5s" ease;
-  -webkit-transition: "color" "0.5s" ease;
+  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
 }
 /* line 567, sass/cnmresponsive.scss */
 .frontpage-news h2 a:hover, .frontpage-news h2 a:visited:hover {
@@ -956,8 +956,8 @@ div.readMore a:last-child:hover {
   position: relative;
   width: 1%;
   padding-bottom: 30px;
-  transition: "background-color" "0.5s" ease;
-  -webkit-transition: "background-color" "0.5s" ease;
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
 }
 /* line 614, sass/cnmresponsive.scss */
 #homepage-bottom #steps li:hover {
