@@ -32,6 +32,7 @@
   <copy attributes="role" css:content="content" css:theme="contentspace" />
   <replace css:content="#portal-columns" css:theme="#content" />
   <drop if-not="$is_portal_root" css:theme="#homepage-bottom" />
+  <drop if-path="/@@gcse-searchresults" css:theme="#homepage-bottom" />
   <drop if-not="$is_portal_root" css:theme="#frontpage" />
   <rules if="$is_portal_root">
     <replace css:content-children="#portal-column-content" css:theme-children="#frontpage-wrapper" />
