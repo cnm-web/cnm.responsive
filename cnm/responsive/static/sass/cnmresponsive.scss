@@ -529,7 +529,8 @@ div.frontpage-feature {
 
   .frontpage-news {
     margin-bottom: 10px;
-
+    padding-bottom: 40px;
+    
     img {
       /* Fill the viewport for mobile */
       width: 305px;
@@ -735,7 +736,7 @@ div.readMore {
     a {
       color: $dark-blue;
       display: inline-block;
-      padding-left: 39px;
+      padding-left: 50px;
       text-indent: 100%;
       overflow: hidden;
       width: 0;
