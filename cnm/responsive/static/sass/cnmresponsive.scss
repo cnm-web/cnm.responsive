@@ -509,12 +509,11 @@ body.portaltype-homepage #main {
 }
 div.frontpage-feature {
   margin-left: -10px;
-    padding: 20px 0px 65px 10px;
-    background: $lightgray;
+  padding: 20px 0px 65px 10px;
 
   img {
     width: 565px;
-    height: 345px;
+    height: 405px;
   }
 }
 
@@ -582,7 +581,7 @@ div.readMore {
     }
   .readMore {
     a {
-      @include read-more;
+      @include bg-icon($sky-blue, "img/icon-readmore.png");
       float: right;
     }
     #all-news {
