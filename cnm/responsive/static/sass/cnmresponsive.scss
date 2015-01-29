@@ -9,6 +9,11 @@ body {
 
 a {
   color: $link-color;
+  transition: background-color 0.2s ease, color 0.5s ease 0.1s;
+
+  &:hover {
+    color: $orange;
+  }
 }
 a:visited {
   color: $visited-link-color;
