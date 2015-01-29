@@ -708,7 +708,6 @@ div.readMore {
   }
   #footer {
     @include fixed-width;
-    position: relative; /* needed for abolute positioning of #social */
     padding: 20px 0;
     #footerlinks {
       font-size: 14px;
@@ -727,29 +726,17 @@ div.readMore {
       line-height: 40px;
       display: inline;
     }
-    a {
-      color: $dark-blue;
-      display: inline-block;
-      padding-left: 50px;
-      text-indent: 100%;
-      overflow: hidden;
-      width: 0;
-
-      &:hover {
-        color: $orange;
-      }
-    }
     #facebook a {
-      background: transparent url(img/facebook.png) no-repeat left center;
+      @include bg-icon($dark-blue, "img/facebook.png");
     }
     #twitter a {
-      background: transparent url(img/twitter_bird.png) no-repeat left center;
+      @include bg-icon($dark-blue, "img/twitter_bird.png");
     }
     #youtube a {
-      background: transparent url(img/youtube.png) no-repeat left center;
+      @include bg-icon($dark-blue, "img/youtube.png");
     }
     #instagram a {
-      background: transparent url(img/icon-instagram.png) no-repeat left center;
+      @include bg-icon($dark-blue, "img/icon-instagram.png");
     }
   }
 
