@@ -439,12 +439,12 @@ dl.actionMenu {
 .bootstrapStyles .dropdown-submenu:hover > a {
   background-color: #003A70;
   background-image: none;
-  color: #FBF0C0;
+  color: #fcf8e5;
 }
 @media only screen and (min-width: 768px) {
   /* line 224, sass/cnmresponsive.scss */
   .bootstrapStyles .dropdown-menu > li > a {
-    color: #04192d;
+    color: #003A70;
     font-size: 12px;
     border-top: 1px solid #41b6e6;
     padding: 5px 20px;
@@ -1159,9 +1159,16 @@ div.readMore a:last-child:hover {
 #social #instagram a:hover {
   color: #e35205;
 }
+/* line 747, sass/cnmresponsive.scss */
+#social a.cover-up img {
+  position: absolute;
+  height: 215px;
+  width: 215px;
+  z-index: 10000;
+}
 
 /* Tiny Styles */
-/* line 749, sass/cnmresponsive.scss */
+/* line 756, sass/cnmresponsive.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1178,33 +1185,33 @@ div.readMore a:last-child:hover {
   background-position: top right;
 }
 
-/* line 765, sass/cnmresponsive.scss */
+/* line 772, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #51534A;
   color: #aebfd0;
 }
-/* line 768, sass/cnmresponsive.scss */
+/* line 775, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: #FFFFFF;
 }
-/* line 771, sass/cnmresponsive.scss */
+/* line 778, sass/cnmresponsive.scss */
 #colophon-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 774, sass/cnmresponsive.scss */
+/* line 781, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   background-color: #51534A;
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 778, sass/cnmresponsive.scss */
+/* line 785, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 784, sass/cnmresponsive.scss */
+/* line 791, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -1212,13 +1219,13 @@ div.readMore a:last-child:hover {
 }
 
 /* Visibility */
-/* line 791, sass/cnmresponsive.scss */
+/* line 798, sass/cnmresponsive.scss */
 .showForSmall {
   display: none !important;
 }
 
 /* Plone internal overrides */
-/* line 796, sass/cnmresponsive.scss */
+/* line 803, sass/cnmresponsive.scss */
 #content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em;
@@ -1344,7 +1351,7 @@ div.readMore a:last-child:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 805, sass/cnmresponsive.scss */
+  /* line 812, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: inline;
   }
@@ -1357,7 +1364,7 @@ div.readMore a:last-child:hover {
   /*}*/
 }
 @media only screen and (min-width: 768px) {
-  /* line 819, sass/cnmresponsive.scss */
+  /* line 826, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: none;
   }

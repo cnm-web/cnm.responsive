@@ -743,6 +743,13 @@ div.readMore {
     #instagram a {
       @include bg-icon($dark-blue, "img/icon-instagram.png");
     }
+
+    a.cover-up img {
+      position: absolute;
+      height: 215px;
+      width: 215px;
+      z-index: 10000;
+    }
   }
 
 /* Tiny Styles */
