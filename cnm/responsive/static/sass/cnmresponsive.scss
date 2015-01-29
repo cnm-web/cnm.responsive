@@ -540,7 +540,7 @@ div.readMore {
   z-index: 100;
   top: -40px;
   left: 35px;
-  a {
+  a:last-child {
     @include bg-icon($sky-blue, "img/icon-readmore.png");
     float: right;
   }
@@ -581,13 +581,11 @@ div.readMore {
       float: left;
       display: block;
     }
-  .readMore {
-    #all-news {
-      @include read-more;
-      @include right-rounded-link-box;
-      margin: 0 -25px;
-      float: left;
-    }
+  #all-news {
+    @include read-more;
+    @include right-rounded-link-box;
+    margin: 0 -25px;
+    float: left;
   }
 }
 #homepage-bottom {
