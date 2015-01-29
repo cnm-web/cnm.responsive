@@ -772,8 +772,7 @@ img.image-left, img.image-right {
 }
 
 /* line 324, sass/style.scss */
-#footer .flickr_badge_wrapper a img {
-  border: 4px solid #FBD10B;
+#footer .instagram_wrapper a img {
   margin-top: -20px;
   height: 165px;
 }
