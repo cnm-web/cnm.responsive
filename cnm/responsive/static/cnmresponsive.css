@@ -1113,13 +1113,12 @@ div.readMore {
   background: transparent url(img/youtube.png) no-repeat left center;
 }
 /* line 759, sass/cnmresponsive.scss */
-#social #espanol a {
-  background: transparent url(img/espanol.png) no-repeat left center;
-  padding-left: 64px;
+#social #instagram a {
+  background: transparent url(img/icon-instagram.png) no-repeat left center;
 }
 
 /* Tiny Styles */
-/* line 766, sass/cnmresponsive.scss */
+/* line 765, sass/cnmresponsive.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1136,33 +1135,33 @@ div.readMore {
   background-position: top right;
 }
 
-/* line 782, sass/cnmresponsive.scss */
+/* line 781, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #51534A;
   color: #aebfd0;
 }
-/* line 785, sass/cnmresponsive.scss */
+/* line 784, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: #FFFFFF;
 }
-/* line 788, sass/cnmresponsive.scss */
+/* line 787, sass/cnmresponsive.scss */
 #colophon-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 791, sass/cnmresponsive.scss */
+/* line 790, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   background-color: #51534A;
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 795, sass/cnmresponsive.scss */
+/* line 794, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 801, sass/cnmresponsive.scss */
+/* line 800, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -1170,13 +1169,13 @@ div.readMore {
 }
 
 /* Visibility */
-/* line 808, sass/cnmresponsive.scss */
+/* line 807, sass/cnmresponsive.scss */
 .showForSmall {
   display: none !important;
 }
 
 /* Plone internal overrides */
-/* line 813, sass/cnmresponsive.scss */
+/* line 812, sass/cnmresponsive.scss */
 #content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em;
@@ -1297,7 +1296,7 @@ div.readMore {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 822, sass/cnmresponsive.scss */
+  /* line 821, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: inline;
   }
@@ -1310,7 +1309,7 @@ div.readMore {
   /*}*/
 }
 @media only screen and (min-width: 768px) {
-  /* line 836, sass/cnmresponsive.scss */
+  /* line 835, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: none;
   }
