@@ -83,16 +83,10 @@ dl.actionMenu {
     font-size: 1.5em;
     margin-right: 0.2em;
   }
-  #siteaction-chat-now a:before {
-    content: "";
-  }
-  #siteaction-mycnm a:before {
-    content: "🔒";
-  }
-  #siteaction-distance-learning a:before {
-    content: "✎";
-  }
 
+  #siteaction-espanl a:before {
+    @extend %entypo-globe;
+  }
   #siteaction-chat-now a {
     @extend %entypo-comment;
   }
