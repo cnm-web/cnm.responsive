@@ -538,8 +538,12 @@ div.frontpage-news {
 div.readMore {
   position: relative;
   z-index: 100;
-  top: -25px;
-  left: 25px;
+  top: -40px;
+  left: 35px;
+  a {
+    @include bg-icon($sky-blue, "img/icon-readmore.png");
+    float: right;
+  }
 }
 .frontpage-news {
   h2 {
@@ -563,8 +567,6 @@ div.readMore {
       }
     }
   }
-
-  
     .breakingNews {
       background-color: $breaking-red;
       color: $white;
@@ -580,11 +582,8 @@ div.readMore {
       display: block;
     }
   .readMore {
-    a {
-      @include bg-icon($sky-blue, "img/icon-readmore.png");
-      float: right;
-    }
     #all-news {
+      @include read-more;
       @include right-rounded-link-box;
       margin: 0 -25px;
       float: left;
