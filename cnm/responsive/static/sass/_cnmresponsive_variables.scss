@@ -78,6 +78,11 @@ $navbar-dropdown-font-size: 12px;
   @include border-right-radius(8px);
 }
 
+@mixin transition($attribute, $duration) {
+  transition: $attribute $duration ease;
+  -webkit-transition: $attribute $duration ease;
+}
+
 @mixin bg-icon($color, $icon-path) {
   color: $color;
   display: inline-block;

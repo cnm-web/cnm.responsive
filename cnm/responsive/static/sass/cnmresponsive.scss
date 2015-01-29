@@ -203,6 +203,10 @@ dl.actionMenu {
     /* Uncomment to remove box shadow from drop-downs */
     //@include box-shadow(none);
   }
+  .dropdown-menu > li > a,
+  .dropdown-submenu > a {
+    @include transition("background-color", "0.5s");
+  }
   .dropdown-menu > li > a:hover,
   .dropdown-submenu:hover > a
   {
@@ -558,8 +562,7 @@ div.readMore {
       padding: 5px 20px 5px 5px;
       text-shadow: black 2px 2px 1px;
       color: #fefcef;
-      transition: color 1s ease;
-      -webkit-transition: color 1s ease;
+      @include transition("color", "0.5s");
 
       &:hover {
         color: #FFD200;
@@ -584,7 +587,7 @@ div.readMore {
   #all-news {
     @include read-more;
     @include right-rounded-link-box;
-    margin: 0 -25px;
+    margin: 15px -35px;
     float: left;
   }
 }
@@ -606,6 +609,7 @@ div.readMore {
       position: relative;
       width: 1%;
       padding-bottom: 30px;
+      @include transition("background-color", "0.5s");
     }
     li:hover {
       background-color: $gold;
