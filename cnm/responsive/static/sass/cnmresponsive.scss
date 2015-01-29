@@ -194,6 +194,18 @@ dl.actionMenu {
 /* Nav Bar Drop Down */
 /* Hiding arrow at top of nav bar drop down */
 .bootstrapStyles {
+  .navbar {
+    .nav {
+      &>li {
+        &>a {
+          &:hover, &:focus {
+            background-color: $navbar-selected-background-color;
+            color: $navbar-selected-font-color;
+          }
+        }
+      }
+    }
+  }
   .navbar .nav > li > .dropdown-menu:before,
   .navbar .nav > li > .dropdown-menu:after
   {

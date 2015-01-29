@@ -412,12 +412,17 @@ dl.actionMenu {
 .bootstrapStyles {
   /* Bleeding through to mobile, so wrapping in a media query */
 }
-/* line 197, sass/cnmresponsive.scss */
+/* line 201, sass/cnmresponsive.scss */
+.bootstrapStyles .navbar .nav > li > a:hover, .bootstrapStyles .navbar .nav > li > a:focus {
+  background-color: #003A70;
+  color: #fcf8e5;
+}
+/* line 209, sass/cnmresponsive.scss */
 .bootstrapStyles .navbar .nav > li > .dropdown-menu:before,
 .bootstrapStyles .navbar .nav > li > .dropdown-menu:after {
   display: none;
 }
-/* line 202, sass/cnmresponsive.scss */
+/* line 214, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -428,13 +433,13 @@ dl.actionMenu {
   margin: 0;
   /* Uncomment to remove box shadow from drop-downs */
 }
-/* line 211, sass/cnmresponsive.scss */
+/* line 223, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu > li > a,
 .bootstrapStyles .dropdown-submenu > a {
   transition: background-color 0.5s ease;
   -webkit-transition: background-color 0.5s ease;
 }
-/* line 215, sass/cnmresponsive.scss */
+/* line 227, sass/cnmresponsive.scss */
 .bootstrapStyles .dropdown-menu > li > a:hover,
 .bootstrapStyles .dropdown-submenu:hover > a {
   background-color: #003A70;
@@ -442,7 +447,7 @@ dl.actionMenu {
   color: #fcf8e5;
 }
 @media only screen and (min-width: 768px) {
-  /* line 224, sass/cnmresponsive.scss */
+  /* line 236, sass/cnmresponsive.scss */
   .bootstrapStyles .dropdown-menu > li > a {
     color: #003A70;
     font-size: 12px;
@@ -451,14 +456,14 @@ dl.actionMenu {
     width: 178px;
     /* Same width as left column */
   }
-  /* line 231, sass/cnmresponsive.scss */
+  /* line 243, sass/cnmresponsive.scss */
   .bootstrapStyles .dropdown-menu > li:first-child > a {
     border-top-width: 0px;
   }
 }
 
 /* Home icon for navigation */
-/* line 237, sass/cnmresponsive.scss */
+/* line 249, sass/cnmresponsive.scss */
 ul.nav > li:first-child a {
   text-indent: -117px;
   white-space: nowrap;
@@ -468,7 +473,7 @@ ul.nav > li:first-child a {
   height: 20px;
 }
 
-/* line 245, sass/cnmresponsive.scss */
+/* line 257, sass/cnmresponsive.scss */
 ul.nav > li:first-child a:after {
   font-family: "entypo";
   font-style: normal;
@@ -477,23 +482,23 @@ ul.nav > li:first-child a:after {
 }
 
 /* Old Nav Bar */
-/* line 254, sass/cnmresponsive.scss */
+/* line 266, sass/cnmresponsive.scss */
 #navigation {
   color: #0f0c5d;
   font-family: 'Lato', sans-serif;
 }
 
-/* line 258, sass/cnmresponsive.scss */
+/* line 270, sass/cnmresponsive.scss */
 #portal-globalnav {
   display: table;
   width: 100%;
 }
-/* line 261, sass/cnmresponsive.scss */
+/* line 273, sass/cnmresponsive.scss */
 #portal-globalnav li {
   display: table-cell;
   float: none;
 }
-/* line 265, sass/cnmresponsive.scss */
+/* line 277, sass/cnmresponsive.scss */
 #portal-globalnav li a {
   border-top-width: 0;
   line-height: 60px;
@@ -503,33 +508,33 @@ ul.nav > li:first-child a:after {
 }
 
 /* Content Area */
-/* line 276, sass/cnmresponsive.scss */
+/* line 288, sass/cnmresponsive.scss */
 #main {
   width: 60em;
   margin: 0 auto;
   padding: 20px 0 80px 0;
 }
 
-/* line 280, sass/cnmresponsive.scss */
+/* line 292, sass/cnmresponsive.scss */
 #portal-breadcrumbs {
   font-size: 12px;
   line-height: 20px;
   margin-bottom: 40px;
 }
 
-/* line 285, sass/cnmresponsive.scss */
+/* line 297, sass/cnmresponsive.scss */
 body.portaltype-homepage #portal-breadcrumbs {
   display: none;
 }
 
-/* line 288, sass/cnmresponsive.scss */
+/* line 300, sass/cnmresponsive.scss */
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   color: #003A70;
   font-weight: normal;
 }
 
-/* line 293, sass/cnmresponsive.scss */
+/* line 305, sass/cnmresponsive.scss */
 h1 {
   font-size: 28px;
   border-bottom: 1px dotted #0f0c5d;
@@ -539,28 +544,28 @@ h1 {
   /* To make room for the 1px border at the bottom */
 }
 
-/* line 300, sass/cnmresponsive.scss */
+/* line 312, sass/cnmresponsive.scss */
 h2 {
   font-size: 20px;
   line-height: 40px;
   margin: 20px 0 10px 0;
 }
 
-/* line 305, sass/cnmresponsive.scss */
+/* line 317, sass/cnmresponsive.scss */
 h3 {
   font-size: 16px;
   line-height: 20px;
   margin: 20px 0 10px 0;
 }
 
-/* line 310, sass/cnmresponsive.scss */
+/* line 322, sass/cnmresponsive.scss */
 p {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 315, sass/cnmresponsive.scss */
+/* line 327, sass/cnmresponsive.scss */
 .documentDescription {
   font-family: 'Lato', sans-serif;
   color: #41b6e6;
@@ -570,13 +575,13 @@ p {
   margin-bottom: 40px;
 }
 
-/* line 323, sass/cnmresponsive.scss */
+/* line 335, sass/cnmresponsive.scss */
 #content ul,
 #content ol {
   margin-bottom: 10px;
 }
 
-/* line 328, sass/cnmresponsive.scss */
+/* line 340, sass/cnmresponsive.scss */
 #content li,
 li {
   line-height: 20px;
@@ -585,17 +590,17 @@ li {
 }
 
 /* Portlets */
-/* line 337, sass/cnmresponsive.scss */
+/* line 349, sass/cnmresponsive.scss */
 .portletWrapper {
   margin-bottom: 40px;
 }
 
-/* line 340, sass/cnmresponsive.scss */
+/* line 352, sass/cnmresponsive.scss */
 dl.portlet {
   font-size: 14px;
   margin: 0 0 0px 0;
 }
-/* line 344, sass/cnmresponsive.scss */
+/* line 356, sass/cnmresponsive.scss */
 dl.portlet dt {
   padding: 0 0 9px 0;
   /* only 9px at bottom to make room for 1px border at bottom */
@@ -607,18 +612,18 @@ dl.portlet dt {
   border-bottom: 1px dotted #0f0c5d;
   margin-bottom: 20px;
 }
-/* line 354, sass/cnmresponsive.scss */
+/* line 366, sass/cnmresponsive.scss */
 dl.portlet dt a:link,
 dl.portlet dt a:visited,
 dl.portlet dt a:hover {
   color: #0f0c5d;
 }
-/* line 361, sass/cnmresponsive.scss */
+/* line 373, sass/cnmresponsive.scss */
 dl.portlet dd.portletFooter {
   text-align: right;
   font-style: italic;
 }
-/* line 365, sass/cnmresponsive.scss */
+/* line 377, sass/cnmresponsive.scss */
 dl.portlet dd.portletFooter a {
   background-color: #003A70;
   color: #FFFFFF;
@@ -634,13 +639,13 @@ dl.portlet dd.portletFooter a {
   line-height: 25px;
   display: inline-block;
 }
-/* line 369, sass/cnmresponsive.scss */
+/* line 381, sass/cnmresponsive.scss */
 dl.portlet dd.portletFooter .hiddenStructure {
   display: none;
   /* Otherwise RSS portlets' MORE button is broken */
 }
 
-/* line 374, sass/cnmresponsive.scss */
+/* line 386, sass/cnmresponsive.scss */
 dl.portlet dd.portletItem,
 dl.portlet dd.portletFooter,
 dl.portletError dd {
@@ -648,16 +653,16 @@ dl.portletError dd {
   line-height: 20px;
 }
 
-/* line 383, sass/cnmresponsive.scss */
+/* line 395, sass/cnmresponsive.scss */
 dl.portletRss dd.portletItem {
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* line 386, sass/cnmresponsive.scss */
+/* line 398, sass/cnmresponsive.scss */
 dl.portletRss dd.portletItem a:hover {
   text-decoration: underline;
 }
-/* line 390, sass/cnmresponsive.scss */
+/* line 402, sass/cnmresponsive.scss */
 dl.portletRss .portletItemDetails {
   margin: 0;
   padding: 0;
@@ -669,29 +674,29 @@ dl.portletRss .portletItemDetails {
 }
 
 /* myCNM Portlet */
-/* line 402, sass/cnmresponsive.scss */
+/* line 414, sass/cnmresponsive.scss */
 .portlet-static-mycnm img {
   background-color: #003A70;
   padding: 10px;
 }
 
-/* line 406, sass/cnmresponsive.scss */
+/* line 418, sass/cnmresponsive.scss */
 body.portaltype-homepage .portlet-static-mycnm {
   margin-top: 20px;
 }
 
 /* Nav Tree Portlet */
-/* line 411, sass/cnmresponsive.scss */
+/* line 423, sass/cnmresponsive.scss */
 dl.portlet ul.navTree {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   color: #2d2d2f;
 }
-/* line 416, sass/cnmresponsive.scss */
+/* line 428, sass/cnmresponsive.scss */
 dl.portlet ul.navTree li {
   margin-bottom: 0;
 }
-/* line 419, sass/cnmresponsive.scss */
+/* line 431, sass/cnmresponsive.scss */
 dl.portlet ul.navTree a {
   font-size: 18px;
   color: #2d2d2f;
@@ -699,13 +704,13 @@ dl.portlet ul.navTree a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 426, sass/cnmresponsive.scss */
+/* line 438, sass/cnmresponsive.scss */
 dl.portlet ul.navTree a:hover {
   color: #0f0c5d;
 }
 
 /* Just the top level items */
-/* line 431, sass/cnmresponsive.scss */
+/* line 443, sass/cnmresponsive.scss */
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
   line-height: 20px;
   border-top: 1px solid #ced8e1;
@@ -714,13 +719,13 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 /* All items below top level */
-/* line 438, sass/cnmresponsive.scss */
+/* line 450, sass/cnmresponsive.scss */
 dl.portlet ul.navTreeLevel1 .navTreeItem {
   line-height: 20px;
   padding-left: 15px;
 }
 
-/* line 442, sass/cnmresponsive.scss */
+/* line 454, sass/cnmresponsive.scss */
 dl.portlet ul.navTree .navTreeCurrentItem {
   background-color: transparent;
   border-left: 0em solid #ddd;
@@ -729,42 +734,42 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   color: #0f0c5d;
 }
 
-/* line 450, sass/cnmresponsive.scss */
+/* line 462, sass/cnmresponsive.scss */
 dl.portlet li.navTreeCurrentNode,
 dl.portlet li.navTreeItemInPath {
   background-color: #F5F7F9;
 }
 
 /* Steps Portlet */
-/* line 459, sass/cnmresponsive.scss */
+/* line 471, sass/cnmresponsive.scss */
 div.portlet-static-steps {
   color: #494a4c;
   background-color: #D0D2D4;
   line-height: 46px;
 }
-/* line 464, sass/cnmresponsive.scss */
+/* line 476, sass/cnmresponsive.scss */
 div.portlet-static-steps * {
   vertical-align: middle;
 }
-/* line 468, sass/cnmresponsive.scss */
+/* line 480, sass/cnmresponsive.scss */
 div.portlet-static-steps ul {
   padding: 0px;
 }
-/* line 472, sass/cnmresponsive.scss */
+/* line 484, sass/cnmresponsive.scss */
 div.portlet-static-steps li {
   margin: 0;
   padding: 7px 0 7px 10px;
   border-top: 1px solid #FFFFFF;
 }
-/* line 477, sass/cnmresponsive.scss */
+/* line 489, sass/cnmresponsive.scss */
 div.portlet-static-steps li:first-child {
   border-top-width: 0;
 }
-/* line 480, sass/cnmresponsive.scss */
+/* line 492, sass/cnmresponsive.scss */
 div.portlet-static-steps li:hover {
   background-color: #e7e9ea;
 }
-/* line 484, sass/cnmresponsive.scss */
+/* line 496, sass/cnmresponsive.scss */
 div.portlet-static-steps a {
   line-height: 46px;
   display: block;
@@ -773,7 +778,7 @@ div.portlet-static-steps a {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-/* line 493, sass/cnmresponsive.scss */
+/* line 505, sass/cnmresponsive.scss */
 div.portlet-static-steps h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 31px;
@@ -792,59 +797,59 @@ div.portlet-static-steps h3 {
 }
 
 /* Calendar Portlet */
-/* line 510, sass/cnmresponsive.scss */
+/* line 522, sass/cnmresponsive.scss */
 .portletCalendar dt {
   font-weight: normal;
 }
 
 /* Homepage */
-/* line 515, sass/cnmresponsive.scss */
+/* line 527, sass/cnmresponsive.scss */
 body.portaltype-homepage #main {
   padding-bottom: 0;
   padding-top: 0;
 }
 
-/* line 519, sass/cnmresponsive.scss */
+/* line 531, sass/cnmresponsive.scss */
 div.frontpage-feature {
   margin-left: -10px;
   padding: 20px 0px 65px 10px;
 }
-/* line 523, sass/cnmresponsive.scss */
+/* line 535, sass/cnmresponsive.scss */
 div.frontpage-feature img {
   width: 565px;
   height: 405px;
 }
 
-/* line 529, sass/cnmresponsive.scss */
+/* line 541, sass/cnmresponsive.scss */
 #frontpage-news-wrapper {
   padding-top: 20px;
 }
-/* line 532, sass/cnmresponsive.scss */
+/* line 544, sass/cnmresponsive.scss */
 #frontpage-news-wrapper .frontpage-news {
   margin-bottom: 10px;
   padding-bottom: 40px;
 }
-/* line 536, sass/cnmresponsive.scss */
+/* line 548, sass/cnmresponsive.scss */
 #frontpage-news-wrapper .frontpage-news img {
   /* Fill the viewport for mobile */
   width: 305px;
   height: 150px;
 }
 
-/* line 543, sass/cnmresponsive.scss */
+/* line 555, sass/cnmresponsive.scss */
 div.frontpage-news {
   width: 305px;
   height: 150px;
 }
 
-/* line 547, sass/cnmresponsive.scss */
+/* line 559, sass/cnmresponsive.scss */
 div.readMore {
   position: relative;
   z-index: 100;
   top: -40px;
   left: 35px;
 }
-/* line 552, sass/cnmresponsive.scss */
+/* line 564, sass/cnmresponsive.scss */
 div.readMore a:last-child {
   color: #41b6e6;
   display: inline-block;
@@ -860,12 +865,12 @@ div.readMore a:last-child:hover {
   color: #e35205;
 }
 
-/* line 558, sass/cnmresponsive.scss */
+/* line 570, sass/cnmresponsive.scss */
 .frontpage-news h2 {
   font-size: 24px;
   margin: 0;
 }
-/* line 562, sass/cnmresponsive.scss */
+/* line 574, sass/cnmresponsive.scss */
 .frontpage-news h2 a, .frontpage-news h2 a:visited {
   display: inline-block;
   width: 305px;
@@ -877,12 +882,12 @@ div.readMore a:last-child:hover {
   transition: color 0.5s ease;
   -webkit-transition: color 0.5s ease;
 }
-/* line 572, sass/cnmresponsive.scss */
+/* line 584, sass/cnmresponsive.scss */
 .frontpage-news h2 a:hover, .frontpage-news h2 a:visited:hover {
   color: #FFD200;
   text-decoration: none;
 }
-/* line 578, sass/cnmresponsive.scss */
+/* line 590, sass/cnmresponsive.scss */
 .frontpage-news .breakingNews {
   background-color: #8b2222;
   color: #FFFFFF;
@@ -901,7 +906,7 @@ div.readMore a:last-child:hover {
   float: left;
   display: block;
 }
-/* line 592, sass/cnmresponsive.scss */
+/* line 604, sass/cnmresponsive.scss */
 .frontpage-news #all-news {
   background-color: #003A70;
   color: #FFFFFF;
@@ -940,22 +945,22 @@ div.readMore a:last-child:hover {
   float: left;
 }
 
-/* line 600, sass/cnmresponsive.scss */
+/* line 612, sass/cnmresponsive.scss */
 #homepage-bottom #steps-row {
   margin-bottom: 40px;
 }
-/* line 603, sass/cnmresponsive.scss */
+/* line 615, sass/cnmresponsive.scss */
 #homepage-bottom #steps {
   color: #494a4c;
   background-color: #fcf8e5;
 }
-/* line 607, sass/cnmresponsive.scss */
+/* line 619, sass/cnmresponsive.scss */
 #homepage-bottom #steps ul {
   display: table;
   width: 100%;
   text-align: center;
 }
-/* line 612, sass/cnmresponsive.scss */
+/* line 624, sass/cnmresponsive.scss */
 #homepage-bottom #steps li {
   display: table-cell;
   position: relative;
@@ -964,12 +969,12 @@ div.readMore a:last-child:hover {
   transition: background-color 0.5s ease;
   -webkit-transition: background-color 0.5s ease;
 }
-/* line 619, sass/cnmresponsive.scss */
+/* line 631, sass/cnmresponsive.scss */
 #homepage-bottom #steps li:hover {
   background-color: #f6be00;
   color: #FFFFFF;
 }
-/* line 623, sass/cnmresponsive.scss */
+/* line 635, sass/cnmresponsive.scss */
 #homepage-bottom #steps h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
@@ -985,30 +990,30 @@ div.readMore a:last-child:hover {
   position: relative;
   top: 23px;
 }
-/* line 636, sass/cnmresponsive.scss */
+/* line 648, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description,
 #homepage-bottom #steps .learnMore {
   display: block;
   color: #494a4c;
 }
-/* line 642, sass/cnmresponsive.scss */
+/* line 654, sass/cnmresponsive.scss */
 #homepage-bottom #steps .description {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   position: relative;
   top: -97px;
 }
-/* line 648, sass/cnmresponsive.scss */
+/* line 660, sass/cnmresponsive.scss */
 #homepage-bottom #steps .learnMore {
   text-transform: lowercase;
   padding-bottom: 10px;
 }
-/* line 653, sass/cnmresponsive.scss */
+/* line 665, sass/cnmresponsive.scss */
 #homepage-bottom #popular {
   background-color: #F5F7F9;
   padding: 20px 0 100px 0;
 }
-/* line 657, sass/cnmresponsive.scss */
+/* line 669, sass/cnmresponsive.scss */
 #homepage-bottom #popular h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -1019,44 +1024,44 @@ div.readMore a:last-child:hover {
   color: #41b6e6;
   border-bottom: 1px dotted #003A70;
 }
-/* line 667, sass/cnmresponsive.scss */
+/* line 679, sass/cnmresponsive.scss */
 #homepage-bottom #popular ul {
   padding: 0 20px;
   list-style-type: disc;
 }
-/* line 671, sass/cnmresponsive.scss */
+/* line 683, sass/cnmresponsive.scss */
 #homepage-bottom #popular li {
   float: left;
   width: 42%;
   display: list-item;
   margin: 0px 20px;
 }
-/* line 676, sass/cnmresponsive.scss */
+/* line 688, sass/cnmresponsive.scss */
 #homepage-bottom #popular li a:hover {
   text-decoration: underline;
 }
 
-/* line 682, sass/cnmresponsive.scss */
+/* line 694, sass/cnmresponsive.scss */
 #calendar-cell {
   padding-top: 11px;
 }
 
 /* Footer */
-/* line 686, sass/cnmresponsive.scss */
+/* line 698, sass/cnmresponsive.scss */
 #footer-wrapper {
   background-color: #fcf8e5;
   color: #41b6e6;
   border-top: 6px solid #e35205;
 }
-/* line 691, sass/cnmresponsive.scss */
+/* line 703, sass/cnmresponsive.scss */
 #footer-wrapper a {
   color: #51534A;
 }
-/* line 694, sass/cnmresponsive.scss */
+/* line 706, sass/cnmresponsive.scss */
 #footer-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 697, sass/cnmresponsive.scss */
+/* line 709, sass/cnmresponsive.scss */
 #footer-wrapper h3 {
   color: #41b6e6;
   border-bottom: 1px dotted #aebfd0;
@@ -1065,45 +1070,45 @@ div.readMore a:last-child:hover {
   line-height: 40px;
   margin: -10px 0 9px 0;
 }
-/* line 704, sass/cnmresponsive.scss */
+/* line 716, sass/cnmresponsive.scss */
 #footer-wrapper h3 a {
   color: #41b6e6;
 }
-/* line 707, sass/cnmresponsive.scss */
+/* line 719, sass/cnmresponsive.scss */
 #footer-wrapper h3 a:hover {
   color: #e35205;
 }
-/* line 711, sass/cnmresponsive.scss */
+/* line 723, sass/cnmresponsive.scss */
 #footer-wrapper #flickr-wrapper .tabs {
   display: none;
 }
-/* line 714, sass/cnmresponsive.scss */
+/* line 726, sass/cnmresponsive.scss */
 #footer-wrapper #footer {
   width: 60em;
   margin: 0 auto;
   padding: 20px 0;
 }
-/* line 717, sass/cnmresponsive.scss */
+/* line 729, sass/cnmresponsive.scss */
 #footer-wrapper #footer #footerlinks {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 722, sass/cnmresponsive.scss */
+/* line 734, sass/cnmresponsive.scss */
 #footer-wrapper #infophotos {
   margin-top: 20px;
 }
 
-/* line 727, sass/cnmresponsive.scss */
+/* line 739, sass/cnmresponsive.scss */
 #social {
   color: #003A70;
   line-height: 40px;
 }
-/* line 730, sass/cnmresponsive.scss */
+/* line 742, sass/cnmresponsive.scss */
 #social li {
   line-height: 40px;
   display: inline;
 }
-/* line 734, sass/cnmresponsive.scss */
+/* line 746, sass/cnmresponsive.scss */
 #social #facebook a {
   color: #003A70;
   display: inline-block;
@@ -1117,7 +1122,7 @@ div.readMore a:last-child:hover {
 #social #facebook a:hover {
   color: #e35205;
 }
-/* line 737, sass/cnmresponsive.scss */
+/* line 749, sass/cnmresponsive.scss */
 #social #twitter a {
   color: #003A70;
   display: inline-block;
@@ -1131,7 +1136,7 @@ div.readMore a:last-child:hover {
 #social #twitter a:hover {
   color: #e35205;
 }
-/* line 740, sass/cnmresponsive.scss */
+/* line 752, sass/cnmresponsive.scss */
 #social #youtube a {
   color: #003A70;
   display: inline-block;
@@ -1145,7 +1150,7 @@ div.readMore a:last-child:hover {
 #social #youtube a:hover {
   color: #e35205;
 }
-/* line 743, sass/cnmresponsive.scss */
+/* line 755, sass/cnmresponsive.scss */
 #social #instagram a {
   color: #003A70;
   display: inline-block;
@@ -1159,7 +1164,7 @@ div.readMore a:last-child:hover {
 #social #instagram a:hover {
   color: #e35205;
 }
-/* line 747, sass/cnmresponsive.scss */
+/* line 759, sass/cnmresponsive.scss */
 #social a.cover-up img {
   position: absolute;
   height: 215px;
@@ -1168,7 +1173,7 @@ div.readMore a:last-child:hover {
 }
 
 /* Tiny Styles */
-/* line 756, sass/cnmresponsive.scss */
+/* line 768, sass/cnmresponsive.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1185,33 +1190,33 @@ div.readMore a:last-child:hover {
   background-position: top right;
 }
 
-/* line 772, sass/cnmresponsive.scss */
+/* line 784, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #51534A;
   color: #aebfd0;
 }
-/* line 775, sass/cnmresponsive.scss */
+/* line 787, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: #FFFFFF;
 }
-/* line 778, sass/cnmresponsive.scss */
+/* line 790, sass/cnmresponsive.scss */
 #colophon-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 781, sass/cnmresponsive.scss */
+/* line 793, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   background-color: #51534A;
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 785, sass/cnmresponsive.scss */
+/* line 797, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 791, sass/cnmresponsive.scss */
+/* line 803, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -1219,13 +1224,13 @@ div.readMore a:last-child:hover {
 }
 
 /* Visibility */
-/* line 798, sass/cnmresponsive.scss */
+/* line 810, sass/cnmresponsive.scss */
 .showForSmall {
   display: none !important;
 }
 
 /* Plone internal overrides */
-/* line 803, sass/cnmresponsive.scss */
+/* line 815, sass/cnmresponsive.scss */
 #content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em;
@@ -1351,7 +1356,7 @@ div.readMore a:last-child:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 812, sass/cnmresponsive.scss */
+  /* line 824, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: inline;
   }
@@ -1364,7 +1369,7 @@ div.readMore a:last-child:hover {
   /*}*/
 }
 @media only screen and (min-width: 768px) {
-  /* line 826, sass/cnmresponsive.scss */
+  /* line 838, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: none;
   }
