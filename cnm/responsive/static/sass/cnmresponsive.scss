@@ -743,7 +743,9 @@ div.readMore {
     line-height: 40px;
     li {
       line-height: 40px;
-      display: inline;
+      &.social-link {
+        display: inline;
+      }
     }
     #facebook a {
       @include bg-icon($dark-blue, "img/facebook.png");
