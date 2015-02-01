@@ -22,7 +22,7 @@
 @font-face {
   font-family: "entypo";
   src: url('fonts/entypo.eot?1422396531');
-  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1370379746') format("opentype");
+  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1422573237') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -58,7 +58,7 @@
 @font-face {
   font-family: "entypo";
   src: url('fonts/entypo.eot?1422396531');
-  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1370379746') format("opentype");
+  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1422573237') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -1091,22 +1091,26 @@ div.readMore a:last-child:hover {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 733, sass/cnmresponsive.scss */
+/* line 731, sass/cnmresponsive.scss */
+#footer-wrapper #footer #footerlinks li {
+  display: list-item;
+}
+/* line 736, sass/cnmresponsive.scss */
 #footer-wrapper #infophotos {
   margin-top: 20px;
 }
 
-/* line 738, sass/cnmresponsive.scss */
+/* line 741, sass/cnmresponsive.scss */
 #social {
   color: #003A70;
   line-height: 40px;
 }
-/* line 741, sass/cnmresponsive.scss */
+/* line 744, sass/cnmresponsive.scss */
 #social li {
   line-height: 40px;
   display: inline;
 }
-/* line 745, sass/cnmresponsive.scss */
+/* line 748, sass/cnmresponsive.scss */
 #social #facebook a {
   color: #003A70;
   display: inline-block;
@@ -1120,7 +1124,7 @@ div.readMore a:last-child:hover {
 #social #facebook a:hover {
   color: #e35205;
 }
-/* line 748, sass/cnmresponsive.scss */
+/* line 751, sass/cnmresponsive.scss */
 #social #twitter a {
   color: #003A70;
   display: inline-block;
@@ -1134,7 +1138,7 @@ div.readMore a:last-child:hover {
 #social #twitter a:hover {
   color: #e35205;
 }
-/* line 751, sass/cnmresponsive.scss */
+/* line 754, sass/cnmresponsive.scss */
 #social #youtube a {
   color: #003A70;
   display: inline-block;
@@ -1148,7 +1152,7 @@ div.readMore a:last-child:hover {
 #social #youtube a:hover {
   color: #e35205;
 }
-/* line 754, sass/cnmresponsive.scss */
+/* line 757, sass/cnmresponsive.scss */
 #social #instagram a {
   color: #003A70;
   display: inline-block;
@@ -1162,7 +1166,7 @@ div.readMore a:last-child:hover {
 #social #instagram a:hover {
   color: #e35205;
 }
-/* line 758, sass/cnmresponsive.scss */
+/* line 761, sass/cnmresponsive.scss */
 #social a.cover-up img {
   position: absolute;
   height: 215px;
@@ -1171,7 +1175,7 @@ div.readMore a:last-child:hover {
 }
 
 /* Tiny Styles */
-/* line 767, sass/cnmresponsive.scss */
+/* line 770, sass/cnmresponsive.scss */
 .rightcolumn-highlight {
   float: right;
   clear: right;
@@ -1188,33 +1192,33 @@ div.readMore a:last-child:hover {
   background-position: top right;
 }
 
-/* line 783, sass/cnmresponsive.scss */
+/* line 786, sass/cnmresponsive.scss */
 #colophon-wrapper {
   background-color: #51534A;
   color: #aebfd0;
 }
-/* line 786, sass/cnmresponsive.scss */
+/* line 789, sass/cnmresponsive.scss */
 #colophon-wrapper a {
   color: #FFFFFF;
 }
-/* line 789, sass/cnmresponsive.scss */
+/* line 792, sass/cnmresponsive.scss */
 #colophon-wrapper a:hover {
   text-decoration: underline;
 }
-/* line 792, sass/cnmresponsive.scss */
+/* line 795, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon {
   background-color: #51534A;
   width: 60em;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 796, sass/cnmresponsive.scss */
+/* line 799, sass/cnmresponsive.scss */
 #colophon-wrapper #colophon .footer-about a,
 #colophon-wrapper #colophon .footer-mobile-bottom a {
   margin-left: 20px;
 }
 
-/* line 802, sass/cnmresponsive.scss */
+/* line 805, sass/cnmresponsive.scss */
 #colophon-text {
   text-align: right;
   font-size: 14px;
@@ -1222,13 +1226,13 @@ div.readMore a:last-child:hover {
 }
 
 /* Visibility */
-/* line 809, sass/cnmresponsive.scss */
+/* line 812, sass/cnmresponsive.scss */
 .showForSmall {
   display: none !important;
 }
 
 /* Plone internal overrides */
-/* line 814, sass/cnmresponsive.scss */
+/* line 817, sass/cnmresponsive.scss */
 #content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em;
@@ -1258,7 +1262,7 @@ div.readMore a:last-child:hover {
 @font-face {
   font-family: "entypo";
   src: url('fonts/entypo.eot?1422396531');
-  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1370379746') format("opentype");
+  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1422573237') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -1354,7 +1358,7 @@ div.readMore a:last-child:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 823, sass/cnmresponsive.scss */
+  /* line 826, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: inline;
   }
@@ -1367,7 +1371,7 @@ div.readMore a:last-child:hover {
   /*}*/
 }
 @media only screen and (min-width: 768px) {
-  /* line 837, sass/cnmresponsive.scss */
+  /* line 840, sass/cnmresponsive.scss */
   #view-mobile-site {
     display: none;
   }
