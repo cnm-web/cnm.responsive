@@ -1092,7 +1092,7 @@ div.readMore a:last-child:hover {
   line-height: 20px;
 }
 /* line 731, sass/cnmresponsive.scss */
-#footer-wrapper #footer #footerlinks li {
+#footer-wrapper #footer #footerlinks li.footer-links {
   display: list-item;
 }
 /* line 736, sass/cnmresponsive.scss */
