@@ -7,7 +7,7 @@
 @font-face {
   font-family: "entypo";
   src: url('fonts/entypo.eot?1422396531');
-  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf') format("opentype");
+  src: url('fonts/entypo.eot?&1422396531#iefix') format("embedded-opentype"), url('fonts/entypo.woff?1422396531') format("woff"), url('fonts/entypo.ttf?1422396531') format("truetype"), url('fonts/entypo.svg?1422396531#entypo') format("svg"), url('fonts/entypo.otf?1422573237') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -45,8 +45,8 @@ body {
 /* line 20, sass/cnm_mobile.scss */
 #nav-wrapper #navigation {
   width: auto;
-  background-color: #003A70;
-  color: #FFFFFF;
+  background-color: #41b6e6;
+  color: #003A70;
 }
 
 /* line 28, sass/cnm_mobile.scss */
@@ -73,7 +73,7 @@ body {
 
 /* line 45, sass/cnm_mobile.scss */
 .bootstrapStyles .nav-collapse .nav > li > a, .bootstrapStyles .nav-collapse .dropdown-menu a {
-  color: #FFFFFF;
+  color: #003A70;
 }
 
 /* line 48, sass/cnm_mobile.scss */
@@ -81,25 +81,25 @@ body {
 .bootstrapStyles .nav-collapse .nav > li > a:focus,
 .bootstrapStyles .nav-collapse .dropdown-menu a:hover,
 .bootstrapStyles .nav-collapse .dropdown-menu a:focus {
-  background-color: #0f0c5d;
+  background-color: #003A70;
 }
 
 /* line 54, sass/cnm_mobile.scss */
 .bootstrapStyles .navbar .btn-navbar {
   margin-top: 10px;
   margin-right: 10px;
-  background-color: #004890;
-  background-image: -moz-linear-gradient(top, #004890, #0F0C5D);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#004890), to(#0F0C5D));
-  background-image: -webkit-linear-gradient(top, #004890, #0F0C5D);
-  background-image: -o-linear-gradient(top, #004890, #0F0C5D);
-  background-image: linear-gradient(to bottom, #004890, #0F0C5D);
+  background-color: #sky-blue;
+  background-image: -moz-linear-gradient(top, #41b6e6, #fcf8e5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#41b6e6), to(#fcf8e5));
+  background-image: -webkit-linear-gradient(top, #41b6e6, #fcf8e5);
+  background-image: -o-linear-gradient(top, #41b6e6, #fcf8e5);
+  background-image: linear-gradient(to bottom, #41b6e6, #fcf8e5);
 }
 
 /* line 64, sass/cnm_mobile.scss */
 .bootstrapStyles .navbar .btn-navbar:hover, .bootstrapStyles .navbar .btn-navbar:focus, .bootstrapStyles .navbar .btn-navbar:active, .bootstrapStyles .navbar .btn-navbar.active, .bootstrapStyles .navbar .btn-navbar.disabled, .bootstrapStyles .navbar .btn-navbar[disabled] {
   color: white;
-  background-color: #004890;
+  background-color: #41b6e6;
   background-image: none;
 }
 

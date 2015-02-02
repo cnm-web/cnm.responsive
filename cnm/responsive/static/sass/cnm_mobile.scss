@@ -19,8 +19,8 @@ body {
 /* Navigation Bar */
 #nav-wrapper #navigation {
   width: auto;
-  background-color: $dark-blue;
-  color: $white;
+  background-color: $sky-blue;
+  color: $dark-blue;
 }
 #nav-wrapper {
 
@@ -43,7 +43,7 @@ body {
   padding-left: 15px;
 }
 .bootstrapStyles .nav-collapse .nav > li > a, .bootstrapStyles .nav-collapse .dropdown-menu a {
-  color: $white;
+  color: $dark-blue;
 }
 .bootstrapStyles .nav-collapse .nav > li > a:hover,
 .bootstrapStyles .nav-collapse .nav > li > a:focus,
@@ -54,16 +54,16 @@ body {
 .bootstrapStyles .navbar .btn-navbar {
   margin-top: 10px;
   margin-right: 10px;
-  background-color: #004890;
-  background-image: -moz-linear-gradient(top, #004890, #0F0C5D);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#004890), to(#0F0C5D));
-  background-image: -webkit-linear-gradient(top, #004890, #0F0C5D);
-  background-image: -o-linear-gradient(top, #004890, #0F0C5D);
-  background-image: linear-gradient(to bottom, #004890, #0F0C5D);
+  background-color: #sky-blue;
+  background-image: -moz-linear-gradient(top, $sky-blue, $cream);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from($sky-blue), to($cream));
+  background-image: -webkit-linear-gradient(top, $sky-blue, $cream);
+  background-image: -o-linear-gradient(top, $sky-blue, $cream);
+  background-image: linear-gradient(to bottom, $sky-blue, $cream);
 }
 .bootstrapStyles .navbar .btn-navbar:hover, .bootstrapStyles .navbar .btn-navbar:focus, .bootstrapStyles .navbar .btn-navbar:active, .bootstrapStyles .navbar .btn-navbar.active, .bootstrapStyles .navbar .btn-navbar.disabled, .bootstrapStyles .navbar .btn-navbar[disabled] {
   color: white;
-  background-color: #004890;
+  background-color: $sky-blue;
   background-image: none;
 }
 .bootstrapStyles .navbar .btn-navbar .icon-bar {

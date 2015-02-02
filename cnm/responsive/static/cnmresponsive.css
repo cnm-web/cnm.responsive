@@ -1386,3 +1386,7 @@ div.readMore a:last-child:hover {
   /*display: inherit !important;*/
   /*}*/
 }
+/* line 856, sass/cnmresponsive.scss */
+.bootstrapStyles .carousel-indicators li {
+  display: block;
+}
