@@ -857,3 +857,9 @@ div.readMore {
     display: block;
   }
 }
+
+@media print {
+  div#header-wrapper, div#nav-wrapper, div#footer-wrapper {
+    display: none;
+  }
+}

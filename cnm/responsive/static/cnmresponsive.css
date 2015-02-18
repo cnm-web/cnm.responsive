@@ -1390,3 +1390,10 @@ div.readMore a:last-child:hover {
 .bootstrapStyles .carousel-indicators li {
   display: block;
 }
+
+@media print {
+  /* line 862, sass/cnmresponsive.scss */
+  div#header-wrapper, div#nav-wrapper, div#footer-wrapper {
+    display: none;
+  }
+}
