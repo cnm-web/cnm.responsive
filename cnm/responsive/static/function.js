@@ -66,7 +66,7 @@ function event_feed(type, number, category, numdays, adpid, nem, sortorder, ver,
     if (typeof jQuery != 'undefined') {
         $(document).ready(function () {
             var adx = "Events are temporarily unavailable. Please check back later.";
-            var url = 'http://calendar.activedatax.com/cnm/EventListSyndicator.aspx?type=' + type + '&number=' + number + '&category=' + category + '&numdays=' + numdays + '&adpid=' + adpid + '&nem=' + nem + '&sortorder=' + sortorder + '&ver=' + ver + '&target=' + target;
+            var url = 'https://calendar.activedatax.com/cnm/EventListSyndicator.aspx?type=' + type + '&number=' + number + '&category=' + category + '&numdays=' + numdays + '&adpid=' + adpid + '&nem=' + nem + '&sortorder=' + sortorder + '&ver=' + ver + '&target=' + target;
             jQuery.ajax({   dataType: 'script', 
                             url: url
                         });
